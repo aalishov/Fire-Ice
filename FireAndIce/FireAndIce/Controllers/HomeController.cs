@@ -1,4 +1,5 @@
-﻿using FireAndIce.ViewModels;
+﻿using FireAndIce.Services;
+using FireAndIce.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -11,11 +12,14 @@ namespace FireAndIce.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ILogger<HomeController> _logger;
+        private readonly IUsersService service;
+
+        public HomeController(ILogger<HomeController> logger, IUsersService service)
         {
             _logger = logger;
+            this.service = service;
         }
 
         public IActionResult Index()
@@ -26,6 +30,12 @@ namespace FireAndIce.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public async Task<string> Test()
+        {
+            await service.CreateTech("tech@abv.bg", "123456", "Tech", "Tech", 2000);
+            return "user";
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
