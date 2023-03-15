@@ -1,6 +1,7 @@
 ﻿using FireAndIce.Data;
 using FireAndIce.Data.Models;
 using Microsoft.AspNetCore.Identity;
+using System;
 using System.Threading.Tasks;
 
 namespace FireAndIce.Services
@@ -23,10 +24,13 @@ namespace FireAndIce.Services
             User user = new User()
             {
                 Email = email,
-                UserName= email,
+                NormalizedEmail = email,
+                UserName = email,
+                NormalizedUserName = email,
                 FirstName = firstName,
                 LastName = lastName,
                 EmailConfirmed = true,
+                SecurityStamp = string.Empty
             };
             await userManager.CreateAsync(user, password);
 
