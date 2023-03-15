@@ -32,12 +32,6 @@ namespace FireAndIce.Controllers
             return View();
         }
 
-        public async Task<string> Test()
-        {
-            await service.CreateTech("tech@abv.bg", "123456", "Tech", "Tech", 2000);
-            return "user";
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

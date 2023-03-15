@@ -15,7 +15,7 @@ namespace FireAndIce.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.31")
+                .HasAnnotation("ProductVersion", "3.1.32")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -41,603 +41,603 @@ namespace FireAndIce.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "00ec722c-4673-4789-85d9-1fbccf266cb7",
-                            Address = "Street 79",
-                            UserId = "83b64cbc-19e1-4d05-b3ce-07a3ae9f918b"
-                        },
-                        new
-                        {
-                            Id = "ed63fce6-7a4e-4305-b1a7-9c5dd99eeaf4",
-                            Address = "Street 12",
-                            UserId = "36bc6df0-b093-4c81-956e-14a801845cbb"
-                        },
-                        new
-                        {
-                            Id = "2f5d60f8-40a6-4e63-9cb1-0ece6a4617b2",
-                            Address = "Street 45",
-                            UserId = "c5f81580-cb48-4681-a296-6de1b1a969ce"
-                        },
-                        new
-                        {
-                            Id = "a1d41104-4340-48c8-8323-1c3dc7f1c46a",
-                            Address = "Street 406",
-                            UserId = "3d0ede8f-12ae-452f-9693-db650ffbb604"
-                        },
-                        new
-                        {
-                            Id = "d30d8fe7-13c5-4080-8ada-7f5f9530d2be",
+                            Id = "f0eeef57-1eb4-4281-bde8-ce7836c146ed",
                             Address = "Street 166",
-                            UserId = "7eb9a636-ba64-4729-9955-68b4cea86451"
+                            UserId = "b19bf3f9-4627-449b-ac76-641061bdca25"
                         },
                         new
                         {
-                            Id = "bf5bdb9d-6c0c-41ee-85dc-0ba40f51c801",
-                            Address = "Street 115",
-                            UserId = "cceb2370-5d86-4ace-83b9-e62f461ea64d"
+                            Id = "5e12ddf1-c74f-45e1-8f3a-37aafd519801",
+                            Address = "Street 182",
+                            UserId = "ed504eb3-6a0c-491d-9706-bd8ff8b8be43"
                         },
                         new
                         {
-                            Id = "b3647e3a-6773-4157-ac0d-89d54d8d9432",
-                            Address = "Street 230",
-                            UserId = "fc31ed89-55ca-454d-859c-24b2e69a6b94"
+                            Id = "ad7331a3-2382-498a-803e-f32db707eacc",
+                            Address = "Street 436",
+                            UserId = "c704630b-626a-4d9f-ac4e-b43eef7e2983"
                         },
                         new
                         {
-                            Id = "a2cbe9ba-c437-495c-a304-5d509c66dfac",
-                            Address = "Street 348",
-                            UserId = "fce41c41-f3f7-495f-bc6d-2feeb63fd9ba"
+                            Id = "2af3f653-7449-4924-a971-233139a1eae1",
+                            Address = "Street 391",
+                            UserId = "734f601c-0c15-4f7e-84c3-31bd23a29e60"
                         },
                         new
                         {
-                            Id = "35e3a6b1-04fc-4d4c-87c6-9728de472b93",
-                            Address = "Street 228",
-                            UserId = "e227db7d-2fd8-4796-8d0f-66a043764421"
+                            Id = "9afb54a4-9527-4ca8-bfbe-ea5b5a627f9f",
+                            Address = "Street 333",
+                            UserId = "40a56206-3e26-439a-8837-2ee99244e1a1"
                         },
                         new
                         {
-                            Id = "70bdbe2a-0299-41d8-9a09-b385940e1f96",
-                            Address = "Street 339",
-                            UserId = "f041fbd0-119f-4002-ac26-1a2e97e5849e"
+                            Id = "a273aa92-9498-4cb2-a9ef-adf49f11645a",
+                            Address = "Street 91",
+                            UserId = "b8fda415-72d7-4153-8c71-a59457caa7c6"
                         },
                         new
                         {
-                            Id = "a4b509c4-2e8e-49fc-860e-337ccde80554",
-                            Address = "Street 288",
-                            UserId = "1e0c3e7b-7682-4b45-97be-81acf58dc77c"
-                        },
-                        new
-                        {
-                            Id = "ccbbd4df-383e-4ab9-8ed2-3ffb470bf290",
-                            Address = "Street 116",
-                            UserId = "5d4cd492-05a6-4207-96bc-b133ce0154f8"
-                        },
-                        new
-                        {
-                            Id = "59f6a0f8-ae03-4485-a183-1544056bf335",
-                            Address = "Street 251",
-                            UserId = "c72defd7-3b71-4521-9180-ee1004f14495"
-                        },
-                        new
-                        {
-                            Id = "2043c822-d88b-4a8d-b46d-7530de888ab6",
-                            Address = "Street 45",
-                            UserId = "9b74c05d-d736-4d96-bb57-66a4cbcd6858"
-                        },
-                        new
-                        {
-                            Id = "1bdf2f49-3160-45cf-be9a-e1dadfa21f6d",
-                            Address = "Street 132",
-                            UserId = "5a622559-61ee-4d6a-9803-cb04ef588112"
-                        },
-                        new
-                        {
-                            Id = "d57730d1-13f5-40f8-911f-8778b3d91631",
-                            Address = "Street 268",
-                            UserId = "aedb5efc-17ae-4afb-b0f4-430c856141c1"
-                        },
-                        new
-                        {
-                            Id = "ab9660e1-8d89-4328-a9e5-46d480cf6229",
-                            Address = "Street 110",
-                            UserId = "9101f064-bce4-434f-94c9-d4f7f4c02cd8"
-                        },
-                        new
-                        {
-                            Id = "8b9b95c2-98e7-4e88-9d80-5fc2c8187fc0",
-                            Address = "Street 163",
-                            UserId = "7e4afd22-76c1-4275-8d11-6969322f6cf2"
-                        },
-                        new
-                        {
-                            Id = "c1607a7c-a852-4f0f-8967-3e130cf92e47",
-                            Address = "Street 65",
-                            UserId = "1090a66d-33ee-4154-ab8b-578e5ee0b400"
-                        },
-                        new
-                        {
-                            Id = "ac890725-60f2-46b3-91d8-c8cd9590e103",
-                            Address = "Street 247",
-                            UserId = "1d16af57-4358-4b76-bb1e-4559b7e9bf4d"
-                        },
-                        new
-                        {
-                            Id = "ef6b11fb-d9c2-44bd-8592-f91d2a926c30",
-                            Address = "Street 150",
-                            UserId = "223f5c13-2feb-45fa-849b-bcd26c640367"
-                        },
-                        new
-                        {
-                            Id = "7210382b-7e8a-42bb-a4ab-fe2a54e3e5a5",
-                            Address = "Street 317",
-                            UserId = "1e3d9cd7-9f91-4fc4-b045-c393d811bcd3"
-                        },
-                        new
-                        {
-                            Id = "01b6bbc8-1729-49ee-962d-34f5ee569251",
-                            Address = "Street 104",
-                            UserId = "1e14374b-fbc5-4359-ab4c-778e040da512"
-                        },
-                        new
-                        {
-                            Id = "470689a6-67cc-4c09-b1f0-0efe4381ac36",
-                            Address = "Street 112",
-                            UserId = "4cdce805-419f-4338-aa45-4ac586e5aa42"
-                        },
-                        new
-                        {
-                            Id = "066c0143-6d07-478c-8778-353837e1dd02",
-                            Address = "Street 215",
-                            UserId = "ef840b88-0f30-47f5-b45b-c12531716f88"
-                        },
-                        new
-                        {
-                            Id = "0c771897-7920-49eb-83a3-1559dcbf6536",
+                            Id = "d518425e-3632-4379-8457-9ec380ff83cf",
                             Address = "Street 379",
-                            UserId = "0b5724c2-81b8-4221-8d6e-078443d4d6f7"
+                            UserId = "2e788cc8-9d8c-4f28-bd18-e51ec4fe011a"
                         },
                         new
                         {
-                            Id = "32099e06-d07a-42bc-ae3f-51e52d1611e3",
-                            Address = "Street 79",
-                            UserId = "6c71fcb8-c422-41b9-8d73-d7bcae113665"
+                            Id = "d1a45cb7-e1f9-4418-a0d8-bdf93270f920",
+                            Address = "Street 411",
+                            UserId = "bae7e705-67bf-4d01-ab0a-1dd6e9717388"
                         },
                         new
                         {
-                            Id = "31ef1dbe-e595-4945-a358-961e488683db",
-                            Address = "Street 287",
-                            UserId = "a0a4a36a-2b6c-4e82-9037-fbef84482a17"
+                            Id = "02321b09-c1fa-4efd-9427-6fe45da2be2b",
+                            Address = "Street 143",
+                            UserId = "d6bdd860-8277-44b9-8549-314ed4ff7323"
                         },
                         new
                         {
-                            Id = "3c76deba-9260-4f05-93bb-0dccc1b65822",
-                            Address = "Street 192",
-                            UserId = "028a23cf-80ea-4951-a173-57784964a8da"
+                            Id = "65b36521-068f-4a67-abcf-640163743a1e",
+                            Address = "Street 170",
+                            UserId = "a65de10f-73cc-4408-8390-9e6df5fea499"
                         },
                         new
                         {
-                            Id = "e2d55561-b609-429f-bcd9-e951cf4c49e2",
-                            Address = "Street 87",
-                            UserId = "9f0bce34-bb0f-4fd1-8963-4b8a671b9a7e"
-                        },
-                        new
-                        {
-                            Id = "76f2df20-face-49e3-8d04-e52e9d4c9678",
-                            Address = "Street 115",
-                            UserId = "92d9039d-5ebf-489f-8d6f-074102c8d397"
-                        },
-                        new
-                        {
-                            Id = "a28fbaa1-978b-474f-8843-0e55f9648e29",
-                            Address = "Street 371",
-                            UserId = "7f1124cd-b826-4fe6-a55a-0927fa51eb9b"
-                        },
-                        new
-                        {
-                            Id = "5bdf8e83-d947-413b-a500-1bc8c9dcc58d",
-                            Address = "Street 202",
-                            UserId = "9ce29c1d-f6f6-4d3a-ab12-9bfd89cfb917"
-                        },
-                        new
-                        {
-                            Id = "4be007dc-16bb-4189-a117-f0fa722e55de",
-                            Address = "Street 43",
-                            UserId = "27abfd3d-50bc-4a54-b50a-6f50ca2c93c6"
-                        },
-                        new
-                        {
-                            Id = "a10f628e-ce78-47d0-8c5e-4c1cf650ae60",
-                            Address = "Street 413",
-                            UserId = "ec2dffa2-0d15-4707-ae31-16602b91c0fe"
-                        },
-                        new
-                        {
-                            Id = "ea6bfea2-268a-4202-8bc8-cad5f7ddc0f6",
-                            Address = "Street 198",
-                            UserId = "0aef5cce-f2d0-48e0-bb8f-75e3f349cd41"
-                        },
-                        new
-                        {
-                            Id = "6470af9c-b598-477f-a548-4f3005fea712",
-                            Address = "Street 40",
-                            UserId = "4fb717c8-d2c8-43d4-b6b1-dc401793f136"
-                        },
-                        new
-                        {
-                            Id = "b1e3ff41-99eb-4c15-b636-2978089e448c",
-                            Address = "Street 96",
-                            UserId = "8c2f4f6b-48a5-46a0-ac96-f90d8214eeb9"
-                        },
-                        new
-                        {
-                            Id = "84f5a936-c603-47b6-a822-a04558ec8bfb",
-                            Address = "Street 208",
-                            UserId = "0e51298e-eb7e-4793-a5ae-a3009d134a57"
-                        },
-                        new
-                        {
-                            Id = "0e9e7a51-731b-4939-9d3e-7d4330687c58",
-                            Address = "Street 270",
-                            UserId = "e7849b82-081c-440d-a9ff-54bedb29b1a0"
-                        },
-                        new
-                        {
-                            Id = "8d4098c0-9f4a-4d5d-a736-bf0974c0823d",
-                            Address = "Street 283",
-                            UserId = "3826c217-8008-4ec3-a915-0bd456b27ee8"
-                        },
-                        new
-                        {
-                            Id = "a8513297-b86a-47da-a56c-f14061269c2e",
-                            Address = "Street 30",
-                            UserId = "85ac7cc7-d9f6-4f34-95c6-17aee4bc5950"
-                        },
-                        new
-                        {
-                            Id = "fe20f7c7-258d-4cef-8f64-9e0e52352298",
-                            Address = "Street 217",
-                            UserId = "eee9fa9f-53a9-443f-9285-85e41a291431"
-                        },
-                        new
-                        {
-                            Id = "7da5d936-ccf1-4e17-be95-1882040f9ab9",
-                            Address = "Street 399",
-                            UserId = "0d0bde24-b658-430c-8c6a-7590c9e2c746"
-                        },
-                        new
-                        {
-                            Id = "789ca218-d00a-4505-8d6d-d1608bf03801",
-                            Address = "Street 176",
-                            UserId = "3c7f6fe3-b933-4993-821f-1680394ddcf8"
-                        },
-                        new
-                        {
-                            Id = "ec7bea8e-9041-40ad-bfbf-63bd08a9898a",
-                            Address = "Street 82",
-                            UserId = "c5ae6377-2e4e-4aaa-917b-76ce3708a074"
-                        },
-                        new
-                        {
-                            Id = "4ff91863-7d8c-41f2-aa65-cf735e5cf2ff",
-                            Address = "Street 173",
-                            UserId = "a2bd25dc-d133-4080-ba1c-f84d1831de33"
-                        },
-                        new
-                        {
-                            Id = "917088ab-105a-49f8-bb12-764c92f0eda7",
+                            Id = "f8dc96ae-9a52-4baa-aa22-e032f706fb98",
                             Address = "Street 129",
-                            UserId = "a81bd685-4f8d-4ae5-9a56-4eaee4d526f8"
+                            UserId = "30bbcbf3-42cc-46a3-9a25-939b805f3215"
                         },
                         new
                         {
-                            Id = "b0fc0cda-5e9f-4441-b95b-f1cd9c8169bb",
-                            Address = "Street 433",
-                            UserId = "9f593bba-2ab3-4913-8459-9bdadd0d98c3"
+                            Id = "c484427a-3595-4a74-ae92-08eac35d84ed",
+                            Address = "Street 111",
+                            UserId = "d5f96247-2228-4b06-9e4e-bccffdf2c98c"
                         },
                         new
                         {
-                            Id = "f6eda43e-1f7e-4fd6-a1b5-f4fe77374842",
-                            Address = "Street 342",
-                            UserId = "98643520-3698-4347-8f45-e4ad5103bfbf"
+                            Id = "b9d6cc2a-2f1c-4479-9f6c-37f8bbb10d60",
+                            Address = "Street 138",
+                            UserId = "31ebe926-3637-4e4b-90fc-ee872387f141"
                         },
                         new
                         {
-                            Id = "226e68cf-ddc3-4640-b5fb-3c14cbbc2df8",
-                            Address = "Street 37",
-                            UserId = "27dabaa6-5b82-49bf-8c31-3bc7a151cb09"
+                            Id = "ff94b565-8a71-40e7-90ff-d06de8d526bb",
+                            Address = "Street 412",
+                            UserId = "5ac7fc41-d766-4a2e-b72a-93893da9c108"
                         },
                         new
                         {
-                            Id = "0c349b59-eec4-4870-9eed-c6f2097d7ab1",
-                            Address = "Street 136",
-                            UserId = "ac2c5198-9d88-44ac-b0a9-d8546379ff0b"
+                            Id = "92c7a56f-8b9d-49eb-9644-3f5ce180a034",
+                            Address = "Street 111",
+                            UserId = "f7b386b2-31eb-4f06-8c78-2ab2e53dff4d"
                         },
                         new
                         {
-                            Id = "c07271c9-6cd2-4afd-90bb-e2c51425321c",
-                            Address = "Street 65",
-                            UserId = "459f38b5-f368-4653-9248-eedcfd35529d"
+                            Id = "d6b8b81a-a0be-4029-af36-5834412e6789",
+                            Address = "Street 128",
+                            UserId = "0aa27193-ac76-4c92-bdd9-fd23e39cb9af"
                         },
                         new
                         {
-                            Id = "506c2e71-627e-4f24-94e2-b8ba907d5f5b",
-                            Address = "Street 39",
-                            UserId = "8f73e65d-e662-454d-9008-1309412fedec"
+                            Id = "9b77fb31-db62-4775-9c70-3c2bafc51d3d",
+                            Address = "Street 189",
+                            UserId = "89e6fc54-522f-414c-94b8-e13ed875dd3e"
                         },
                         new
                         {
-                            Id = "e853601c-3cb1-489c-94fb-4132978184c6",
-                            Address = "Street 117",
-                            UserId = "057bbdb9-8772-44a9-891d-0b0b953a3756"
+                            Id = "9163111b-3550-4d9f-83f5-45ebac908aa3",
+                            Address = "Street 130",
+                            UserId = "5dabd3ad-a587-49d4-aa6a-f401ce398973"
                         },
                         new
                         {
-                            Id = "97b8dfa2-864f-40d7-b088-782133f4bfac",
+                            Id = "487fe1df-a5a5-44e9-9f32-9c36993b92db",
+                            Address = "Street 144",
+                            UserId = "5b025639-4a4b-4b1c-8a22-20fe4ca43f82"
+                        },
+                        new
+                        {
+                            Id = "18037db4-2d0b-4486-8c1f-e0ebc5cb872f",
+                            Address = "Street 46",
+                            UserId = "6a3aaf87-d38a-4184-a9e2-06f81f5cd1f7"
+                        },
+                        new
+                        {
+                            Id = "7e7fbb37-fc13-4064-80a5-be373ff5101f",
+                            Address = "Street 296",
+                            UserId = "d53f8031-c378-462c-92b0-c08d777433f0"
+                        },
+                        new
+                        {
+                            Id = "bb4a17ff-afe3-4ce6-985b-1d831e37b63e",
+                            Address = "Street 110",
+                            UserId = "93a91039-12c2-4876-b493-fbad6e9da0cd"
+                        },
+                        new
+                        {
+                            Id = "fdbc7301-74a2-45df-8171-6e0f579c4803",
+                            Address = "Street 9",
+                            UserId = "9a616128-e9fa-4eee-a151-c64375e4e195"
+                        },
+                        new
+                        {
+                            Id = "86028136-c007-41a6-acdf-ef128e244924",
+                            Address = "Street 308",
+                            UserId = "850e61dd-47e0-4ae2-bf23-461cea5b3489"
+                        },
+                        new
+                        {
+                            Id = "de4eb845-32ee-48f3-bf66-de4725014015",
+                            Address = "Street 272",
+                            UserId = "9b285dc2-1e7c-45f4-9779-a314ff8f7021"
+                        },
+                        new
+                        {
+                            Id = "632d1955-0c3e-4f3f-ba49-73280a366753",
+                            Address = "Street 279",
+                            UserId = "76ac581e-3156-42c0-a30b-c7deab7ed9d8"
+                        },
+                        new
+                        {
+                            Id = "b8290551-a1d5-442e-a7d3-7e773c8ffc1f",
+                            Address = "Street 406",
+                            UserId = "b5ce5e52-082a-4733-8a7f-0f25bf8f9860"
+                        },
+                        new
+                        {
+                            Id = "c28b67a4-5a07-4fcc-92f8-822e2bf96427",
+                            Address = "Street 57",
+                            UserId = "7d3d79c2-221c-41d6-8689-9b51ea7c2ad2"
+                        },
+                        new
+                        {
+                            Id = "3236d7bb-5685-4ad5-9035-5f2681b78152",
+                            Address = "Street 247",
+                            UserId = "af8d30e3-8e78-4132-89ab-cbd05291cd66"
+                        },
+                        new
+                        {
+                            Id = "aadf5dee-aa3d-44ab-a31a-5d45f1faf3b7",
+                            Address = "Street 50",
+                            UserId = "f95950f1-d541-44a7-94a7-5e307cd6712b"
+                        },
+                        new
+                        {
+                            Id = "98573e2b-e49e-41b6-ba4f-53cfcaf7b939",
+                            Address = "Street 398",
+                            UserId = "8405e16e-9e70-4e35-980d-495216ea4342"
+                        },
+                        new
+                        {
+                            Id = "79a53a9c-bcba-47d1-be58-44af2fac799b",
+                            Address = "Street 92",
+                            UserId = "34d6c333-afe9-48f3-b1b4-de40aae089c5"
+                        },
+                        new
+                        {
+                            Id = "14419880-20f0-4d88-b77e-b4340440cc0d",
+                            Address = "Street 73",
+                            UserId = "7b8872a4-99d3-46ce-bef2-b11151112060"
+                        },
+                        new
+                        {
+                            Id = "47116a44-8ec3-472f-9308-cc095b703ad3",
+                            Address = "Street 444",
+                            UserId = "ebd39e5d-17df-4af2-bcb1-a2d40d5cec43"
+                        },
+                        new
+                        {
+                            Id = "1eee7080-7acf-4c00-bbe5-1c8d31224b3e",
+                            Address = "Street 256",
+                            UserId = "dce64fb2-d8a4-44fd-952e-09bf3c1d1af3"
+                        },
+                        new
+                        {
+                            Id = "f3a8c890-2a50-4422-8943-31ade6c4b9a6",
+                            Address = "Street 208",
+                            UserId = "05c7eede-7046-4cc5-9f28-bdef5a0e9384"
+                        },
+                        new
+                        {
+                            Id = "4a506881-8e1b-4620-af62-57b1622d8298",
+                            Address = "Street 49",
+                            UserId = "cdec4ded-ebf1-4ca1-b0dd-524317cdb2b7"
+                        },
+                        new
+                        {
+                            Id = "f1210dfa-3c6e-46e6-90d6-3900dfe35bde",
+                            Address = "Street 406",
+                            UserId = "bfebf995-0034-4b3d-a32a-f036f8ac9d50"
+                        },
+                        new
+                        {
+                            Id = "bae9ac03-7cfa-44ce-909c-1e99b812b36a",
+                            Address = "Street 276",
+                            UserId = "90c0143f-9810-4487-97c4-16c5c568a042"
+                        },
+                        new
+                        {
+                            Id = "6ee5f49e-501f-42f6-9686-c78a2e84689f",
                             Address = "Street 212",
-                            UserId = "22f27049-b716-432d-b240-54be401feb54"
+                            UserId = "83e18efd-ecdf-423f-a79c-49e6ba34f709"
                         },
                         new
                         {
-                            Id = "5c89bfb3-151f-4ea1-96c3-a57dcea08aa8",
-                            Address = "Street 357",
-                            UserId = "37f5bbe3-64d1-41cc-bd77-58d33daa79ad"
-                        },
-                        new
-                        {
-                            Id = "d6c5db4b-745d-414b-b9b1-969c5b1ee8b0",
-                            Address = "Street 383",
-                            UserId = "74f93c38-b2cd-4bfc-a49c-7aa49159e9ab"
-                        },
-                        new
-                        {
-                            Id = "4c6239f2-7f65-4e2a-9809-a445d97673d2",
-                            Address = "Street 192",
-                            UserId = "5b0b4f44-c7f0-4a72-87d9-ae7b4cbc4ca7"
-                        },
-                        new
-                        {
-                            Id = "537a6907-5f94-45ab-9b57-f5c142d281a7",
-                            Address = "Street 236",
-                            UserId = "4f5bc153-53d1-4de2-a742-b09e664f8dc3"
-                        },
-                        new
-                        {
-                            Id = "8a5c2f1d-046b-4409-8da3-07909c422825",
-                            Address = "Street 36",
-                            UserId = "29d7126a-8ffc-42b7-b318-c724952d2e5e"
-                        },
-                        new
-                        {
-                            Id = "1ff95fc6-1bcc-43d6-97d8-47475d0dad02",
-                            Address = "Street 392",
-                            UserId = "6c0e5e90-620d-4750-9cd6-97ce877b2be1"
-                        },
-                        new
-                        {
-                            Id = "2baf9c14-249d-4d68-aa23-fa42aaa63198",
-                            Address = "Street 157",
-                            UserId = "b4e666f0-495e-427a-9a12-53cbff05186f"
-                        },
-                        new
-                        {
-                            Id = "24fc964e-4fbe-4eba-b8d3-514d62448980",
-                            Address = "Street 142",
-                            UserId = "c8a9d770-7875-4494-9b53-2d39b43d78b9"
-                        },
-                        new
-                        {
-                            Id = "54c46b68-476d-42ad-974e-f12a026f90be",
-                            Address = "Street 224",
-                            UserId = "10a3bb82-5716-4edd-944c-f4578839eb9a"
-                        },
-                        new
-                        {
-                            Id = "8fc3c78c-9af3-4cdb-afcb-a107fe50d06c",
-                            Address = "Street 367",
-                            UserId = "bf96c536-730a-4618-8a51-b75236f3ab9d"
-                        },
-                        new
-                        {
-                            Id = "8fb5e269-827f-4190-83b6-fc49a627e887",
-                            Address = "Street 364",
-                            UserId = "af0f05d2-cfbe-4c1d-b32f-9691a8b9767a"
-                        },
-                        new
-                        {
-                            Id = "471164ae-7abd-4128-b11b-46860b22d65b",
-                            Address = "Street 209",
-                            UserId = "ab3e8869-cdc0-4ca0-8dd2-9e86aaa61956"
-                        },
-                        new
-                        {
-                            Id = "25958205-83f4-46ce-852e-4c590392e9dc",
-                            Address = "Street 81",
-                            UserId = "b93b6e28-4065-467a-b0d0-6bd3557c3622"
-                        },
-                        new
-                        {
-                            Id = "9af39d72-c1a4-4efb-be2b-96bf9a3e2317",
-                            Address = "Street 383",
-                            UserId = "e6411dcb-5115-4fc4-85cf-1f9033112ed9"
-                        },
-                        new
-                        {
-                            Id = "db876af5-fbe2-4262-8c00-f064e66da659",
-                            Address = "Street 229",
-                            UserId = "2c12c3d4-5de4-4385-9a70-1231c47630b0"
-                        },
-                        new
-                        {
-                            Id = "a5ce4338-ae7c-4c82-8da2-6001b8847c5a",
-                            Address = "Street 15",
-                            UserId = "44466744-53c3-41e7-a701-e831743d4855"
-                        },
-                        new
-                        {
-                            Id = "42c3e5c1-611f-4ec2-b008-e81889e8f030",
-                            Address = "Street 404",
-                            UserId = "d4148ccf-2446-445a-a382-870efe500389"
-                        },
-                        new
-                        {
-                            Id = "f8fd6981-2ade-4776-8e2c-937cd3ff3207",
-                            Address = "Street 245",
-                            UserId = "7297afa2-b930-439e-839f-d525628f5ba5"
-                        },
-                        new
-                        {
-                            Id = "cc5cdab3-449b-4de4-a66e-a677882e2856",
-                            Address = "Street 414",
-                            UserId = "282f0422-bafc-479a-b0bd-3ae88ebe648e"
-                        },
-                        new
-                        {
-                            Id = "8540a192-79d7-41d9-99c1-2efd8a1b7804",
-                            Address = "Street 121",
-                            UserId = "a8d0fad3-ae95-4556-995a-1a385b25e4a5"
-                        },
-                        new
-                        {
-                            Id = "91da16dd-5877-4009-b517-6392c7c4ed18",
-                            Address = "Street 100",
-                            UserId = "d7f90b3a-516a-4374-b094-06054626ef89"
-                        },
-                        new
-                        {
-                            Id = "95f900d2-d612-4054-98a6-1535caed549f",
-                            Address = "Street 155",
-                            UserId = "6f502c9c-3c89-405d-af67-b9f8eaf52599"
-                        },
-                        new
-                        {
-                            Id = "b03036ee-353b-46dd-90a0-870a506f7aef",
-                            Address = "Street 385",
-                            UserId = "d9e75766-b00b-4020-8e68-4ed4b2422ad2"
-                        },
-                        new
-                        {
-                            Id = "24b3e9ca-889c-4e47-b8ab-56299ea668a1",
-                            Address = "Street 133",
-                            UserId = "2b7f4460-993e-4607-a561-aa9b0c7fffac"
-                        },
-                        new
-                        {
-                            Id = "c0305201-2d91-4743-a12f-d6ac3fab1cb0",
-                            Address = "Street 207",
-                            UserId = "fef55d5b-b9a8-496d-84dd-9392b6bfbb26"
-                        },
-                        new
-                        {
-                            Id = "6d7fd5f9-6d4f-4266-b63f-ca8d742f1b98",
-                            Address = "Street 399",
-                            UserId = "b273b2f2-0172-4e5e-b643-dcc53a8e6596"
-                        },
-                        new
-                        {
-                            Id = "71e64b97-8a57-413e-8358-d928c3dd240d",
-                            Address = "Street 304",
-                            UserId = "f127cfd6-d199-40eb-b813-3c9a6de4e0a2"
-                        },
-                        new
-                        {
-                            Id = "bf8f2285-66fa-41ea-bc80-95574ab5a87f",
-                            Address = "Street 299",
-                            UserId = "62875e18-ca90-4041-9540-559bc8c0961b"
-                        },
-                        new
-                        {
-                            Id = "5041dcaa-f6a1-4887-b0c0-b0f4e947856c",
-                            Address = "Street 51",
-                            UserId = "424445a3-e372-479f-b7a1-10fe12053fa9"
-                        },
-                        new
-                        {
-                            Id = "15278a59-de12-4b08-a3b0-0b224a60a574",
-                            Address = "Street 429",
-                            UserId = "fa7dbd5c-dfb9-42e0-a8bb-a96320c65abf"
-                        },
-                        new
-                        {
-                            Id = "29539d5a-a739-4eb1-a190-27b487e3a312",
-                            Address = "Street 307",
-                            UserId = "fe0eec49-354e-43ba-a97a-5c31357c5753"
-                        },
-                        new
-                        {
-                            Id = "b06a79c9-9e5a-489a-a196-6e01c1ff36a1",
-                            Address = "Street 164",
-                            UserId = "13a135bd-e0ee-49b8-a4a8-efb84259454d"
-                        },
-                        new
-                        {
-                            Id = "3d4b1bf5-6747-484d-8790-4a83895cf9f5",
-                            Address = "Street 375",
-                            UserId = "16d681f9-5fd4-47e4-b279-1452a9b5f374"
-                        },
-                        new
-                        {
-                            Id = "7f915587-4c5e-43f7-885a-77eceb703161",
-                            Address = "Street 202",
-                            UserId = "2cb27c90-e77d-4cd3-8f7a-ebfce05f56ed"
-                        },
-                        new
-                        {
-                            Id = "56f43136-95c7-4ee2-9e6a-552ca40ec871",
-                            Address = "Street 290",
-                            UserId = "34286d7a-6c35-4b42-b579-9138d67140cb"
-                        },
-                        new
-                        {
-                            Id = "3a979de0-34f6-4d95-9372-01469bc6f2d1",
-                            Address = "Street 106",
-                            UserId = "616b44bf-5786-4469-9d76-3147a32931eb"
-                        },
-                        new
-                        {
-                            Id = "dbd899ea-85df-4335-a784-1e85869a66bb",
+                            Id = "f7d518bb-010b-463b-8918-ec89050a9207",
                             Address = "Street 353",
-                            UserId = "94f66f1a-9aa2-41d1-b51a-01f8521d0199"
+                            UserId = "f2b6c581-c96b-41c5-bdbb-2c9d34306792"
                         },
                         new
                         {
-                            Id = "b639f0d5-113e-4769-828d-d641480c2449",
-                            Address = "Street 421",
-                            UserId = "38b590fd-efe1-4e2d-82f2-d57b04cd03dd"
+                            Id = "5ed7babf-7d9f-42ca-8e6f-296c1fb67b7d",
+                            Address = "Street 284",
+                            UserId = "2a20da90-9168-4dcc-9d19-bfce22611cd5"
                         },
                         new
                         {
-                            Id = "a7a5ad61-7090-43c4-a03f-0185925742e8",
-                            Address = "Street 234",
-                            UserId = "badb7886-ba5c-4a34-8571-6a2c3228f9f6"
+                            Id = "fa3cb703-5144-4385-9a3b-6b709474856a",
+                            Address = "Street 381",
+                            UserId = "43acd9d4-aa73-4926-bb53-318bd6dac944"
                         },
                         new
                         {
-                            Id = "fb7d2ecc-9403-411a-ba15-ccac5d349017",
-                            Address = "Street 340",
-                            UserId = "4cc2b5f9-ffca-44b7-ad55-bcc1b1b67bf8"
+                            Id = "69d99a6b-7382-4168-8743-0dc1b9628813",
+                            Address = "Street 81",
+                            UserId = "499201b2-4a90-487b-9702-c7e28aa67bf0"
                         },
                         new
                         {
-                            Id = "2a3165b2-d1df-4f62-8aaa-518811aeeabd",
-                            Address = "Street 323",
-                            UserId = "517d8890-fc19-44e9-8277-e2024e17a0c4"
+                            Id = "b389babe-c9a5-4ecb-ae1e-2db04e518c76",
+                            Address = "Street 367",
+                            UserId = "902378f6-d8df-4a15-87c4-c8b718c46943"
                         },
                         new
                         {
-                            Id = "198af309-3e76-4031-a303-61529c6a5426",
-                            Address = "Street 76",
-                            UserId = "62fd09ed-5c12-4d42-83d7-82b9e9c8d24b"
+                            Id = "aed49bca-b612-4677-85ad-23fb82cd5ec3",
+                            Address = "Street 43",
+                            UserId = "b3f7c91f-1f24-47cd-a04e-123498f1ffb4"
                         },
                         new
                         {
-                            Id = "c4681ec9-4f25-4573-836b-cbf827cba346",
-                            Address = "Street 175",
-                            UserId = "bb8a9607-a293-40fd-bcf1-539829f57377"
+                            Id = "e311b1c5-0bac-4cd1-a1f0-f04725f4cf62",
+                            Address = "Street 162",
+                            UserId = "3da6e3e5-91f3-4996-b345-003be05d5455"
                         },
                         new
                         {
-                            Id = "759e9049-a5ca-46f3-95a9-243e1e20930a",
-                            Address = "Street 258",
-                            UserId = "812eb3d2-e4db-4fe7-b605-02e4dd9957d3"
+                            Id = "3cb84adc-799c-483b-b198-8a09111b696a",
+                            Address = "Street 227",
+                            UserId = "75bf046b-8540-44ff-ad0b-08a0e3419f41"
+                        },
+                        new
+                        {
+                            Id = "97617101-69a4-460e-9857-60a612b6ca2e",
+                            Address = "Street 318",
+                            UserId = "93cb1a37-331c-4b1a-b9d3-5a4a0e05217d"
+                        },
+                        new
+                        {
+                            Id = "0e73a2d9-5595-4705-95eb-90dc9e491f3b",
+                            Address = "Street 285",
+                            UserId = "aed656a7-42bb-4034-990a-c58fca8e2069"
+                        },
+                        new
+                        {
+                            Id = "6b1d7fff-cf70-4408-bb4e-1d55d4b77bea",
+                            Address = "Street 59",
+                            UserId = "92ecc3ac-ab04-42ed-95b8-a46d5b13a0da"
+                        },
+                        new
+                        {
+                            Id = "1819ce13-fa0e-4317-9892-fe662749d6a4",
+                            Address = "Street 174",
+                            UserId = "268f42a0-5656-430b-9f41-06d54a60d0da"
+                        },
+                        new
+                        {
+                            Id = "c9303c68-599c-41ec-9b5d-dd7189b8546a",
+                            Address = "Street 407",
+                            UserId = "84854fc4-3c1c-4ba5-921a-228516fc8b50"
+                        },
+                        new
+                        {
+                            Id = "51422af3-99df-47fa-ad41-1cb899ed2b93",
+                            Address = "Street 363",
+                            UserId = "b6a90681-cd84-4a44-a2d1-5016613c12bd"
+                        },
+                        new
+                        {
+                            Id = "0eb6f9f4-f409-4e80-abe5-5652ca1ca891",
+                            Address = "Street 382",
+                            UserId = "f6223436-a8a6-4046-a692-fae46bc97b11"
+                        },
+                        new
+                        {
+                            Id = "f470d2d9-ea24-4bf7-9340-7f27d0164863",
+                            Address = "Street 57",
+                            UserId = "d6f2c2c8-ffbc-42a5-82dc-1617e925f690"
+                        },
+                        new
+                        {
+                            Id = "55def284-1c8e-435d-bafb-6cbbfe83ab19",
+                            Address = "Street 173",
+                            UserId = "1e4d1251-f721-412c-9d3a-f3554ca0c13e"
+                        },
+                        new
+                        {
+                            Id = "0eb016b0-3241-4ff4-9bd5-a68b375d17eb",
+                            Address = "Street 128",
+                            UserId = "663c67ea-43f6-41db-90ab-2bfe0b78391c"
+                        },
+                        new
+                        {
+                            Id = "80d5673b-be81-458b-9997-01e8da204b2a",
+                            Address = "Street 120",
+                            UserId = "0f5a6d46-12cc-4e9a-ac21-3635a4be5491"
+                        },
+                        new
+                        {
+                            Id = "f637d677-2dc4-4b89-a55c-3d66ae45c731",
+                            Address = "Street 55",
+                            UserId = "0c7c0b35-81f1-4daf-999e-e7025c2799e0"
+                        },
+                        new
+                        {
+                            Id = "f721171a-541a-424d-ad8b-4178ba3b95f1",
+                            Address = "Street 135",
+                            UserId = "e3c55ad5-3bbb-47ea-8f8b-fc476fdafc01"
+                        },
+                        new
+                        {
+                            Id = "1b8ff9bc-a814-4fb9-9af5-7f22bae231b6",
+                            Address = "Street 322",
+                            UserId = "e2dd9ff5-793d-4a1c-b646-c395e8af10b6"
+                        },
+                        new
+                        {
+                            Id = "58e284c6-ea8a-440a-bb5d-377628c7faa0",
+                            Address = "Street 164",
+                            UserId = "c25adfd4-a2f4-4dc9-b355-0d343e46531d"
+                        },
+                        new
+                        {
+                            Id = "bb5f4337-6e74-46c0-8434-8d5c86274a58",
+                            Address = "Street 94",
+                            UserId = "d83da919-fa32-4274-8ccb-e8f21d830dec"
+                        },
+                        new
+                        {
+                            Id = "d6f9df2c-6f3e-46c2-9b1a-e2bd743ecaf4",
+                            Address = "Street 222",
+                            UserId = "6476ecde-a2c0-4413-a447-5d6da9bfc8ac"
+                        },
+                        new
+                        {
+                            Id = "ee99ad15-e419-4c8c-a9bb-a4d6035dd821",
+                            Address = "Street 37",
+                            UserId = "3bcec75a-ab0b-4cd2-86f9-cd3c9a1d40fc"
+                        },
+                        new
+                        {
+                            Id = "74b423bf-c52f-492b-bef0-8e36109c0566",
+                            Address = "Street 38",
+                            UserId = "69990512-73d1-4c07-84aa-62394fece7b8"
+                        },
+                        new
+                        {
+                            Id = "8156af63-dc95-4d55-b9d3-8d7f0d48bb45",
+                            Address = "Street 143",
+                            UserId = "9e2233ec-3d19-4fbe-bfe2-98552790d467"
+                        },
+                        new
+                        {
+                            Id = "07a99783-9743-46dd-8a45-669f67657cdf",
+                            Address = "Street 157",
+                            UserId = "42e06c60-c75d-431e-8420-1de1d13ae00a"
+                        },
+                        new
+                        {
+                            Id = "e0f5b0ca-9520-421c-a7d8-673f663fccb4",
+                            Address = "Street 353",
+                            UserId = "19f70e5c-072e-4d75-a6f2-2b5a5163aa16"
+                        },
+                        new
+                        {
+                            Id = "492493ae-7edc-4d82-bc65-5df36f92255d",
+                            Address = "Street 79",
+                            UserId = "f30be200-cde2-43d5-947e-64729128b8b0"
+                        },
+                        new
+                        {
+                            Id = "ec9c4cb3-04c8-4e97-89e5-d7498b14e525",
+                            Address = "Street 232",
+                            UserId = "a1100055-9be1-4c36-a560-de163fa0ea90"
+                        },
+                        new
+                        {
+                            Id = "a23e1f01-ff3f-4b55-bdbe-4dacd767387b",
+                            Address = "Street 303",
+                            UserId = "62a4dc1d-ede1-4324-b59b-3fa95a319d44"
+                        },
+                        new
+                        {
+                            Id = "185ed368-b31a-4407-8619-41b33861d96b",
+                            Address = "Street 381",
+                            UserId = "13785b1b-81b3-44f6-a5d8-63c20b0863dc"
+                        },
+                        new
+                        {
+                            Id = "d22c276a-f979-411f-b173-058e21e97d6e",
+                            Address = "Street 142",
+                            UserId = "9bd92fb6-f4e7-4c09-83ad-75b938181bb9"
+                        },
+                        new
+                        {
+                            Id = "6a2bb51e-558b-4216-a7e3-ec2cd099073b",
+                            Address = "Street 13",
+                            UserId = "8bda9135-9403-4163-b414-df71fda17612"
+                        },
+                        new
+                        {
+                            Id = "11bc43b8-5c95-4993-8593-fdf410248424",
+                            Address = "Street 179",
+                            UserId = "5c3e9855-4db4-4649-a23f-b4e86e25fd00"
+                        },
+                        new
+                        {
+                            Id = "7c93ec4f-80e1-4d07-94ea-1dbcb8396a3c",
+                            Address = "Street 378",
+                            UserId = "c876b1f5-1cf8-476a-ae45-e6b38ea3b426"
+                        },
+                        new
+                        {
+                            Id = "bb77e5c7-d3eb-4252-b1dd-7d0a0ac76b3b",
+                            Address = "Street 390",
+                            UserId = "2230b57d-5172-4bfc-923a-e8488dd8a60a"
+                        },
+                        new
+                        {
+                            Id = "2ce9fe4b-0d09-4170-87c6-44dd4f224da7",
+                            Address = "Street 230",
+                            UserId = "82280915-4ba3-417d-8457-38e7e438920b"
+                        },
+                        new
+                        {
+                            Id = "438f6835-b436-44b5-a66f-813cbacb72b7",
+                            Address = "Street 118",
+                            UserId = "ff017848-24b2-4075-9f82-c3be92e556ed"
+                        },
+                        new
+                        {
+                            Id = "49031291-1052-4c1d-aa2b-9618abcc5baa",
+                            Address = "Street 180",
+                            UserId = "bd14e399-40ae-4a7d-8cce-081250f1dae8"
+                        },
+                        new
+                        {
+                            Id = "6e6ac0af-5ba6-4027-b96e-870402ff9273",
+                            Address = "Street 188",
+                            UserId = "c3660765-6c34-406a-89f4-cffd346688c2"
+                        },
+                        new
+                        {
+                            Id = "fe50e0b9-73d3-410b-bc63-23d236d4b5b7",
+                            Address = "Street 412",
+                            UserId = "f20f33d3-2930-49d0-8ce8-89698fc75267"
+                        },
+                        new
+                        {
+                            Id = "6a433ca2-5d7f-4a8d-a3ab-054193e3c997",
+                            Address = "Street 440",
+                            UserId = "19799b68-744a-43fd-b23f-88d40dc7c303"
+                        },
+                        new
+                        {
+                            Id = "06875cf0-f775-4c48-b358-2929a781aff8",
+                            Address = "Street 224",
+                            UserId = "d4c3a173-4a85-46e1-af15-7cac793a802a"
+                        },
+                        new
+                        {
+                            Id = "dc5ad50e-c0a8-4931-8f49-662c1ee126ac",
+                            Address = "Street 135",
+                            UserId = "0f7cd778-935c-4ecf-9f4d-832b07492a0e"
+                        },
+                        new
+                        {
+                            Id = "50aa13d8-659c-4a00-a241-91194e50a6c3",
+                            Address = "Street 160",
+                            UserId = "e374030e-d107-423f-a533-2a569675587a"
+                        },
+                        new
+                        {
+                            Id = "3efc4198-f99a-4930-95e8-d74407b26714",
+                            Address = "Street 63",
+                            UserId = "57aa6924-5b2a-4fcd-9d58-83cb1dc0d0f8"
+                        },
+                        new
+                        {
+                            Id = "b4080902-2532-426d-84a7-f4ef186cc32e",
+                            Address = "Street 199",
+                            UserId = "ec070840-565d-4b7b-bbdc-6e808f1410c4"
+                        },
+                        new
+                        {
+                            Id = "ac5377dd-b4a1-481f-81e9-f7091829e391",
+                            Address = "Street 35",
+                            UserId = "86bfd4c1-a904-4cbc-ad7a-293ee3b994c3"
+                        },
+                        new
+                        {
+                            Id = "e9d6fa24-6675-4e52-a04a-0c32a468054b",
+                            Address = "Street 370",
+                            UserId = "753c690a-5616-443d-93d2-52ac191ba59e"
+                        },
+                        new
+                        {
+                            Id = "bc6f8942-2eb1-4661-bc37-1adc3c243907",
+                            Address = "Street 287",
+                            UserId = "fe6ad777-a74d-4302-a246-e34f904531c2"
+                        },
+                        new
+                        {
+                            Id = "fc35dbb6-1e3a-4b4d-8ad9-1f240703d1d8",
+                            Address = "Street 222",
+                            UserId = "6da87c28-6735-4d8d-897e-ea3415062319"
+                        },
+                        new
+                        {
+                            Id = "40768598-a425-4c68-b4bf-0b2fb402c156",
+                            Address = "Street 78",
+                            UserId = "92c19c5d-3294-4d48-bb1b-28d7a8513f02"
+                        },
+                        new
+                        {
+                            Id = "448c22a7-1a06-428b-82fc-deb803679bfb",
+                            Address = "Street 32",
+                            UserId = "96dd5af8-0960-4e24-90b9-7f27c34e586e"
+                        },
+                        new
+                        {
+                            Id = "ca8194a2-e430-4f03-a310-c1b1bed35bc7",
+                            Address = "Street 120",
+                            UserId = "5207656a-c474-4684-a3e8-294435bde626"
+                        },
+                        new
+                        {
+                            Id = "ebee6599-4737-4b98-9e52-b45e1279823e",
+                            Address = "Street 287",
+                            UserId = "d62182ee-d7c5-4f7b-9c7f-3821df14646c"
+                        },
+                        new
+                        {
+                            Id = "684bca08-25e4-42af-9a60-0d641e31f074",
+                            Address = "Street 309",
+                            UserId = "91b819e9-5471-4c25-91c9-17a790be1831"
+                        },
+                        new
+                        {
+                            Id = "6f9d8a47-4519-40d5-951f-5293209021c2",
+                            Address = "Street 331",
+                            UserId = "07e9b088-93d1-4008-9895-dc9eb1fa8511"
                         });
                 });
 
@@ -663,303 +663,303 @@ namespace FireAndIce.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "c94bfb15-e69a-4b2a-ac73-7d135cafa8a4",
-                            Salary = 744.005806159231m,
-                            UserId = "947e2d2c-30ea-49d0-9793-8b1f72da1dd7"
+                            Id = "159f431e-d272-4bd0-b040-1e3e2a894015",
+                            Salary = 32.40112822149m,
+                            UserId = "8bd20eed-b102-4887-85bb-1d40ced1d0ed"
                         },
                         new
                         {
-                            Id = "cd1a95b0-4bee-4e2e-a7df-22f9b59111c8",
-                            Salary = 1840.83967275957m,
-                            UserId = "8a82d4a6-d219-4c16-81df-0ebb91bc7be9"
+                            Id = "1ded70c9-dbb1-4c36-8751-50b6bb66d3ba",
+                            Salary = 124.303382413603m,
+                            UserId = "eb81855b-060e-4f06-a714-5feec172402b"
                         },
                         new
                         {
-                            Id = "c3659f6d-c00b-46df-be95-aa0a575cbee7",
-                            Salary = 212.747266615158m,
-                            UserId = "352dcbda-c54a-43af-9a6a-e34b54c6ece0"
+                            Id = "d876f978-a020-4788-ae5b-d58b852d1315",
+                            Salary = 464.760486718621m,
+                            UserId = "0345c656-a63b-4816-bd28-d6e72a36d0a0"
                         },
                         new
                         {
-                            Id = "f0e0eb04-5f05-43f6-a18e-302399806bd4",
-                            Salary = 220.909095472148m,
-                            UserId = "764e4eb6-3966-4edd-9aaf-50c67db101a9"
+                            Id = "e8d8b8d7-7776-4af6-865d-54701260f824",
+                            Salary = 2770.22975625947m,
+                            UserId = "c18febfe-f8bc-447b-95be-cd76b0d8229d"
                         },
                         new
                         {
-                            Id = "0f39e70b-02c0-4206-bddc-2e475dc15dca",
-                            Salary = 502.23723263584m,
-                            UserId = "a374a09b-8b48-4d8e-b10d-42aed3dbab7b"
+                            Id = "a7ac399f-b08d-44bf-8647-07c68b19dcc7",
+                            Salary = 1371.34849064581m,
+                            UserId = "969172aa-0d6a-427e-b13d-c39e52c0ae92"
                         },
                         new
                         {
-                            Id = "b6903438-b9a2-431a-879f-34a91909f02b",
-                            Salary = 98.6128943500169m,
-                            UserId = "9285e36c-6a9d-46da-96aa-ff936d581c64"
+                            Id = "cf2d6a0d-3abf-44a7-aa63-1fdfe4b9ad51",
+                            Salary = 1844.63642809756m,
+                            UserId = "ef8a84c9-d2c6-45a8-8dc6-c4db482683db"
                         },
                         new
                         {
-                            Id = "f08792db-6248-442a-b15f-4d382e4fd5fe",
-                            Salary = 802.945559286953m,
-                            UserId = "d58660e8-5d40-4b78-9385-041c893d3361"
+                            Id = "442fe801-bc5a-4512-9857-de2b05c82a2b",
+                            Salary = 2138.16874806684m,
+                            UserId = "5acdee34-7c8e-457c-ae57-824ebfa63067"
                         },
                         new
                         {
-                            Id = "11cb048b-acb2-4d8f-8526-538041c987d3",
-                            Salary = 1195.0376830972m,
-                            UserId = "5361559a-0c4d-4707-b692-e68f1d557b18"
+                            Id = "3750c130-6624-4b80-9482-0e9028ce7a2c",
+                            Salary = 169.824981675402m,
+                            UserId = "935a8b72-9be4-4f8c-9870-ee73b23b4735"
                         },
                         new
                         {
-                            Id = "04f051b9-2e4a-455c-9db7-9aef1eeadcb5",
-                            Salary = 329.025566731126m,
-                            UserId = "fd5e33f6-408a-40c8-8f41-5b51eaf00897"
+                            Id = "c4b68ea9-84b3-4c12-9eba-56b1ccdac5f0",
+                            Salary = 1474.43179994562m,
+                            UserId = "b717c2e9-3271-4228-873e-bdd2890c5a0e"
                         },
                         new
                         {
-                            Id = "04501c93-73a6-4dde-93a9-85d39c43dbe2",
-                            Salary = 1982.36718586756m,
-                            UserId = "e13b9cad-0ae9-48ec-a77a-1d78de038061"
+                            Id = "b23e54c1-b376-44de-8dd2-33b92bcfc4ae",
+                            Salary = 2465.02751226771m,
+                            UserId = "2003286a-6c6b-4e75-8c52-f039d230591a"
                         },
                         new
                         {
-                            Id = "4dce9305-9970-47ae-894a-1bb203888b32",
-                            Salary = 498.069623717139m,
-                            UserId = "ab214fe2-bb79-4ece-ad39-d1568d974a8e"
+                            Id = "6e23b16e-8c00-4cd9-aab0-10298013d78e",
+                            Salary = 2186.72139299415m,
+                            UserId = "4b4c9518-ac97-470c-8833-2c9f5b90a7b3"
                         },
                         new
                         {
-                            Id = "dc4e9f13-550d-4518-94ee-f961873ce7e4",
-                            Salary = 899.345969268748m,
-                            UserId = "25cb8819-6ba0-4309-946c-2840dd3ded04"
+                            Id = "2ea683e1-44cb-4a18-bbe4-03fe0ccb5bba",
+                            Salary = 1627.6646254713m,
+                            UserId = "3b54a9ec-f3ac-4adb-ae0f-d4d12357cbc6"
                         },
                         new
                         {
-                            Id = "0e7643ea-f69a-49eb-8e16-59d6cf6d7bbf",
-                            Salary = 1987.97541297412m,
-                            UserId = "dbdafd92-720a-40cf-9db5-cc9affdb920a"
+                            Id = "51709ea0-c935-4443-98f2-1a556b867cf8",
+                            Salary = 1248.89019841742m,
+                            UserId = "662acc08-845f-40e8-a110-2e2025b014ba"
                         },
                         new
                         {
-                            Id = "b3ad07b9-991c-4b01-a0fd-15b2d5c8a8c8",
-                            Salary = 265.434365843159m,
-                            UserId = "0068da3f-9f6d-4dfb-8c4f-762ccd73d3d2"
+                            Id = "a05a8237-2bc5-4fea-a7bf-390baa4ebd2a",
+                            Salary = 2269.79482093351m,
+                            UserId = "dcc831b4-ceb3-495c-ad12-7dd49d056f95"
                         },
                         new
                         {
-                            Id = "540fbe69-969f-455b-b200-4c22f0923aa0",
-                            Salary = 131.44632993799m,
-                            UserId = "2b2c8efa-714d-4573-ae02-aa06631dbc41"
+                            Id = "71f62d38-cef6-4dd7-9131-94a6d8d43838",
+                            Salary = 2580.23505312402m,
+                            UserId = "34669351-9eac-4023-b658-e5973ae6a158"
                         },
                         new
                         {
-                            Id = "fb9484e6-5e87-46ed-b3f4-b7d1293ee323",
-                            Salary = 384.575531065732m,
-                            UserId = "ffb5b8ca-d86a-454c-93db-31bfa7ccbd2e"
+                            Id = "27cb1c2e-a113-456d-b04a-2b94941ae7fd",
+                            Salary = 2698.52417134611m,
+                            UserId = "0adac9c2-e448-4e26-bc8c-7b062b38b14f"
                         },
                         new
                         {
-                            Id = "619eb691-45cb-4008-af5b-8f95699d61a3",
-                            Salary = 393.163554553484m,
-                            UserId = "72592b47-f04c-4102-ad3f-c9fa198e6c8b"
+                            Id = "9ddc7590-4fbc-4dc4-ade6-ebac325316f0",
+                            Salary = 894.236207890434m,
+                            UserId = "49a70cc3-4635-4fc5-8ae0-813ee2238214"
                         },
                         new
                         {
-                            Id = "4697f633-abd1-49e5-8c2b-62972dbc8967",
-                            Salary = 1366.12308834033m,
-                            UserId = "788e73ad-ae79-4df6-a52b-71fd7941cedc"
+                            Id = "511c52de-5396-4775-a7e2-51f1bc12038f",
+                            Salary = 1340.47210046112m,
+                            UserId = "1cd18ee8-6db8-4ed0-a762-0471114a2027"
                         },
                         new
                         {
-                            Id = "a1b13c00-75ab-4347-80f8-ec6aa5042ec8",
-                            Salary = 404.628751056562m,
-                            UserId = "c2a5594e-da58-40b0-a3f3-7ed960ce8280"
+                            Id = "e23c886d-b304-48db-93a2-148ac85be98f",
+                            Salary = 687.275519914588m,
+                            UserId = "92b407b6-e617-46df-b757-5d4c4de0c5c3"
                         },
                         new
                         {
-                            Id = "4f9b002f-46e7-4081-a935-d429260fb1cd",
-                            Salary = 1088.10723344242m,
-                            UserId = "b6d48df1-78de-497b-9b1b-c2904e39cf3a"
+                            Id = "44e5e0ac-1f14-4be1-8d76-8044cdc90726",
+                            Salary = 2985.21415516046m,
+                            UserId = "c8e3e307-5689-42f7-8139-8e0573013d19"
                         },
                         new
                         {
-                            Id = "7b300ed7-cfda-4a0f-a27e-7ad339138746",
-                            Salary = 268.011123066773m,
-                            UserId = "01bb6e49-0350-4d67-8f5b-ab0ab04a0e1a"
+                            Id = "116437ba-454e-4237-9f57-975fc8d34da7",
+                            Salary = 2345.5610886894m,
+                            UserId = "b65add3e-6930-4a11-b69e-c72412434a28"
                         },
                         new
                         {
-                            Id = "4fca52ec-5127-4f14-b474-c04a7f28933b",
-                            Salary = 894.226573824057m,
-                            UserId = "17126fdb-401e-4bb1-93a3-2091e5a7ef9d"
+                            Id = "6d8fe54d-eb17-4d33-b41b-9157ecaebef6",
+                            Salary = 2181.92213037141m,
+                            UserId = "5d3bd496-6a31-4323-baa8-802a423faf45"
                         },
                         new
                         {
-                            Id = "9984d9ba-5d22-40d1-a0f1-e22b58c14998",
-                            Salary = 1257.35695159871m,
-                            UserId = "2cd50383-1140-41cf-a2a4-08952e1bde12"
+                            Id = "cd36ced2-0942-4863-bd5d-fea67b6b5e9c",
+                            Salary = 534.240181806609m,
+                            UserId = "117714be-4af0-430d-90a1-f43319825d85"
                         },
                         new
                         {
-                            Id = "d968af88-8cd3-4a77-8bc9-562942512f9f",
-                            Salary = 1463.0275775972m,
-                            UserId = "30146d61-507d-46a0-8d0a-f00ba7bd6f31"
+                            Id = "4ebae49e-6097-4ad6-adf5-aaee19b187e8",
+                            Salary = 2718.55479093201m,
+                            UserId = "20fc2d6d-d70a-4b33-a123-bcf1416a4d88"
                         },
                         new
                         {
-                            Id = "26e08fba-fc90-4b8e-b1fb-7fcb96e6af74",
-                            Salary = 415.160136490669m,
-                            UserId = "5e2e044a-5ee3-458b-aff8-bb26caaefce0"
+                            Id = "054b1e32-99a5-46b8-a14b-a40e40b3e2f9",
+                            Salary = 2119.73472876462m,
+                            UserId = "86449d5c-80c9-41e6-8673-068253347120"
                         },
                         new
                         {
-                            Id = "aef9460e-ed90-4125-8554-0b3c7efec397",
-                            Salary = 546.999545091297m,
-                            UserId = "b3284f96-78a4-43e9-add1-7f85c203f82b"
+                            Id = "4206b13c-13a1-4727-aa4e-b1955cca66af",
+                            Salary = 1056.23473415907m,
+                            UserId = "323cfc4e-deaa-4478-8922-4f9b1111e3a5"
                         },
                         new
                         {
-                            Id = "d8dca6a6-9c53-4722-9a9a-576d0efc93b0",
-                            Salary = 492.579685753481m,
-                            UserId = "e46a291a-e2b6-4eab-851f-bcd4ef726b84"
+                            Id = "c6fc08d7-a481-42d0-9e8b-a872c0b8bb98",
+                            Salary = 2633.6987864383m,
+                            UserId = "d641258a-fd7a-4e8a-8810-fa2a9481f9ac"
                         },
                         new
                         {
-                            Id = "3cae491f-3839-48de-82bf-4a26bef49e8d",
-                            Salary = 1926.32610533681m,
-                            UserId = "9a58ae09-b98f-40ef-bfdb-3ceec1a58999"
+                            Id = "b383655b-7281-4c5c-bda7-7b2c36e86942",
+                            Salary = 545.485331930912m,
+                            UserId = "bdd8ee75-a4ec-4244-ad4a-f48ffe42fdae"
                         },
                         new
                         {
-                            Id = "dab68028-2bce-449c-a645-1eaa6b3da6f4",
-                            Salary = 51.8276123571338m,
-                            UserId = "e737f935-8bfb-4ef6-b7d4-68c648f290da"
+                            Id = "fc511f21-16e7-4217-bd35-809447d31838",
+                            Salary = 2025.97487719076m,
+                            UserId = "f6453e75-6bc1-421b-8958-3330946eca0a"
                         },
                         new
                         {
-                            Id = "bc2bb645-dd1c-41b8-86ae-8443bf13af47",
-                            Salary = 326.73032317624m,
-                            UserId = "72e5cb0e-837d-421e-b315-ba43e6ae3cc9"
+                            Id = "b6c87656-ef17-48b4-8784-01502d8cdbea",
+                            Salary = 738.175473519682m,
+                            UserId = "ba1b2379-3e57-4eae-a0be-b2c88fbe67aa"
                         },
                         new
                         {
-                            Id = "2d534ae3-a141-4077-b49b-25e8a3924d0e",
-                            Salary = 1102.27953693936m,
-                            UserId = "f8b4df11-73a0-46e8-b6db-fcf7ccccf9c6"
+                            Id = "f1331116-fab7-49aa-8e74-a3d8c42919e7",
+                            Salary = 2279.74841617036m,
+                            UserId = "7c6e2c93-c6bf-4cd0-ab7c-4da59c8f210f"
                         },
                         new
                         {
-                            Id = "8388e2f0-4efc-4775-903e-664727ba979c",
-                            Salary = 105.736061048571m,
-                            UserId = "4176b20f-bc55-413d-9708-2df9fc073b90"
+                            Id = "6c73c160-b79a-47fc-9ca8-92bc2752869f",
+                            Salary = 2276.49699769751m,
+                            UserId = "2ecd6e0c-a1ef-4568-af65-319c8d88d4fc"
                         },
                         new
                         {
-                            Id = "f9c984f9-7593-4645-865b-f239f0c538c0",
-                            Salary = 1912.34512157382m,
-                            UserId = "c16f3d62-b72e-4c70-927e-71ee9154522b"
+                            Id = "110852ab-a275-4e08-8fcf-24bfcf00d769",
+                            Salary = 465.826761194424m,
+                            UserId = "38624d16-ad64-426d-9087-59f0a6232068"
                         },
                         new
                         {
-                            Id = "670971c3-d627-4db0-99e9-87c58ff06d71",
-                            Salary = 566.06985096171m,
-                            UserId = "d00448be-9d84-44b4-92b5-c037a0a5f8e3"
+                            Id = "b0f12c96-64ab-4648-bf68-c2cd2a78d85e",
+                            Salary = 398.432146943376m,
+                            UserId = "dd5c3a58-456f-4b4f-a0b1-123461b861c2"
                         },
                         new
                         {
-                            Id = "e0510043-6b95-4b19-b115-b589233eeef2",
-                            Salary = 1844.84644133823m,
-                            UserId = "b45c77ee-1907-472f-91e5-55f9f123d449"
+                            Id = "0b488542-0a98-4a4b-9600-9df314efc383",
+                            Salary = 1498.15350514751m,
+                            UserId = "33a9a829-dccb-4af4-9b0a-fde3bc323255"
                         },
                         new
                         {
-                            Id = "93f21a41-ec83-4cb5-af7f-7e075ffbcafd",
-                            Salary = 1078.83433023413m,
-                            UserId = "302428c5-8ebe-4800-ba49-33f3aef046ba"
+                            Id = "54effd22-c760-47dd-8916-4c4526801d85",
+                            Salary = 657.596586578338m,
+                            UserId = "66ac7c71-ad4e-4ab7-bab6-9788cc8c38ea"
                         },
                         new
                         {
-                            Id = "a5899d8e-958c-411c-b35f-e733a4056b4d",
-                            Salary = 1562.98191731935m,
-                            UserId = "5d382f8e-93c1-48eb-bd17-d78e37745228"
+                            Id = "e7c896b3-ca97-4dd4-b2e9-a19d3a863ffc",
+                            Salary = 734.169633469624m,
+                            UserId = "eb1eee16-a36c-407f-a87a-be4e64f76ace"
                         },
                         new
                         {
-                            Id = "da15813b-18bb-4de3-bab4-f7cbaa2bf911",
-                            Salary = 1130.7031200876m,
-                            UserId = "2f0c48c2-637c-431b-94d2-57badf0cb1b2"
+                            Id = "5379c6cc-27d2-4b62-a136-fe1a4101260d",
+                            Salary = 1485.01432989026m,
+                            UserId = "3a82a1ed-6ed1-473e-afd2-876be2c24f70"
                         },
                         new
                         {
-                            Id = "6f3a5efc-c585-4b79-b892-3d944fec8d65",
-                            Salary = 827.642253985462m,
-                            UserId = "6f2aa5aa-fd7d-4b9a-90ec-3936404c8388"
+                            Id = "e353b0a4-888b-402b-bbc1-61e156d5d201",
+                            Salary = 1379.12944768515m,
+                            UserId = "eb3175bf-0ce0-42b8-bc91-e961f5ed3185"
                         },
                         new
                         {
-                            Id = "7afe1e48-3680-4c08-8e0d-30d5b0413b47",
-                            Salary = 125.63732086012m,
-                            UserId = "f780341a-aba6-4056-9d07-52a1c67fa9f6"
+                            Id = "ade47fdb-e9c9-427c-95c5-87a092331e3f",
+                            Salary = 1092.8804413848m,
+                            UserId = "75db636b-5d39-49c6-a511-47165049eaca"
                         },
                         new
                         {
-                            Id = "13c96538-aabe-48ec-8718-df473271a7f6",
-                            Salary = 1104.96130264595m,
-                            UserId = "00e0f42d-d973-4eff-8c24-b3df9caeb264"
+                            Id = "f17b70cc-df57-43c8-a117-413fb905cfc2",
+                            Salary = 2353.3033883913m,
+                            UserId = "1a6ba66b-f96b-432a-964c-d9386ae19b74"
                         },
                         new
                         {
-                            Id = "82789fe7-8b85-41ca-b3ba-cff63c38d875",
-                            Salary = 169.11952577956m,
-                            UserId = "8bc2fa76-5737-4648-aab5-b314a012ccc6"
+                            Id = "27a84131-8535-4778-862e-d75f72884704",
+                            Salary = 729.276908435522m,
+                            UserId = "cdb452b3-8dc4-42f5-aae9-35e34fc12280"
                         },
                         new
                         {
-                            Id = "15c7d2b0-b13f-4801-8305-175029ac0063",
-                            Salary = 397.222255541581m,
-                            UserId = "44a91cfc-2fdd-460d-b7aa-4dff57932333"
+                            Id = "98d1da4d-3cb2-4e6f-ac5c-1185769c84cf",
+                            Salary = 2592.65405386344m,
+                            UserId = "ffe4aa6e-0e20-4c3b-8483-b241443e9ac0"
                         },
                         new
                         {
-                            Id = "225b5660-6d8e-4094-ab62-51c7b16887b8",
-                            Salary = 1687.1027609739m,
-                            UserId = "4e8d24ef-c754-48a8-8ef5-dfdfd177b989"
+                            Id = "25510542-b6e4-46d4-9d39-a09baabafadb",
+                            Salary = 955.347347983786m,
+                            UserId = "16512485-5d03-4755-aacb-eca8bec969c4"
                         },
                         new
                         {
-                            Id = "562bd2cf-a965-4be2-a14a-ec4c957ccaf2",
-                            Salary = 398.91397505948m,
-                            UserId = "521fab4e-6fd3-466f-bded-0f05b9111ad4"
+                            Id = "953cbf01-37f8-4f48-9acb-ce0002523393",
+                            Salary = 2141.2106021965m,
+                            UserId = "4f74c5df-1ba2-43d6-adf0-78268ae19182"
                         },
                         new
                         {
-                            Id = "7c086ec5-4683-421d-a086-6a2256c77ed4",
-                            Salary = 391.115016486084m,
-                            UserId = "712ebeab-9bb1-4f4d-b021-fdaa45167d9f"
+                            Id = "1dfc42ba-c39a-4cdc-9914-0f15664f3c92",
+                            Salary = 1604.86678621027m,
+                            UserId = "4529b86e-5fe0-4081-8bbd-0a7ff6137c6c"
                         },
                         new
                         {
-                            Id = "c3912779-649f-4d4b-8b6c-b398fd8aface",
-                            Salary = 483.887957634352m,
-                            UserId = "f8903c4c-8801-4794-b80c-9c448f56dc58"
+                            Id = "f9efc18b-4dfd-4c6d-91fb-c2ebc6906c03",
+                            Salary = 1221.59893122576m,
+                            UserId = "0c34bd6b-1cb2-495f-930a-7f89e3ce4cdb"
                         },
                         new
                         {
-                            Id = "53f401af-53f6-4e0f-96c9-a92bfa4e4a2c",
-                            Salary = 1305.81047819267m,
-                            UserId = "7c5fcebb-5fc4-4724-8b01-62a70dd2aea1"
+                            Id = "f8362704-e60e-4c43-94f7-bada861dabac",
+                            Salary = 2642.14983472701m,
+                            UserId = "04b95fb2-994f-401b-a376-8e34f021f725"
                         },
                         new
                         {
-                            Id = "61c7937f-366f-44b6-86b3-5220fd2c062b",
-                            Salary = 1741.28620128207m,
-                            UserId = "d9042be0-4b13-4bda-9895-d7645990e7e3"
+                            Id = "8aa65855-9b44-4d87-b935-160f10993dff",
+                            Salary = 1898.45485561455m,
+                            UserId = "0eeaeb88-4258-4d5b-88d0-d803eafad74d"
                         },
                         new
                         {
-                            Id = "f1b5fcc7-88ba-41bf-ab46-56eee1464c2f",
-                            Salary = 653.817316821691m,
-                            UserId = "f1a9afc0-5eb6-45c8-8d99-ad19fef0957b"
+                            Id = "90e9e896-3976-4e9a-96c5-dd9edc7327a8",
+                            Salary = 819.870834154948m,
+                            UserId = "d75cc932-c238-45cf-9837-96516ccba18d"
                         });
                 });
 
@@ -1036,15 +1036,17 @@ namespace FireAndIce.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "cb9a0d10-db30-44d3-9c8e-66f8dd049a03",
+                            Id = "db8553ae-edf5-4678-9eb2-f5d04fee6a9a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "26475b66-ecbf-4898-8973-ab8a246a259c",
+                            ConcurrencyStamp = "db410d85-7192-48b4-aad5-5e39ce837eeb",
                             Email = "admin@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@abv.bg",
                             NormalizedUserName = "admin@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIbcpTVQlOsVhLma8CfF7Xp9Qcm/oUrgFdBIQN/QZCauNIr3oKZJWtmhF3F9obxHTw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEVZMk7iSxp97JGP0Cn4hvGdBgXlpRNVq0ytd7CuxMeka57G/U5veu9AKRqHy2j2hQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1052,15 +1054,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "83b64cbc-19e1-4d05-b3ce-07a3ae9f918b",
+                            Id = "b19bf3f9-4627-449b-ac76-641061bdca25",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "392da6b9-9632-42ec-b40e-aae76d5b8b65",
+                            ConcurrencyStamp = "2f92bb4d-0919-43fd-b50a-140d2e000738",
                             Email = "customer0@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer0@abv.bg",
                             NormalizedUserName = "customer0@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIGrjfVmqEKiCUi52BA5eb1QeryOojpA1JXgCiefxSC4rrAZBroOblCbVCqpd7wtuw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEERoyTCaF+cZNNmcBWNQBGHBrMTbzfG0I/VCKerGzXnDgEKVNcSx+7QbGDpvlaSACg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1068,15 +1072,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "36bc6df0-b093-4c81-956e-14a801845cbb",
+                            Id = "ed504eb3-6a0c-491d-9706-bd8ff8b8be43",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "96c4b219-30d9-410f-9116-869e4fe58fae",
+                            ConcurrencyStamp = "a6a5b99e-c5bf-4345-b945-433c098fce92",
                             Email = "customer1@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer1@abv.bg",
                             NormalizedUserName = "customer1@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBL0zpETVJetobN0iR8Jwd0fmY7KC/8EErTzZSwlPFCIaVJAvRVnG1QFVhAS1jc8nw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENWSNDClPnxndHqBgP8P+yrGRXpCbYyec1550uiRexJSqS25iyj1wyGNf5uYWmIegA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1084,15 +1090,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "c5f81580-cb48-4681-a296-6de1b1a969ce",
+                            Id = "c704630b-626a-4d9f-ac4e-b43eef7e2983",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1dc85345-1083-4172-b6cf-331c4dd03bdc",
+                            ConcurrencyStamp = "670173a8-6729-4bbd-a61e-2c5de8a7a3e9",
                             Email = "customer2@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer2@abv.bg",
                             NormalizedUserName = "customer2@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAENjF9vFPZtAKmOXYA2IUO+/wdQT7CznnVuOfJnKns63e38e+ENewV+yjA1ZG3BQqHA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJ3AdvmPe7ArDPVHRmArWTGJKg7NkOm/3726EkzS/TZhgc6oUpudC4CIFZc+WnJJjg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1100,15 +1108,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "3d0ede8f-12ae-452f-9693-db650ffbb604",
+                            Id = "734f601c-0c15-4f7e-84c3-31bd23a29e60",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9058e77d-e3e6-4955-a303-78bbed00f99d",
+                            ConcurrencyStamp = "7518720b-ad6a-4200-99e1-6da8fa5bb0d7",
                             Email = "customer3@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer3@abv.bg",
                             NormalizedUserName = "customer3@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFzptbSDsrVvHb7YYWmhcDDZdFk8jMKSrufVtftWneqkIgJYp8RjFlBG4G8Z2VVe0Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBas2PCQc0bGakd2L6aCfgtp1C+wVv3mkUxZmUbmF4yU5EPY293UtdGn1TWRu5XGiw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1116,15 +1126,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "7eb9a636-ba64-4729-9955-68b4cea86451",
+                            Id = "40a56206-3e26-439a-8837-2ee99244e1a1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a4613431-6186-4b18-bf89-b50aa7c3627f",
+                            ConcurrencyStamp = "11316ad6-f01c-4ee0-a7a8-b8b6c9b839fb",
                             Email = "customer4@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer4@abv.bg",
                             NormalizedUserName = "customer4@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPTmm+2BLo6XIbj+neQEJOvtE4Ft0u9c6WswgxgZIrmx1rd9+qTfpgOtxVDi4AfTMg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEE4EXJ/Bf9x8/w0kUMwvgJtsQZ3m9W2F1A842/JdTWD4YUH9tSOEWXrb7CYekBcdRQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1132,15 +1144,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "cceb2370-5d86-4ace-83b9-e62f461ea64d",
+                            Id = "b8fda415-72d7-4153-8c71-a59457caa7c6",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "51dc57dd-a95c-4648-9d02-8532aea165a1",
+                            ConcurrencyStamp = "d4b0556c-9991-4daa-bfa8-9dffdbda3ff6",
                             Email = "customer5@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer5@abv.bg",
                             NormalizedUserName = "customer5@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKUejuRh3YaAuZdidEUh/x6qvMla6h6gD+jMaI+1WEHIePfQHgy+o20+w+fWBRdm0Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELtADLYDmfcYWGKncSEptHSFD98mOcRMuAHkfBZfIW6RzHBAx8bYeI4duCvW+rrATQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1148,15 +1162,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "fc31ed89-55ca-454d-859c-24b2e69a6b94",
+                            Id = "2e788cc8-9d8c-4f28-bd18-e51ec4fe011a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f31a1d65-165d-4e0a-8c4a-299db7b5d03f",
+                            ConcurrencyStamp = "5e5779b0-e0e6-411e-af5f-2ad19584abf5",
                             Email = "customer6@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer6@abv.bg",
                             NormalizedUserName = "customer6@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPeTAqk5eQbNtVyfMdmjTKSeg8zUF3EuuPw4su/pgrE+0d8Bp5jwS3+Co96pOlLfag==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEN7tQr30nALVroKHqUeAPg+bBtTUEch31+gYZQWGVpMKsE83sp/bdx4djVfy+MLs3Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1164,15 +1180,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "fce41c41-f3f7-495f-bc6d-2feeb63fd9ba",
+                            Id = "bae7e705-67bf-4d01-ab0a-1dd6e9717388",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8d82de4e-2cdc-4f08-b9ed-d25384348e8f",
+                            ConcurrencyStamp = "968462d4-85d8-4eaa-97dd-2bda60e7b9a3",
                             Email = "customer7@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer7@abv.bg",
                             NormalizedUserName = "customer7@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEA150HTGw5NCvRHcCwd/mfp3uYv3x8HVSoLVwEauXMUmTTQizEIjdwZ0AC+jrO+2ww==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJt3YWw4/olVwhhhXdI24I12FUODu1f1gmFs0FT1atcUK8rkKt9kP/jjMKQLS/xZZQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1180,15 +1198,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "e227db7d-2fd8-4796-8d0f-66a043764421",
+                            Id = "d6bdd860-8277-44b9-8549-314ed4ff7323",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "808f4291-bea7-487c-a73b-a019c26b7532",
+                            ConcurrencyStamp = "3f142562-0332-4867-af2c-7fb2428261c4",
                             Email = "customer8@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer8@abv.bg",
                             NormalizedUserName = "customer8@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIf8XLfbjz1V4wE70s0f/D1AQCHoe7YInSjDWH8/XmfXF4kPhQuKNWDQyHjnxqaobA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEDo2VN1WKexSHHbdSgyWugA66/HZHsMLxP1VwYBSgoNEHRrQYRRzeJJyGh3yjVtLA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1196,15 +1216,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "f041fbd0-119f-4002-ac26-1a2e97e5849e",
+                            Id = "a65de10f-73cc-4408-8390-9e6df5fea499",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1ee9ef33-af62-4c43-aedc-12f45a09e13c",
+                            ConcurrencyStamp = "a6b58ab6-bcb0-491e-a576-783cadcc6aca",
                             Email = "customer9@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer9@abv.bg",
                             NormalizedUserName = "customer9@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKs4SXdWD6+w79Tq6z8o6jnUpBCyYgTsU9NX+EAtfFybj5O3lxna00EXJ/lJaWmysQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELARSvkRtCaWHKQFFE7hlwpubyj91R9/1HvjMzl/qmQSfI5QJ/ikoLcxIhH4jz+csw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1212,15 +1234,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "1e0c3e7b-7682-4b45-97be-81acf58dc77c",
+                            Id = "30bbcbf3-42cc-46a3-9a25-939b805f3215",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0f23a9d9-b2db-4d3f-a857-87eab3aeda78",
+                            ConcurrencyStamp = "28d68ef1-9669-43f6-8c6d-f276dd7d9d35",
                             Email = "customer10@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer10@abv.bg",
                             NormalizedUserName = "customer10@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMFLoEae/DtqDyVeMHRLomw1LhlsjOpKDszoIBbgfyrR+Zi18BgaBeOfBrJi2Vdbpg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELgKKQkw0YUp+WXFh63qGu8RpugQrfPvR5ZRC9wRFP0XhsR79/aROcsjON4fW0Tmcw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1228,15 +1252,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "5d4cd492-05a6-4207-96bc-b133ce0154f8",
+                            Id = "d5f96247-2228-4b06-9e4e-bccffdf2c98c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "003d2dc2-134a-4e1d-9baf-42b9a0a9f2a9",
+                            ConcurrencyStamp = "084609dd-4a60-4e1d-b984-aefefcd367bb",
                             Email = "customer11@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer11@abv.bg",
                             NormalizedUserName = "customer11@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEO+nlMk4PnqoT/PMKaDcXgu2qivS7UH3O6ZZTn6PGaT6g4uCz+ThcAqiwBNxTuHxLQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENt0mTZewQXXjhE7XkwGVLq7ArKNAfQg6lPc1d6NG3htAFAZ5mmhGKRDiDQibj41EA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1244,15 +1270,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "c72defd7-3b71-4521-9180-ee1004f14495",
+                            Id = "31ebe926-3637-4e4b-90fc-ee872387f141",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "79ad027b-20b0-4472-a200-b2980d70a5d9",
+                            ConcurrencyStamp = "384e458c-6d80-411c-83da-54ec7b27e389",
                             Email = "customer12@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer12@abv.bg",
                             NormalizedUserName = "customer12@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEN35dTGLvJkoxiwv4hMUT2pax37YEm5kJFx3ycQrJ6aNSk9aBLGR5P1MQItkYaY6pg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEQJNFWTeljJ3DHD8m2ZaY5R5OANmxEPv0RG4+QTkvCjPwgn8Ai7R5BZUPiAh2kztQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1260,15 +1288,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "9b74c05d-d736-4d96-bb57-66a4cbcd6858",
+                            Id = "5ac7fc41-d766-4a2e-b72a-93893da9c108",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "782720f9-fa7f-4841-8c59-001d1825855a",
+                            ConcurrencyStamp = "1c565adc-49d7-44b7-a243-9e4517fbe297",
                             Email = "customer13@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer13@abv.bg",
                             NormalizedUserName = "customer13@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOncX+qzKpzyOxQdUguKECDjJ7vb0L/CtDil50yNTQj6KSwcG4AfUp+IJ/ez7spulQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECbNgbkSbWBbmEMwflXirOnddbJexZAKBrkt1mGqDxewHA2x4yrX/ufHX2aO3ypQUA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1276,15 +1306,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "5a622559-61ee-4d6a-9803-cb04ef588112",
+                            Id = "f7b386b2-31eb-4f06-8c78-2ab2e53dff4d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9836d5cc-8c36-4e50-bd3e-693b2080ac29",
+                            ConcurrencyStamp = "ec22bf3a-63b2-42d6-b16f-9be0a0ada7de",
                             Email = "customer14@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer14@abv.bg",
                             NormalizedUserName = "customer14@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEEB+8HaSUBMgDFbHl98RNU6oQzwMuuw/hbkBDaT0OXyvwykrufFeojxjDTxEYtzKw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEI2I17WFkkJHKw35Qi5tSrHgtPpiTDHIocZ5/96kyORYu3bm1gULBbHP3vw52oy5cg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1292,15 +1324,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "aedb5efc-17ae-4afb-b0f4-430c856141c1",
+                            Id = "0aa27193-ac76-4c92-bdd9-fd23e39cb9af",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "af79f81f-7b5a-44f3-9de0-bf61846eabba",
+                            ConcurrencyStamp = "110cbbe4-c26e-41b7-9d1c-015f1573eedd",
                             Email = "customer15@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer15@abv.bg",
                             NormalizedUserName = "customer15@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBECSC3QG7ymQis3QbHtKWVEWM69wZeXjwlRe95YNWK5eEKfdqOZIwDqfneWKMccYQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIhcsB7ohzqcUqR6IRcWqgHjnm1Jhzk6VRkQh7bb9t5aQD3Egp/34avPKVdv1gqyOA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1308,15 +1342,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "9101f064-bce4-434f-94c9-d4f7f4c02cd8",
+                            Id = "89e6fc54-522f-414c-94b8-e13ed875dd3e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "40951551-0d6e-49ae-928a-e93d3e6ceff8",
+                            ConcurrencyStamp = "076613ef-eb70-4b66-ae3b-f14848191f65",
                             Email = "customer16@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer16@abv.bg",
                             NormalizedUserName = "customer16@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIm2IIgKVF+I76F+zXBEAtRaSszweIUh/0EW8Idfs+YeUX4nfcreAQK/tI4VUb5skA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOCIa1JJAO6FT9a4zpDwmj2aPDew9m7CmEESvTy2p4gdUpX3ABPLUvjsBNm0wziZHw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1324,15 +1360,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "7e4afd22-76c1-4275-8d11-6969322f6cf2",
+                            Id = "5dabd3ad-a587-49d4-aa6a-f401ce398973",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a31021f4-b6f3-4e4f-ac63-3c1acc0ebc7d",
+                            ConcurrencyStamp = "b2c3bf82-5040-46c1-8b69-4407e72080c4",
                             Email = "customer17@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer17@abv.bg",
                             NormalizedUserName = "customer17@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELEZLeTHmQoZvu7AkYm27UfeafFsLkVtclwtSP7y68NY4PnpxWYGGSrxIw40Q+fwAw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAzYkeiz90GLNK1xMyU4rUfJ7b73kMYptucYjUahOXA4fvz+plNBVPZ5tR2VurXYuw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1340,15 +1378,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "1090a66d-33ee-4154-ab8b-578e5ee0b400",
+                            Id = "5b025639-4a4b-4b1c-8a22-20fe4ca43f82",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e4d0747a-ffd1-41be-a23b-95a36aad69c5",
+                            ConcurrencyStamp = "904bda0f-a6e9-4424-8dca-cf424cd7764a",
                             Email = "customer18@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer18@abv.bg",
                             NormalizedUserName = "customer18@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAYwVHFCIznyUOBItC83AN8bTQ2YKLYIAdZZ6jDqrv2t7UR6XkV3RpE8Z9Nxyma5bg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEQUhEpJnMKmsBWVIYiRwEoN2FCyuvIJzildPnCcdaOfku9r9E6z68/UIDSUefKTNw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1356,15 +1396,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "1d16af57-4358-4b76-bb1e-4559b7e9bf4d",
+                            Id = "6a3aaf87-d38a-4184-a9e2-06f81f5cd1f7",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c21d3f24-71f5-4614-b467-83c374d6ab3a",
+                            ConcurrencyStamp = "01b80a27-a5f9-4246-8d39-1f54af115f1f",
                             Email = "customer19@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer19@abv.bg",
                             NormalizedUserName = "customer19@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJZwzGKrOZawwclEUv6WKr1WFt81LRZDrNKykwsytTx0fP+w0/YPG8REOG6fOUmggg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAED4xbZ9A9CXseB2tiraC2Y13pA+PXSTXhmZkmdBhhRWx+SoVMV3uT2D4CiFXAOcDrw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1372,15 +1414,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "223f5c13-2feb-45fa-849b-bcd26c640367",
+                            Id = "d53f8031-c378-462c-92b0-c08d777433f0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8f46adec-99c5-4cf0-a0ce-9dfc13a76484",
+                            ConcurrencyStamp = "e20c1d81-d06b-46f6-8531-ecbba0a87b42",
                             Email = "customer20@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer20@abv.bg",
                             NormalizedUserName = "customer20@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOHYJ9VD5Y5epBB7HQlS0Y9k1xwErJYp4JWB6kFuo6WMuzFDiB44d8d8l+cuaKU8hg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECaQ0HmK/50dmQuElNrNzDFTI7Djh14/PgY7+jR1ChMMtC3m5DR64K7G3kvs8VMfhw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1388,15 +1432,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "1e3d9cd7-9f91-4fc4-b045-c393d811bcd3",
+                            Id = "93a91039-12c2-4876-b493-fbad6e9da0cd",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9ca7dc59-04c6-48ce-bf74-66d0b4f4d4fa",
+                            ConcurrencyStamp = "8891d2c3-04a5-4531-92c4-c8faa45e2fbb",
                             Email = "customer21@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer21@abv.bg",
                             NormalizedUserName = "customer21@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELBXL5x28ZWflw+ERYNZ0HVUHh6CxkegRLCYzsCCK9cozqNlBf32YEY/u5pdnDmzag==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGgvEGVZh202QWgtplEVnMltiAWZeCqPcBFULJq8COLzgTsp263eRL+iA8JbirYK3w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1404,15 +1450,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "1e14374b-fbc5-4359-ab4c-778e040da512",
+                            Id = "9a616128-e9fa-4eee-a151-c64375e4e195",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c4842176-29e8-41d8-87ca-edf4754e2d88",
+                            ConcurrencyStamp = "9e53a847-1bf5-48fe-9e99-45469cea4728",
                             Email = "customer22@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer22@abv.bg",
                             NormalizedUserName = "customer22@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKyVT+OIsMGp8wynqILeakbgX7oLePpuzxDvDh1mg98dnM5AHeJe41c0MMZBcOTNQw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOjJ5IU+4LsNzP9A1cV8nJnLP9nRee9SgWSjEJq96eoqXZmSM8jK93Qa+a1iz6RgcQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1420,15 +1468,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "4cdce805-419f-4338-aa45-4ac586e5aa42",
+                            Id = "850e61dd-47e0-4ae2-bf23-461cea5b3489",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bf3be954-4c5b-44ed-87f9-af9189a5733a",
+                            ConcurrencyStamp = "bccfb302-5657-4f47-a9ce-46ec44f47b65",
                             Email = "customer23@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer23@abv.bg",
                             NormalizedUserName = "customer23@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEA890RGxhoOkKs35+SwVOpPEJ2DpHAAbSSAuM03OHKlWEWjE8dYWt07mzVi0UWxAPA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMOXTFk+KU3m6wWDJmbzri/zRjFuqnw8TT+9q6TdGQxdfMfnrViDjvleqS99CdwzbA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1436,15 +1486,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "ef840b88-0f30-47f5-b45b-c12531716f88",
+                            Id = "9b285dc2-1e7c-45f4-9779-a314ff8f7021",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6d499e92-30a1-42d9-9e16-2f20299ad7ed",
+                            ConcurrencyStamp = "8dd0277a-76c5-4b0d-bda2-ca67565a56ef",
                             Email = "customer24@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer24@abv.bg",
                             NormalizedUserName = "customer24@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKuq/rXRektKxnzq1HdJUFMBpumOTfWAug9mO0L+Wj5kOC38lpKOyysQIOFsq0ldBQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPl84e4S8N/rWcrTCg2dh1u+gCtX2MOr9IK501NLebh7ejiycZLalk7PSIj1+76NKw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1452,15 +1504,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "0b5724c2-81b8-4221-8d6e-078443d4d6f7",
+                            Id = "76ac581e-3156-42c0-a30b-c7deab7ed9d8",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a4bf936b-3dc8-4c3e-8108-f535fa6dbb73",
+                            ConcurrencyStamp = "ff72c6d9-3eec-4ea4-b27d-8f789c8b5010",
                             Email = "customer25@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer25@abv.bg",
                             NormalizedUserName = "customer25@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAECbw7UU3axbTtGenL8TZ5tu870xkecnPvRzeA8cvsh3NRdG4DOYq6XknNn84SRvKwg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJmFboPhAyBaU8IV8f8pa8GflPgak74LNjKfjeZnZZKNuEXbhAimxh3ZjP8hE9ESuw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1468,15 +1522,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "6c71fcb8-c422-41b9-8d73-d7bcae113665",
+                            Id = "b5ce5e52-082a-4733-8a7f-0f25bf8f9860",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7f23e70c-596f-462c-b2f3-90ca4c48cc5a",
+                            ConcurrencyStamp = "ad657468-e81c-479d-a159-31d567ea1663",
                             Email = "customer26@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer26@abv.bg",
                             NormalizedUserName = "customer26@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEH7AhfLAAa1+JUyHEHBl1Qv63+ZXCRmpCCwyqkjfy3INNyPM9wgzxfr1OIGi8ducow==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPUFRxWr61u43/rDAmRJU7puriBfhRrvBtzuE6XlmgbbscfKEYs2s00ARri/LG1opQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1484,15 +1540,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "a0a4a36a-2b6c-4e82-9037-fbef84482a17",
+                            Id = "7d3d79c2-221c-41d6-8689-9b51ea7c2ad2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "21e68954-d54a-4ddf-a1ce-b5d65a56e3a7",
+                            ConcurrencyStamp = "546f1d07-4bf7-4ad8-aaab-4f454590afc9",
                             Email = "customer27@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer27@abv.bg",
                             NormalizedUserName = "customer27@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDC9e9QEmydv6XEim45Af265viCGz6akxlWKCpY6EfJHM9MFJTRyuzzdYCqzICrf3w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHaxhBK23qyNRIfhBiMz/60zBYjw8oP9TnO19UEj2SHOc61foooOhzz5U2Bsg57f+w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1500,15 +1558,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "028a23cf-80ea-4951-a173-57784964a8da",
+                            Id = "af8d30e3-8e78-4132-89ab-cbd05291cd66",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7a2ea3dd-41e8-4234-9310-97dd78cd5f3c",
+                            ConcurrencyStamp = "76f95f93-8251-41b1-b648-c416e1964276",
                             Email = "customer28@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer28@abv.bg",
                             NormalizedUserName = "customer28@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEF+LhuBGyElO4x8maLwqAmVERUtZKxegYX2qWTUAeKsvAJWsvyuGoZKwKabg1uDIAg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKVFi58WVMTGmuTErHWuSbOgIfzHYBwcGMZ7lE033vdk/t7rHAJhhhSLS73La5i9TQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1516,15 +1576,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "9f0bce34-bb0f-4fd1-8963-4b8a671b9a7e",
+                            Id = "f95950f1-d541-44a7-94a7-5e307cd6712b",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "84defd39-be1f-4866-8049-a945988fc6d4",
+                            ConcurrencyStamp = "a7edd423-b903-4f4d-98b6-5fa6254f9537",
                             Email = "customer29@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer29@abv.bg",
                             NormalizedUserName = "customer29@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFQnC1ToLeHm9YbJUg13wtRGewxhXpYn7LpBUM2ctJkZ0w4JAQp6atMnki5WUIC0vA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEO6FZ7oXl7mNjvcohttShCEvfYdgS9r8Un6rarLEgFbbv2U85H0OsjKnvsp0uISjZg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1532,15 +1594,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "92d9039d-5ebf-489f-8d6f-074102c8d397",
+                            Id = "8405e16e-9e70-4e35-980d-495216ea4342",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d65315b3-d5e1-4807-a48b-93da15171524",
+                            ConcurrencyStamp = "9e0c8037-7f95-4753-98b0-1c41ffa2e89e",
                             Email = "customer30@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer30@abv.bg",
                             NormalizedUserName = "customer30@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAP0GPQELQI4Sr6sjtxiEKJ9VfwFqAhgtSrAM3ddiZIgkf/aAQLUZBtP8jrxBhLETw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEA/fOhYGQ3R9zfTwbZXPO1piKfxaVUtNR3fNCSNJZYhdzpppnhBfTT+ElgyffrJxnA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1548,15 +1612,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "7f1124cd-b826-4fe6-a55a-0927fa51eb9b",
+                            Id = "34d6c333-afe9-48f3-b1b4-de40aae089c5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "215b4edd-6c5d-446d-9de7-e69528ad4b57",
+                            ConcurrencyStamp = "5ad656a2-9373-4341-bca0-d625803d33e0",
                             Email = "customer31@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer31@abv.bg",
                             NormalizedUserName = "customer31@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAED366GBtGH7XK81ZksdUDKolr2STCnB2RNEOAknmVKVWdHIwJcfEH5xWrgedDI6D7A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEK+rK8ZzwkYVsMxZFXRaklduhytNZVF7fbF+lF5klw4QI2+nDzQiaT0OCQO0IxoYg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1564,15 +1630,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "9ce29c1d-f6f6-4d3a-ab12-9bfd89cfb917",
+                            Id = "7b8872a4-99d3-46ce-bef2-b11151112060",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "208c141d-556f-4134-8c3a-a7cace2d07e6",
+                            ConcurrencyStamp = "b595ffca-0046-49d1-ade4-e2c5c4e03e38",
                             Email = "customer32@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer32@abv.bg",
                             NormalizedUserName = "customer32@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJhlaZES9HuAd3ChGpryMh2GYM6LtNQgwDvAd0iz/s1n6GFVwoZbt2IirZOAeTy2Kw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFA/7U2XAw1txclnX1f3NXB4isV298K1JjHap+ddn8g70wHCKrtuoKH4QA4gJ56Vxg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1580,15 +1648,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "27abfd3d-50bc-4a54-b50a-6f50ca2c93c6",
+                            Id = "ebd39e5d-17df-4af2-bcb1-a2d40d5cec43",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a12d4d27-07ef-4b34-8d6e-644507618e84",
+                            ConcurrencyStamp = "5a308fa8-63a4-43e8-b6a4-864860116b50",
                             Email = "customer33@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer33@abv.bg",
                             NormalizedUserName = "customer33@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELfXsU1ABSfljUBNicRObhEM/QVze77r4+StgyIhdKP5D1X8qcpizTs7Pbm7DDvefg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOvgI5l9inEHELyO+prmrbfQGso9LxFJC7us415urCnxORFnyW1y8ZRFSzf1YZqE+w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1596,15 +1666,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "ec2dffa2-0d15-4707-ae31-16602b91c0fe",
+                            Id = "dce64fb2-d8a4-44fd-952e-09bf3c1d1af3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9a0bfb6a-a900-4baa-bb47-c0a70c964615",
+                            ConcurrencyStamp = "b159b07a-08c9-41c2-a792-35681f1a320a",
                             Email = "customer34@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer34@abv.bg",
                             NormalizedUserName = "customer34@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAENijqXQHtrpZOmXo2XZ8x+l/BJDqEw+pjiQA3CwQgCCBpt9niBJenSMVC4KYDHGl3Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDZuw/XMluEBItYVWVoFsDv/ojQvFfNHQGFPdDpGh1of/SYqjWHxPCo6kkafI3LdjQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1612,15 +1684,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "0aef5cce-f2d0-48e0-bb8f-75e3f349cd41",
+                            Id = "05c7eede-7046-4cc5-9f28-bdef5a0e9384",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "fb4eafe8-8c10-4724-b763-1a9b5f930ad9",
+                            ConcurrencyStamp = "d40ae66f-5f83-4746-89ee-0b6eba4b0293",
                             Email = "customer35@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer35@abv.bg",
                             NormalizedUserName = "customer35@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAED4U3cSq+EF89loNbl9qFxbRvlntPdjXqpqycLD4wf2i6KBweP7NUDJ071hkjEW6PA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKy0o6BiqqGvKtcngDz3c0KLuyY7K/fho7FFPRyJgb8EnI3XAX4xJ1zgjZ4m0HjOtw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1628,15 +1702,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "4fb717c8-d2c8-43d4-b6b1-dc401793f136",
+                            Id = "cdec4ded-ebf1-4ca1-b0dd-524317cdb2b7",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2cbe3113-23f8-4ac3-9122-f6925610f3e5",
+                            ConcurrencyStamp = "6ddc8723-89b7-4e7a-a5b6-b18314a59ec3",
                             Email = "customer36@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer36@abv.bg",
                             NormalizedUserName = "customer36@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDFftlTjQ6V142DDFaoJHSgdpJgsabSxBREyf8+HlhcDfmmVHhR269k9d06UK4pQmA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOmgJ7G9bI3c6mwHbxvbSCY1U+5C5uQ8pPIqhVwLS523XaGmJcdJhTzQOu8GZSgGTw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1644,15 +1720,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "8c2f4f6b-48a5-46a0-ac96-f90d8214eeb9",
+                            Id = "bfebf995-0034-4b3d-a32a-f036f8ac9d50",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c621d12e-4398-4442-9535-3b648b394a55",
+                            ConcurrencyStamp = "a8a95b53-491b-4c2a-8ccc-bf104ad862a8",
                             Email = "customer37@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer37@abv.bg",
                             NormalizedUserName = "customer37@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELSLfJ0GujVZpagEaABhgKOtMbr/nHMaEWxscqJAA52tQ8O1EsO9N5f1+Vuv+7fOeA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEK9zNKYaVnYb6En2y/01tSojDwcF9Rd5IQWf0PHHBYaiZftkxpwJWWaxLU5EgPdFbQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1660,15 +1738,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "0e51298e-eb7e-4793-a5ae-a3009d134a57",
+                            Id = "90c0143f-9810-4487-97c4-16c5c568a042",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e37b38d4-c54f-4f69-a24c-0e1190cd603b",
+                            ConcurrencyStamp = "9ad515fa-6ef1-4092-8684-d8bb631ef2e2",
                             Email = "customer38@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer38@abv.bg",
                             NormalizedUserName = "customer38@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOsFQKFDqb+71bZbKMCqD4P62Acpt+tYDYTsHMejIC/jBEbUJFMIDWhZgfxAYf0dOg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEO2Ry2yaUTF3/2jhWYDzqqqVeHoUxcBzeXpLHKhRk1nBjFFpYFRpLyB9p7Hek5sYJw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1676,15 +1756,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "e7849b82-081c-440d-a9ff-54bedb29b1a0",
+                            Id = "83e18efd-ecdf-423f-a79c-49e6ba34f709",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "66782d17-1e63-48dd-8b89-f50e81bea34a",
+                            ConcurrencyStamp = "832cc0a9-0bda-40fd-a546-f769c1852499",
                             Email = "customer39@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer39@abv.bg",
                             NormalizedUserName = "customer39@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEA5RBAW7OEz0G3ZJN3reUNnTn1fti/E/VWzYbSJyBWguGf2t+1Gka9UG9HNFYNimLQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFld+/8QM/3VbAKY57eUZcyE1cWcR994xH85b+atI0D7+mN7DA8oLK+0XOqiCTOWVA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1692,15 +1774,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "3826c217-8008-4ec3-a915-0bd456b27ee8",
+                            Id = "f2b6c581-c96b-41c5-bdbb-2c9d34306792",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3ce1c943-af51-49fe-8893-43f804da1d8f",
+                            ConcurrencyStamp = "9a3964b9-70eb-4c93-a159-b20a141bdb42",
                             Email = "customer40@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer40@abv.bg",
                             NormalizedUserName = "customer40@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHkhk1OgTqAIFOh/wqnZG3+EvfvwnV3zYNLc5N2x4qm7nlejQLfoiTCVH2deQO5o1w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOW+NQDTfA7OdyBXFspuhmWYB8n1nVFVJELQx0yH52rFQ0JafnXvUtGX3VvkBnRvrw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1708,15 +1792,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "85ac7cc7-d9f6-4f34-95c6-17aee4bc5950",
+                            Id = "2a20da90-9168-4dcc-9d19-bfce22611cd5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d2782f51-a9d8-46a2-87ff-782c4ed5c1af",
+                            ConcurrencyStamp = "86e32503-850d-4b5f-9823-3a195bb180c8",
                             Email = "customer41@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer41@abv.bg",
                             NormalizedUserName = "customer41@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJcME+IcyQ+gquISuMr/+Hq+srkQ2W6otWHFpdCIeKCcBRKFTPEEslLEeWCcnf68KQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEInJ8qGa963HqUB1yNQmUyKO7nnKIinQj1AT3Bjk5qAuduCsv32lsPpqggnGmdcnXQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1724,15 +1810,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "eee9fa9f-53a9-443f-9285-85e41a291431",
+                            Id = "43acd9d4-aa73-4926-bb53-318bd6dac944",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d0677b20-3377-4429-be3c-37a4d7bdd7a2",
+                            ConcurrencyStamp = "998e0b1c-782b-44c8-9df8-e0ea9f8b91d1",
                             Email = "customer42@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer42@abv.bg",
                             NormalizedUserName = "customer42@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFRA5U8RRGlp50KYmgPlIalFG2fP461qkFNcKSK3VmHeTQl9n6a0wAFSwt+Vu+Mang==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEA92b3JO6jRAb99ngMHBiLOPfcmB1gHwZ4xm9LNEtT9RgACZsirKI6tqN3rSOvMupA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1740,15 +1828,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "0d0bde24-b658-430c-8c6a-7590c9e2c746",
+                            Id = "499201b2-4a90-487b-9702-c7e28aa67bf0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "01d01739-d7c3-4423-a39f-aee6e2dce7db",
+                            ConcurrencyStamp = "defc41f3-3eda-46fd-85d7-944a66bb34e0",
                             Email = "customer43@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer43@abv.bg",
                             NormalizedUserName = "customer43@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPPv4SnoB0Mdn7qU2UX6H9oWbjZUi0px+x9wGEe5bHhkY5dMf077Q7GmK4LdSFV+2g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBRkkHoo4lnhEtXTCbEFBssO5a1isoeSmC5463njacOL+FE+OjGoPXCap9v9hVu74g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1756,15 +1846,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "3c7f6fe3-b933-4993-821f-1680394ddcf8",
+                            Id = "902378f6-d8df-4a15-87c4-c8b718c46943",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ca25948b-d14f-43e0-b7f0-423006225441",
+                            ConcurrencyStamp = "f5dbb1c5-1ff3-475f-9392-965eb3a379d7",
                             Email = "customer44@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer44@abv.bg",
                             NormalizedUserName = "customer44@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELJ2lAVXl2Jcxijiixs8nKurLsMLN/CcGmUe/w9U2MW8RIbHWyyBp3pe00k6ohVsTw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGl0JCh8j213HtUI9ppb9MQR1E9yL92maPGgspfR+hFlK8vCyV9zD5xHxIoZXFF3dw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1772,15 +1864,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "c5ae6377-2e4e-4aaa-917b-76ce3708a074",
+                            Id = "b3f7c91f-1f24-47cd-a04e-123498f1ffb4",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "32d35c4f-4691-4eda-bb35-71e24d182302",
+                            ConcurrencyStamp = "3bb4fbce-9f81-4f69-8ba7-02a2b78eae5a",
                             Email = "customer45@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer45@abv.bg",
                             NormalizedUserName = "customer45@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPo/wYEfM440DorFgixriRG9UWPqzFMl8qQ9mN16At7OmhvCltTxrJPLdnnlgqep3g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJeuMYZqYFLdIpiWXAdURApfgg5nByGceTg9qTSWQ1p/6EnMkPdJ9BzMiPql1gb+Mg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1788,15 +1882,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "a2bd25dc-d133-4080-ba1c-f84d1831de33",
+                            Id = "3da6e3e5-91f3-4996-b345-003be05d5455",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cda55ab2-efa7-4943-b72d-bed39b4d3c9d",
+                            ConcurrencyStamp = "01c252f3-9cae-4072-960d-df29693bac4d",
                             Email = "customer46@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer46@abv.bg",
                             NormalizedUserName = "customer46@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOTbqmCoTLIGrhe+4Z1Ylx9Me5rBc1kQWXg/egCBczLBvgj4g9xkks5dHMmGW5/iVA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDvQyhT9oNTE2SQHgDRAZB9t9CySpculdKhzPVo89vlHBdH0jNkUJHf/HzkdhIpTew==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1804,15 +1900,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "a81bd685-4f8d-4ae5-9a56-4eaee4d526f8",
+                            Id = "75bf046b-8540-44ff-ad0b-08a0e3419f41",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5a4f79a2-e790-430f-80f7-0cd4873f2351",
+                            ConcurrencyStamp = "c23c6725-4383-4481-b2e2-ac864d01dd3c",
                             Email = "customer47@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer47@abv.bg",
                             NormalizedUserName = "customer47@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHtds4gjXI/vL/zZd1HT2dS7ullZty7DR4Dwq2EfFMXAIpaCAydaxg0ZJVzNU1sf/Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAlQHti4EdeuEMxYTSLgHS6yb5/vxHnsHERQ1s6rqsF6MKCC1d7ITWiuJBIxsu5+Dg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1820,15 +1918,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "9f593bba-2ab3-4913-8459-9bdadd0d98c3",
+                            Id = "93cb1a37-331c-4b1a-b9d3-5a4a0e05217d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0fd99808-6865-482e-b425-ebaaf3a2c1d8",
+                            ConcurrencyStamp = "3477ee37-ac33-45fe-a428-92ae3dfcfddd",
                             Email = "customer48@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer48@abv.bg",
                             NormalizedUserName = "customer48@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEBnKMatI2hgXhpM2cm2wylvflyfnvzH4gbexVXYJloB3Rjjz9Qi9pMPXl1086nUAQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGVefgOFjdhXBvNLkl7wmQF/fDfzNKfvCBqJ5F0+oOi7Zj49IJPg3bLafK0z8iYb+Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1836,15 +1936,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "98643520-3698-4347-8f45-e4ad5103bfbf",
+                            Id = "aed656a7-42bb-4034-990a-c58fca8e2069",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ec6f5f0d-a142-4505-9402-12fc8184e913",
+                            ConcurrencyStamp = "6356c12a-f56d-4e74-b9a3-3a68778e48ab",
                             Email = "customer49@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer49@abv.bg",
                             NormalizedUserName = "customer49@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJbmxYV3b7+BIbO3lx5sImS0ShvsywVgaMfSzxQk19P4k2VBzcqSZM4KS4BbFEFs3g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPjLXC4GTYd0viF5KTfvwPlt5pGegdWUkRj9n2Vr/lMIBd5CYnPLGY7dfYBkD9+/jw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1852,15 +1954,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "27dabaa6-5b82-49bf-8c31-3bc7a151cb09",
+                            Id = "92ecc3ac-ab04-42ed-95b8-a46d5b13a0da",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "876b79eb-15cf-481a-b710-3a7f20c37566",
+                            ConcurrencyStamp = "724252fa-2b61-4454-85b0-633b81c8a2de",
                             Email = "customer50@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer50@abv.bg",
                             NormalizedUserName = "customer50@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELau7D2nVs99MxjVHmRi2ZYKSqmTzkgkWifqm3uu4SrCW+QDNk8PyHseIu3aggS/tA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOGy4FCdxSHpzC0raWFhLOWIaYznX/NC4SWCJGZF7yC2/qvx+SWq2wWgN3ZDkMelCQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1868,15 +1972,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "ac2c5198-9d88-44ac-b0a9-d8546379ff0b",
+                            Id = "268f42a0-5656-430b-9f41-06d54a60d0da",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7402d110-1d9e-4c98-811c-ae651ab4cbcf",
+                            ConcurrencyStamp = "0295eb29-f2b7-4c9d-97b7-92132d7aa965",
                             Email = "customer51@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer51@abv.bg",
                             NormalizedUserName = "customer51@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIBj7TkUNrsn7yZanK4oiEVOAe7Yoqby4XxXE0ZvmpMjUAvbmnJl4oTCEuGtQ3aeNA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKvGkU7cGJZ+sV3E7h9lDMiDQubBk3+B2iZmj48GQRL/FL+Io4MWEbsv56LrtEeNbg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1884,15 +1990,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "459f38b5-f368-4653-9248-eedcfd35529d",
+                            Id = "84854fc4-3c1c-4ba5-921a-228516fc8b50",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "90c7c9d7-15fa-4852-9ace-0833c37df9cd",
+                            ConcurrencyStamp = "56450bc2-2099-4fda-80a8-f8316540b6cd",
                             Email = "customer52@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer52@abv.bg",
                             NormalizedUserName = "customer52@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFXgM/2wjCaMFwuElZ5/SZ3xyE5NnOVD59LmyeHGCmpWiCIknFHa3OgXMjc5yrzKGA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELjAqxgXwVyHHDt3HN4ghb8dXPbwyeFUt10vhnpGQW8WTkHWky/2ooBP2Spfb1FuuA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1900,15 +2008,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "8f73e65d-e662-454d-9008-1309412fedec",
+                            Id = "b6a90681-cd84-4a44-a2d1-5016613c12bd",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "81bad99e-1015-461f-90ad-3d47bc6b5ba5",
+                            ConcurrencyStamp = "4307c5e2-0be6-421c-935b-13e610e993aa",
                             Email = "customer53@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer53@abv.bg",
                             NormalizedUserName = "customer53@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDOaEZP3UwC8JyKN+WWd9DA78Er0KI6zM2i17SKcdaIJSXV2XptDODemkGGzgIwUsA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJeRR71CSoyOLjCabvJBT19hO7dk3PxhrPdGlDmoV5qcIgkmmM/kR4vTydbhvaxAWQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1916,15 +2026,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "057bbdb9-8772-44a9-891d-0b0b953a3756",
+                            Id = "f6223436-a8a6-4046-a692-fae46bc97b11",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5682df20-e930-48af-8548-a4e6423271d3",
+                            ConcurrencyStamp = "0afc584c-3ef2-4f70-922a-2d84a5ca05af",
                             Email = "customer54@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer54@abv.bg",
                             NormalizedUserName = "customer54@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIgNrIME060Qxo+k7ZsGdFVrjvAWrtC3Mym04X3j2dkimS4xMmuiQr+RD9xwccGHuA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEF/pHXHjUKd4UvKfNxtxuvOEiWr6sbWI2ggZcvpDqPHMakdtTHiyW7uLXVtw/Gb4uw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1932,15 +2044,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "22f27049-b716-432d-b240-54be401feb54",
+                            Id = "d6f2c2c8-ffbc-42a5-82dc-1617e925f690",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "029f4a2e-7981-4ce0-b319-0adcf9da4594",
+                            ConcurrencyStamp = "6b264494-fdbd-48aa-8c3f-121132a30779",
                             Email = "customer55@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer55@abv.bg",
                             NormalizedUserName = "customer55@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKo/iUIeqLIcSJadgBrN/F9v5AZYZ0uHh6zxykdsHyweCgoS0IbzUrzokBdOSgq6Lw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKEbxZyrQezf2Fb2MOAqpwsMTjCqOyUDTntfo7Etnyk3wrci2sjkBCemPhRfitOqaQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1948,15 +2062,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "37f5bbe3-64d1-41cc-bd77-58d33daa79ad",
+                            Id = "1e4d1251-f721-412c-9d3a-f3554ca0c13e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "223d3524-aead-462b-9c07-efb5180b966d",
+                            ConcurrencyStamp = "b181887c-c258-41d2-842a-3791196989da",
                             Email = "customer56@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer56@abv.bg",
                             NormalizedUserName = "customer56@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELECnCtsndG6CL/XxCcGMi3T3K9CthGclPo8iJd1V9viEumpZKzHQWJdgs1ZjvhfDg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECn6AzrqursGuOm3rQ7k6b8LH8Mkbwhkr+qRvpYw+s90tUep6teY8O8hebDs1ZpuCg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1964,15 +2080,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "74f93c38-b2cd-4bfc-a49c-7aa49159e9ab",
+                            Id = "663c67ea-43f6-41db-90ab-2bfe0b78391c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d2ed6c8a-d6e3-4169-b3d5-54b05ab0393e",
+                            ConcurrencyStamp = "e533a56c-2470-4144-9822-500d666ea74e",
                             Email = "customer57@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer57@abv.bg",
                             NormalizedUserName = "customer57@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOzJsTJ3xCivehHrWQna2viIKlxTSzMfw/yN9ksfdv8EZJu4n1hXLyq6mWJ2pMCk5Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJVEIEa+0XlrDzdLgrv/bUxNiIQjdo4vmowTMOTCIqTZxxMQAfbvpgaJBoQoeUJkzA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1980,15 +2098,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "5b0b4f44-c7f0-4a72-87d9-ae7b4cbc4ca7",
+                            Id = "0f5a6d46-12cc-4e9a-ac21-3635a4be5491",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0ffb2715-6e51-4be3-b81e-4518b5e673fb",
+                            ConcurrencyStamp = "d4adc941-3e30-4a2d-a9b4-0378fd5bff5d",
                             Email = "customer58@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer58@abv.bg",
                             NormalizedUserName = "customer58@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIh/3SNL+QwwPu3MUWbb+PUGyc+AyghKOev+QPw/pqUwqVVjG/BNduH1eNyY4VUsaw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJr8aFqf4y93yDTxo0xunfCJ+MBUb5nJBT6y6bjH07i8ccbNapLfy12tBixWr2Lb5Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1996,15 +2116,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "4f5bc153-53d1-4de2-a742-b09e664f8dc3",
+                            Id = "0c7c0b35-81f1-4daf-999e-e7025c2799e0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ec299e1f-49f1-406a-a561-fa4b78943836",
+                            ConcurrencyStamp = "a4963d96-29b0-403e-a769-e2d3b1495d47",
                             Email = "customer59@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer59@abv.bg",
                             NormalizedUserName = "customer59@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELaD8w0t06zHrcR4pG3QnTsTPXQHCPmuhCv2nUjXYvx90PDO9dM1D5vIM7Dt/1CiEQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDAUCmsmUTKYLbbQ8HHjLzXUK4gEzCHwLEg+EYrDxDRdFPeW0YFtxJvtPR1QK+4Ehw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2012,15 +2134,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "29d7126a-8ffc-42b7-b318-c724952d2e5e",
+                            Id = "e3c55ad5-3bbb-47ea-8f8b-fc476fdafc01",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "32cbd5b5-c8bb-4086-b942-4391a93757c2",
+                            ConcurrencyStamp = "80cf402c-c542-47de-afb0-ad18c341990b",
                             Email = "customer60@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer60@abv.bg",
                             NormalizedUserName = "customer60@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFl3viFsh/JHyBhKS3EEjsYg4HddqxRM9AwwZ5jzuhK2oXqoAVYUSH7Z7HMqjsUl0w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDvBlhfX1PbXpaua2AmPJvhaZaFFI2SgLrBHZOCbTp+YI8r3tMgIEAz9MqHrraGIcw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2028,15 +2152,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "6c0e5e90-620d-4750-9cd6-97ce877b2be1",
+                            Id = "e2dd9ff5-793d-4a1c-b646-c395e8af10b6",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a8a12ef3-4a16-4eb2-9572-8672190293a9",
+                            ConcurrencyStamp = "deaf64b9-6b06-477a-aef9-47702a90c1df",
                             Email = "customer61@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer61@abv.bg",
                             NormalizedUserName = "customer61@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOwKQODK/o2byEpglznaz9ghatgG+bZ5dwUHM4aL79ryPIRtnBWO0B0SFOEObEe66A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEM67qAZLeC/Jg87CDZzGLaKDqkP/RO8+hi1aYxvajQyb//bHcwoEMtYBRjK5ZXVlhw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2044,15 +2170,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "b4e666f0-495e-427a-9a12-53cbff05186f",
+                            Id = "c25adfd4-a2f4-4dc9-b355-0d343e46531d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "884e6ffd-9fab-4546-b145-deddcd4b4360",
+                            ConcurrencyStamp = "fdda18bc-0c3d-45ca-b362-3adbe416f761",
                             Email = "customer62@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer62@abv.bg",
                             NormalizedUserName = "customer62@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMbITBPKgTWBBXGGlBv/V0Yi0YFmZEn4i/657xxYogiXGFhzsDQl49jyc4zhCZOxCQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENSZitkx1ezpQ1TvAOjbFc4TC5nK78u3OYMjHqbUM+FZTcXnG/1gm1JRssYdRPAuWQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2060,15 +2188,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "c8a9d770-7875-4494-9b53-2d39b43d78b9",
+                            Id = "d83da919-fa32-4274-8ccb-e8f21d830dec",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "efb70f7e-bf17-42aa-8abc-c20a692a80c7",
+                            ConcurrencyStamp = "fbe4dc37-d15e-4a36-af27-09a95fd88312",
                             Email = "customer63@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer63@abv.bg",
                             NormalizedUserName = "customer63@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEK9e0gTUABT6H8bpcUHe0f1IZoecuXMQ2rY2B7TC5H4AO1iNYQOb/dqVf8IHPDCrww==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFW91yFsJ172cxdxBgkDFkr4rMjf1iTNCuQasClsJ4lYEO3604BLXAQ1dwsdedwrog==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2076,15 +2206,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "10a3bb82-5716-4edd-944c-f4578839eb9a",
+                            Id = "6476ecde-a2c0-4413-a447-5d6da9bfc8ac",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6949fe01-0d32-4236-93c2-35cadc5d52ee",
+                            ConcurrencyStamp = "661e0d4b-a5e8-486e-b677-240711fb4bb4",
                             Email = "customer64@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer64@abv.bg",
                             NormalizedUserName = "customer64@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBQMw3cSROhI0XqYXjNsDVfziGZzC9pfoOoJKHZkqs09Pm+auub2VyA+SacuikIaTw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKlcZhEivohx2J/Udwkw2hSifriW8g4Lsm15C2/AyH/p/g+guFQzg2Mn4LWCWJK4pQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2092,15 +2224,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "bf96c536-730a-4618-8a51-b75236f3ab9d",
+                            Id = "3bcec75a-ab0b-4cd2-86f9-cd3c9a1d40fc",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cb1d46fb-0aa3-455d-a559-a624ba882557",
+                            ConcurrencyStamp = "7b4a22a0-b9a4-4031-b51d-a3129d6d437b",
                             Email = "customer65@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer65@abv.bg",
                             NormalizedUserName = "customer65@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMErBDZCQ1BquRyoL3ZUUqcseK7C1v357REMN8Aj7W4gF2wC/DcWZFdviAZzAYQMHg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOEOnwAltfOUOWqRTHkxVeAxn0ThXIP5wovdW/+47INvuirSVk079b+5yoxq78NX/Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2108,15 +2242,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "af0f05d2-cfbe-4c1d-b32f-9691a8b9767a",
+                            Id = "69990512-73d1-4c07-84aa-62394fece7b8",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4be68179-73c9-4792-b750-ebef462563a9",
+                            ConcurrencyStamp = "52b07014-6609-4a1d-aa1d-095764978944",
                             Email = "customer66@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer66@abv.bg",
                             NormalizedUserName = "customer66@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFb+taLtolYBVfrRACmwja9Mn8DywdzRv7jDXryZIx0GfsGdNelpy0mGHroYmP11IA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEInla9E0sMWMqF1Xb6PqNDhYFzv76rYGmPsk//iGhmMayvApu+EhzUQrO4bcJksSrQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2124,15 +2260,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "ab3e8869-cdc0-4ca0-8dd2-9e86aaa61956",
+                            Id = "9e2233ec-3d19-4fbe-bfe2-98552790d467",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "04bac2d8-b070-4f64-98ce-b60a557fea36",
+                            ConcurrencyStamp = "d1759525-e4ea-4e0e-8d8b-c08636e3ead0",
                             Email = "customer67@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer67@abv.bg",
                             NormalizedUserName = "customer67@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAED/kdw8fp8R8lpYUlAzo64efohpfn/2ByM2aM2lA+rBeIHxLwY0i+/8urwmefFXBgQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGzKAWmjTsMoGL/fRCcutE2UqxkkjpDBNo4V1x9jFpakDaAm6bz/Yy3FT6Ai15E2rw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2140,15 +2278,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "b93b6e28-4065-467a-b0d0-6bd3557c3622",
+                            Id = "42e06c60-c75d-431e-8420-1de1d13ae00a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "fcd3bcf6-3609-4c61-a666-417906620004",
+                            ConcurrencyStamp = "bbcf006a-aa53-43b2-9bfd-62280c440585",
                             Email = "customer68@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer68@abv.bg",
                             NormalizedUserName = "customer68@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHt/RMP3Yrr3XE7Uyfem3Tcv6Z1ginbQffXAuq0gf6mYq66JDP0DSX4srZ/VfxqEZg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFpWfSdbnVNRgPeggCkyy4aAzzFb0g6dO54FRrQcKS0hdmXQxD/eS8GzWjpEhYwywg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2156,15 +2296,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "e6411dcb-5115-4fc4-85cf-1f9033112ed9",
+                            Id = "19f70e5c-072e-4d75-a6f2-2b5a5163aa16",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "acae7dd3-a86f-491c-8b43-3a8386f5009a",
+                            ConcurrencyStamp = "3dfcd575-805b-4b08-a9e2-646e3ea74d3a",
                             Email = "customer69@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer69@abv.bg",
                             NormalizedUserName = "customer69@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDxjYD2OnidY7huvzWSlpHESiQfeTcNHtgCRiK3CDpIirLfssN5JXB14GQMjwfLiuQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKJwrBMBmVFjQLFnC0EDndXSnzpjURA48X1zqFXYADAcUL1cTMDkZR85W36Ac0lyCw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2172,15 +2314,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "2c12c3d4-5de4-4385-9a70-1231c47630b0",
+                            Id = "f30be200-cde2-43d5-947e-64729128b8b0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3d8243b6-fabb-4153-a2a7-cbd740dbcb8d",
+                            ConcurrencyStamp = "488cde67-9096-4cc2-9b2f-7ac59101e688",
                             Email = "customer70@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer70@abv.bg",
                             NormalizedUserName = "customer70@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEH+7LN7xZ4monpAeJsebRlL9lXN01wIxXGlPnYOTtFZuEynsu6448+MOHekJNJ9Z4w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEF31t9JuhvQMZdxCTvI/kZkC4afm/qS1KsGBMwpH5MiGpoLJHvKp4gk0Kkme/hLWnA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2188,15 +2332,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "44466744-53c3-41e7-a701-e831743d4855",
+                            Id = "a1100055-9be1-4c36-a560-de163fa0ea90",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ffd66ad3-bf14-4114-ba39-31c3b026307a",
+                            ConcurrencyStamp = "ebc3906b-c8e9-449c-ba31-02e88ae166b9",
                             Email = "customer71@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer71@abv.bg",
                             NormalizedUserName = "customer71@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDVGvdvCby3bYANR+K6dscma9BFlDAri9Cv/acRppeyJWYR23ipRhVVUXZE3P0OAzw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJJKQpj+LU9+xyMhOMS2Xy6qdHG9Ejj2TcE5WkYpm6jZEs6Y+lRAB8voO/OdawHzTw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2204,15 +2350,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "d4148ccf-2446-445a-a382-870efe500389",
+                            Id = "62a4dc1d-ede1-4324-b59b-3fa95a319d44",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9f9cb520-779c-4d6a-9479-286c7c9d6c2c",
+                            ConcurrencyStamp = "0d3a9ef5-f641-47fa-90f8-c72b748751ea",
                             Email = "customer72@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer72@abv.bg",
                             NormalizedUserName = "customer72@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHYkcf2TpYN+DdjsLFbUuETTn7JtGnfrkjoXNoq/Vmb7818FtycbGVaMbtEUFWJ1Ug==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKEGlyhHYugDOUMue8QQlKenjK351pyjPJaD2fUmO8/+fexlmGwqj0pccvL/VR4o0w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2220,15 +2368,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "7297afa2-b930-439e-839f-d525628f5ba5",
+                            Id = "13785b1b-81b3-44f6-a5d8-63c20b0863dc",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f38354c1-2dca-438b-9c0e-68976dedc42b",
+                            ConcurrencyStamp = "60965967-5cc6-4c19-816d-d87a9b799629",
                             Email = "customer73@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer73@abv.bg",
                             NormalizedUserName = "customer73@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGfe8ZhlyMoUaESZ5dXOkcRljBkpSndY1xtTl8D+/TRm6JuwIUaNg6gNaIJZy/MMzw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMttmW2X0OSDyE8J1kADXdE2lShVm8AC0xNPuCHAhHu4pSqGg4KjUuNtAUOX+qvBmQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2236,15 +2386,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "282f0422-bafc-479a-b0bd-3ae88ebe648e",
+                            Id = "9bd92fb6-f4e7-4c09-83ad-75b938181bb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "926dc778-48fa-4777-83c5-067a1752d744",
+                            ConcurrencyStamp = "fae2d1a4-c264-4fbe-afef-b3ff2b70a385",
                             Email = "customer74@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer74@abv.bg",
                             NormalizedUserName = "customer74@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBVn+1k26XSrEfEwaGesMVNSHs4OCHV8cFeUwILsclNkZJUqrv3W5yR09HL/kHt+3Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEI6MSvetqMrlOYoIVubnQRUafIKkpU8m2T3GxD7mb0YJBDUHWNXSIoh8cLc3igPJPQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2252,15 +2404,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "a8d0fad3-ae95-4556-995a-1a385b25e4a5",
+                            Id = "8bda9135-9403-4163-b414-df71fda17612",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "384c31b6-9ed5-403d-9ed2-641385c721f3",
+                            ConcurrencyStamp = "ea2c8518-7a78-43cf-a3fb-eeb4cf9f82c8",
                             Email = "customer75@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer75@abv.bg",
                             NormalizedUserName = "customer75@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEL73asuN5N/k/AjySd1ICsodPImNBNR99jdPM+lqobyZBOxpGXDi/OIsVtSF7/NAUA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDpiQ9Nz+eyuWO/m2x1HWTdmCVpFM4NcnS2ckgIyoD1YPJJZd6CkkGDIBxJPgrI8+g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2268,15 +2422,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "d7f90b3a-516a-4374-b094-06054626ef89",
+                            Id = "5c3e9855-4db4-4649-a23f-b4e86e25fd00",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "edf748d9-ee03-4309-a23d-6f38bb351d40",
+                            ConcurrencyStamp = "7556bed6-7ef7-45ef-bc48-75c92ddf4b31",
                             Email = "customer76@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer76@abv.bg",
                             NormalizedUserName = "customer76@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAKLngNPdMUZ0Qxgprig8yn1VjVA+SOv74og2p4Gu+nxLKDqh/kK9o1JQX9QStheAQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDLBkST4xEGmceXciK9kYYiKEzd6oCNHl4fR4a02owE8/Gy8x9LKorQemsO/MGyrJg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2284,15 +2440,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "6f502c9c-3c89-405d-af67-b9f8eaf52599",
+                            Id = "c876b1f5-1cf8-476a-ae45-e6b38ea3b426",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f83d1ff9-1f6e-46fa-ae84-9bfa78286d6b",
+                            ConcurrencyStamp = "bc2c7681-c19d-4068-94a1-d8cf5e68e862",
                             Email = "customer77@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer77@abv.bg",
                             NormalizedUserName = "customer77@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJAzzm8xGQJzuy3ExyJVgYBIlgVfBdfEwOOaEyQP+chdgDdbai4nLOzwcJcDO0Wwtg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEKdCSAwramWg+gziTk4uw581J4zMGRBAh2ujUn70PTc8hprov7yHgM7Fkg/5xI9bg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2300,15 +2458,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "d9e75766-b00b-4020-8e68-4ed4b2422ad2",
+                            Id = "2230b57d-5172-4bfc-923a-e8488dd8a60a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8bd830d5-43b7-44a8-89dd-da674a214b88",
+                            ConcurrencyStamp = "6de12943-aa7e-4975-933b-301c803971ab",
                             Email = "customer78@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer78@abv.bg",
                             NormalizedUserName = "customer78@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBTB5l3NxKqyCaYJKz1xPGBzcCYVf6GzKiso3YJIioLZLTqqC70S6wbnI0pllp6Omw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELxDuzsgAFF5ysvZIK6GIo7/Io0cKZziGZpQONSYn/9RBd2FG4A7/XSrNRJkGC+eNQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2316,15 +2476,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "2b7f4460-993e-4607-a561-aa9b0c7fffac",
+                            Id = "82280915-4ba3-417d-8457-38e7e438920b",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "515cd64a-2b1f-4cd8-a906-628ec80f91eb",
+                            ConcurrencyStamp = "9925bac1-3ea5-4fc3-92b3-4f5e0f4ea5ff",
                             Email = "customer79@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer79@abv.bg",
                             NormalizedUserName = "customer79@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAECNBislsTkVDVpyFlHI87cHBi35xmfl4DXOIIc9uU1B01ojf39/X7RHsXW+HuzCUYQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJDWbSR9mcOqY4RwYBR4CF9rqbSKBzW6tBI2QFUI0VRfCst/Y2DRNl5ZRQ/SFaMJUQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2332,15 +2494,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "fef55d5b-b9a8-496d-84dd-9392b6bfbb26",
+                            Id = "ff017848-24b2-4075-9f82-c3be92e556ed",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cf73037e-8560-4caf-8d7b-fe4d807b9ca0",
+                            ConcurrencyStamp = "f8d2f9af-ee75-4e28-9761-d4d834be5eb6",
                             Email = "customer80@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer80@abv.bg",
                             NormalizedUserName = "customer80@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELVohPOPrYeLTImO1dfqyHFfYKQsWYKlasJ9//vnesvbfiaeYnA20ldO5WcUQhtyng==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGeS5YZ37jFCCz4jlfnCuOm8wFxZ8Y2rpXrtjlY4T0g21Rms/J7rmNo7Ei+pjrEdVg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2348,15 +2512,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "b273b2f2-0172-4e5e-b643-dcc53a8e6596",
+                            Id = "bd14e399-40ae-4a7d-8cce-081250f1dae8",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a3f45816-e9ea-4d5a-9adf-b17d11bcdd27",
+                            ConcurrencyStamp = "dcae63db-954f-47fc-905b-a83a806184b3",
                             Email = "customer81@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer81@abv.bg",
                             NormalizedUserName = "customer81@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEG0slY5qPCDH8MWUlvC9ARHnJgaUcg0wP+OURO8rrY2OvUqOJt4ZXEGpuDNc/7NObg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGofISU8sV92iTdg0SB1kjZtkeHezEwl3+uU3DPdfHqZI89LpDbmGs0ygs6IDFFUlQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2364,15 +2530,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "f127cfd6-d199-40eb-b813-3c9a6de4e0a2",
+                            Id = "c3660765-6c34-406a-89f4-cffd346688c2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "99755bcf-8203-4cd8-9c49-d0077cd900ca",
+                            ConcurrencyStamp = "20bdf1a4-f405-458f-9a8b-2314e2035149",
                             Email = "customer82@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer82@abv.bg",
                             NormalizedUserName = "customer82@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJIgvAJHNoy8keQlxufWtYGjXJR7R+qEC6mMSwXV9cpn+evw7BaxHqTk+vx3gN0ryw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECwHSYyBQyAg1jVoFmlf0I9Vk0dMvNzuLJ+BfxVEe/6yN1XA+iIe0Mb8hyKyMjlNRA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2380,15 +2548,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "62875e18-ca90-4041-9540-559bc8c0961b",
+                            Id = "f20f33d3-2930-49d0-8ce8-89698fc75267",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8f26ec5a-76ca-4ae4-bf89-4bce10f96426",
+                            ConcurrencyStamp = "8803cb37-921d-4679-bc73-ffd6cd0d0b49",
                             Email = "customer83@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer83@abv.bg",
                             NormalizedUserName = "customer83@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEECzwffPC8JSAyNoXG4z1Xu7sfC5GdxLiyHfH6z6sLgo31QJvhsYZmroA8m57vnPCw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHJkKdbIgxSnh8DxeMHtRWS2kkB46pxSFopWFpHVS9lQRyd+/SVgU/32bzoZ2RzmkA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2396,15 +2566,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "424445a3-e372-479f-b7a1-10fe12053fa9",
+                            Id = "19799b68-744a-43fd-b23f-88d40dc7c303",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2dee721d-3ab0-479f-a832-8f4bb7dc51dc",
+                            ConcurrencyStamp = "641c6a7a-6137-402a-ad6a-f639ace1c60a",
                             Email = "customer84@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer84@abv.bg",
                             NormalizedUserName = "customer84@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEI8drqVdMZD0XgImOExNlRUrVMVChumCLlUL0nyz0UP6qzXy2Z6WMpiTQyyvEN/2pA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGcH8mek7jdpYYNI6yDCC1D3QQUdzbGTvJVrJsjjKaz2IofwpqV8WcQRDbHP8Wg9bA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2412,15 +2584,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "fa7dbd5c-dfb9-42e0-a8bb-a96320c65abf",
+                            Id = "d4c3a173-4a85-46e1-af15-7cac793a802a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "aba7f269-1726-4ac7-8e4b-597ced7f5acf",
+                            ConcurrencyStamp = "63a2e55f-fe2a-4a0b-9b6f-707fe5896f05",
                             Email = "customer85@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer85@abv.bg",
                             NormalizedUserName = "customer85@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEL3nJN5/MBF27OOjlvgWtBGQeiXH0LKNakukfUJi0t+Is72g7IltOO+pSMfetKirvw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELRvBOUt6YW6YDZiwgQQb4UtfH6NS7VP5PaDLeRyzIdf5bKfLz4Eq/Oive98FbCIiA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2428,15 +2602,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "fe0eec49-354e-43ba-a97a-5c31357c5753",
+                            Id = "0f7cd778-935c-4ecf-9f4d-832b07492a0e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "07f275c2-78a5-47a5-a505-1a598b7387b5",
+                            ConcurrencyStamp = "4eef9d3c-0150-4b29-870e-4137e455ad6e",
                             Email = "customer86@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer86@abv.bg",
                             NormalizedUserName = "customer86@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHR0Isz9xoMBYcqLciONlJtVJN3DN+IooAmSrSAIrlxtnVuZIZa0+Of8qyuWUrfKZA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEB0LERcybjZH2IBOIf+0KIXTgwHGQ8chwy2ypkQceMNo8sUmwY5dtQmZD62/3/VLWQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2444,15 +2620,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "13a135bd-e0ee-49b8-a4a8-efb84259454d",
+                            Id = "e374030e-d107-423f-a533-2a569675587a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "64b0e707-fbf0-49cb-b011-49208b608db6",
+                            ConcurrencyStamp = "0c27c258-8a4b-4ad6-8ccf-8a393e974491",
                             Email = "customer87@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer87@abv.bg",
                             NormalizedUserName = "customer87@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOwA+VkBHBjUHncr3IDNakSYdrAjq2ceUnkZaf46eVAQs0FZ068SlDkgVqJIGc+WlA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFIqRhWPF7y4FYjbF0tiO/OTXmoBQJgcvXA5bxrkEPmfy2u6gwAQN22hIIIf9Istbg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2460,15 +2638,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "16d681f9-5fd4-47e4-b279-1452a9b5f374",
+                            Id = "57aa6924-5b2a-4fcd-9d58-83cb1dc0d0f8",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d455d328-d9df-45df-985d-a7ddd575c77b",
+                            ConcurrencyStamp = "b7cbf166-f7a7-4217-8286-2dfe9a7a1209",
                             Email = "customer88@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer88@abv.bg",
                             NormalizedUserName = "customer88@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMX6a93wNcsZKnb2mZw6Z636iqldBycHZfzagnssT3ktiaArPfmxrxHPxFbmRRuqlQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEgDQijLhZ8iLzgzWye7AcffgBSgZXBiGSV3+5jcFppch8b96jnWGdqDivoiE2L4ww==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2476,15 +2656,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "2cb27c90-e77d-4cd3-8f7a-ebfce05f56ed",
+                            Id = "ec070840-565d-4b7b-bbdc-6e808f1410c4",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "be73d5d9-6b95-4917-8357-a97871efd5f6",
+                            ConcurrencyStamp = "5f20315a-32ca-447f-aa86-9e64035c7756",
                             Email = "customer89@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer89@abv.bg",
                             NormalizedUserName = "customer89@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAt78VSyT0lHzSwprOzzDg13pqoUdRRTIiVTFqKFCFc1iNZRcbabbR5OCfJSPhKGWA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGQ2Y+xrhGoJyDkaG4vlB1w48TrG6c3lSsmD8UzR7d3u9EdSUb3uN8R+qN+e/mrDJA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2492,15 +2674,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "34286d7a-6c35-4b42-b579-9138d67140cb",
+                            Id = "86bfd4c1-a904-4cbc-ad7a-293ee3b994c3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2941205d-67a1-4dfe-b34d-b80f632bd1b3",
+                            ConcurrencyStamp = "5b387519-a1e9-48b7-898c-d23a438c128f",
                             Email = "customer90@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer90@abv.bg",
                             NormalizedUserName = "customer90@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBju92Q8kvItT4usoYQ6tzHLge34zM/5WEMRdJ+AH/EQ0J6ehO5zE8v1vzxY0EJy2Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOoxmTknXmoEA0zjagEqNwCckW60AMQ59MDTqWL438Adw/u4YGgfBYWBiKVNyugKrQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2508,15 +2692,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "616b44bf-5786-4469-9d76-3147a32931eb",
+                            Id = "753c690a-5616-443d-93d2-52ac191ba59e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5a8c8da9-65c3-49ed-b99f-5d5209e6e2d9",
+                            ConcurrencyStamp = "43901ed3-5433-4d05-b0cc-8dfe9a527ee1",
                             Email = "customer91@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer91@abv.bg",
                             NormalizedUserName = "customer91@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHeCjBzEXHye3HUZbcyNxZspGpByld/DTndg1GFhKth/SY06NexBzwwBAWhZtjh1KQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBa9FhWmdMIwxuCejQqefwfPxhjnd63e0v9XJDX1gUatDPAtann8Va1gyBTAE33//w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2524,15 +2710,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "94f66f1a-9aa2-41d1-b51a-01f8521d0199",
+                            Id = "fe6ad777-a74d-4302-a246-e34f904531c2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "21e58d0a-beff-4bdb-8b8e-ba9d8ae93002",
+                            ConcurrencyStamp = "a7f12e3d-9760-4bff-9216-bff17316aedf",
                             Email = "customer92@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer92@abv.bg",
                             NormalizedUserName = "customer92@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEO8w1cMQ+7lKzqH6eb9ot9p6h6dMTxX9LYxm4ILu/9yYdke2+OqwS7eCeYPzSd77MA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFeviMpMHK4Nx3Bg9j1O5DJi8XU3ldox8YigIqoNKodVtl8BF6LQ0ZVPpTXWxWxugw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2540,15 +2728,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "38b590fd-efe1-4e2d-82f2-d57b04cd03dd",
+                            Id = "6da87c28-6735-4d8d-897e-ea3415062319",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "70e394e7-b080-4592-a31d-77ec5dda1346",
+                            ConcurrencyStamp = "afe10a36-a334-483b-8a97-11f8f51fda22",
                             Email = "customer93@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer93@abv.bg",
                             NormalizedUserName = "customer93@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFrZl+pVFuFZk1ugFRBKs4yF2kBNu9gNBog1yeX8unsv9sQQcphwBbM9ed+P6cL13g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPnjJSBfiCfjGoRxvMSNMBFw5FaTj32CANGdhkQawtgRVzeENVjOeZj+15Ay+cjOdA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2556,15 +2746,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "badb7886-ba5c-4a34-8571-6a2c3228f9f6",
+                            Id = "92c19c5d-3294-4d48-bb1b-28d7a8513f02",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "776c0f46-531b-4023-a5d3-721b7d754060",
+                            ConcurrencyStamp = "9288c3c9-f3b5-499b-a682-2d952fd9cc74",
                             Email = "customer94@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer94@abv.bg",
                             NormalizedUserName = "customer94@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDKBq0fLwgcWezEjIM2MgQPElzVt0cDqAXmcaLEsyywLtrCmZHNlJqwyj5tvZ1uTbQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBiED83mUIHBsX2PwrVHWjJq/P3g6bE4D1DoNXBOoZO5s6f/J8GB14J/w5ql51J9OA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2572,15 +2764,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "4cc2b5f9-ffca-44b7-ad55-bcc1b1b67bf8",
+                            Id = "96dd5af8-0960-4e24-90b9-7f27c34e586e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f811d5bf-187c-4d94-aebf-98b58d30c55f",
+                            ConcurrencyStamp = "00101187-a5ec-405e-8271-a065a83aa8c6",
                             Email = "customer95@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer95@abv.bg",
                             NormalizedUserName = "customer95@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEG1GAaZ+AV8YT/nyJVwz1aJ718UEN+ITurpI/DgZTLOt1mlDjFN4Mbxw0WoEhG9yxQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENuq8Jmyc5Q+cIlv+BjFHx4ZI8EDXuLoh5VvSS/5xlZgWOak0yAErfCHxw653aTJYQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2588,15 +2782,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "517d8890-fc19-44e9-8277-e2024e17a0c4",
+                            Id = "5207656a-c474-4684-a3e8-294435bde626",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "64fe3163-5829-4864-b810-edeba3142b80",
+                            ConcurrencyStamp = "cd036349-7429-4de3-982c-9c079e0b6d09",
                             Email = "customer96@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer96@abv.bg",
                             NormalizedUserName = "customer96@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAECFAx0iRgc/LwdLkXfYA0XvDaOi9+ZyETr+aDib8ZBs50ApPzxbh5GO75NLfNziY6Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJLAf11SwdDwO6n+Ju4GJi9jGOeuUwYQh3EH4TqaMRAtdR3ju0xiw+VE4lPxVVD6Ng==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2604,15 +2800,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "62fd09ed-5c12-4d42-83d7-82b9e9c8d24b",
+                            Id = "d62182ee-d7c5-4f7b-9c7f-3821df14646c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7e18754c-7a8b-4cbc-850b-7e7b817200ea",
+                            ConcurrencyStamp = "64857394-453f-4618-ba3a-de93ac65d25c",
                             Email = "customer97@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer97@abv.bg",
                             NormalizedUserName = "customer97@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEE+88IirTSbBuCn6fGX6sa+/2+pxneTzbo3k+Fa5JRwJDUZHwBwnq9KaR1J8/VQ9+A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKoyG/UDWutZ8oeGzRysq4jm8kfhJMkViNGfYJfzl0Bxhc87wicx7gaoSNWbqs2vvQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2620,15 +2818,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "bb8a9607-a293-40fd-bcf1-539829f57377",
+                            Id = "91b819e9-5471-4c25-91c9-17a790be1831",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9b52b82c-7e89-47ea-8aa7-3d3a08fd1a16",
+                            ConcurrencyStamp = "fe9d0667-1ce1-4af8-be62-d53536d40d4b",
                             Email = "customer98@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer98@abv.bg",
                             NormalizedUserName = "customer98@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAENl4RflsFspj8kQ6TL+DtA4+AVZQhtszONvcjJ8/86gQGX7jyaMRFnL3J/9f/8UNPQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEM+1Q5OBWRs29E4SMDV1e+pN/XO0uIujPlFmoYM3dtYcYRXp9oMQ0sIUNbq2DKbi+Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2636,15 +2836,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "812eb3d2-e4db-4fe7-b605-02e4dd9957d3",
+                            Id = "07e9b088-93d1-4008-9895-dc9eb1fa8511",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f8c70381-50a2-4549-94bd-cbc9630cfa30",
+                            ConcurrencyStamp = "ba7b6952-3e62-466b-b443-7d622dfc5779",
                             Email = "customer99@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "customer99@abv.bg",
                             NormalizedUserName = "customer99@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPpZL8D3lWx9UNV4Bxghkt3nccufToBRQXQjj6/5IESTAiyDqXC8ff2rkMmhQw26aw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAED+TWNXYgG+dosrHELfMiJwynJxStwy8R2A8PEUUzK/SjLyedHUDgUGACdJ0nMwQ1g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2652,15 +2854,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "947e2d2c-30ea-49d0-9793-8b1f72da1dd7",
+                            Id = "8bd20eed-b102-4887-85bb-1d40ced1d0ed",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b47d957d-37d8-46fb-82c5-878e17c82139",
+                            ConcurrencyStamp = "94122878-09f4-4c34-9ee9-41b2622f1eda",
                             Email = "tech0@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech0@abv.bg",
                             NormalizedUserName = "tech0@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAECJSiFkgaYRHRuYg04iQhpJJKRa9Q7avzoDoQdlo5JVyBYDGUcBS6UO5U/8esc5IvA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGo5wUKWVswh6n64QIHI8z3v/UAHRK+yVAEaSH+gVLjLyVD9r1jRit9ww3nA5T+K3A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2668,15 +2872,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "8a82d4a6-d219-4c16-81df-0ebb91bc7be9",
+                            Id = "eb81855b-060e-4f06-a714-5feec172402b",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cc54e749-9907-4ab8-a3d5-b316170cfc6f",
+                            ConcurrencyStamp = "be35922d-0450-4c24-b1ae-6ac2d2d11b3e",
                             Email = "tech1@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech1@abv.bg",
                             NormalizedUserName = "tech1@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIeRV3FKbRbK3xdOnwG4/u9xPepAaYpv8Msp83zyWOwd+XddFffMvc4gmQFPkCVLiw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEO311lqKIoKTZZkooC1h3bTVqdUqXE0JVrLosR9e3g9FZ7wEbIzLuIKAm+726e9uwQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2684,15 +2890,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "352dcbda-c54a-43af-9a6a-e34b54c6ece0",
+                            Id = "0345c656-a63b-4816-bd28-d6e72a36d0a0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "81f94537-4314-42a0-9506-7dcc242fe2da",
+                            ConcurrencyStamp = "b9ca48b7-9dd2-4ae8-a99f-c890404ab2de",
                             Email = "tech2@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech2@abv.bg",
                             NormalizedUserName = "tech2@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEL8/tMAt6RONZrOYmMQRMx3HaR4YvYZrx7kYBHAA4MHog0wPcZtG2HzoUGXFdSSEbw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIR5mBbEixTZVNHFFP8lrfzeruajrHimGlpUGZSLvRjwFbcn2nWnfKHXECbm0iBF3w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2700,15 +2908,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "764e4eb6-3966-4edd-9aaf-50c67db101a9",
+                            Id = "c18febfe-f8bc-447b-95be-cd76b0d8229d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ee5fc1b6-eead-4533-ad04-2911ea628ab9",
+                            ConcurrencyStamp = "76c1181a-405b-4dd6-89d1-484f56e60aad",
                             Email = "tech3@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech3@abv.bg",
                             NormalizedUserName = "tech3@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFtPSnqkoEhI7szAReU/1+IMQx/LCPSMmt7DCIHQNZZzvhN1Pslmz14rOrACOsKBEA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMIbNYiogzdAjc4ANIXADlkqX2yVEDQOs00JuGH6Rss/sazLQIhjl0hFE6ZpcGOfrA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2716,15 +2926,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "a374a09b-8b48-4d8e-b10d-42aed3dbab7b",
+                            Id = "969172aa-0d6a-427e-b13d-c39e52c0ae92",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8b5a4d77-1245-40dc-a7af-4745367b5c45",
+                            ConcurrencyStamp = "8504c54e-75c8-4714-92af-84cd63e1da3c",
                             Email = "tech4@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech4@abv.bg",
                             NormalizedUserName = "tech4@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAjbF5yV+QwcrxVTR4h8QnsBa4psL8x4fMrrTjfdFyFF9UajEiDwZVt6iA8MnauBsg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEL1jZzRPH8Uk+G0+y/V21sFMobB9HsMmnLyob/UftufoAr7auFmR+tmjMBOqgGCKTw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2732,15 +2944,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "9285e36c-6a9d-46da-96aa-ff936d581c64",
+                            Id = "ef8a84c9-d2c6-45a8-8dc6-c4db482683db",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "810f98b4-0042-4cdb-b55f-c1ce8a15b9e2",
+                            ConcurrencyStamp = "cf2b0cb9-6c62-4d66-a67d-2331f84eb15a",
                             Email = "tech5@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech5@abv.bg",
                             NormalizedUserName = "tech5@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJ6c86PDVSBTbcGKl/rxuEyxnYxe/OQebf8CAK3GZwFGqx1oppkyxAQ/onCzl3ECvg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFj+foCsWE1M+VAfbereJ8nke2lRF+7kamiWK/AMMv3fSe++CmE899/JeF+sgenxPQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2748,15 +2962,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "d58660e8-5d40-4b78-9385-041c893d3361",
+                            Id = "5acdee34-7c8e-457c-ae57-824ebfa63067",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2c47c943-9abd-4b76-a0e7-1123f1b6579e",
+                            ConcurrencyStamp = "ec50ae1c-eca5-46bb-b2f0-794cd4b7e9d7",
                             Email = "tech6@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech6@abv.bg",
                             NormalizedUserName = "tech6@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBx1XrQswvKSy+6loyZH1/7adl2vIVdS8DAs2LPiNyzvAurXFAMw/H6E7aSDNXPsdg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEL0/qqMN6wrSx21RraBA6tQHz2/NXJaZs4OCuR+oFxohV5iIt/LMGZWiYlEIq4JkGg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2764,15 +2980,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "5361559a-0c4d-4707-b692-e68f1d557b18",
+                            Id = "935a8b72-9be4-4f8c-9870-ee73b23b4735",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "76736f63-3f1f-44b9-8932-2f51344bd226",
+                            ConcurrencyStamp = "1f965b3d-ffe4-4867-b3eb-09296a720866",
                             Email = "tech7@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech7@abv.bg",
                             NormalizedUserName = "tech7@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEN7Dkao4aYQTJecufn5ZzVmmqCrYE4xeQNu73XVySdOOIGQLxqHLZAk2ABtky6/xdw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOi22WRjPkIrH5UQeN4kF33RvvSg0xe+WX1+1n7qFyOxRWqLRnR3pPXUFRND96NzsA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2780,15 +2998,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "fd5e33f6-408a-40c8-8f41-5b51eaf00897",
+                            Id = "b717c2e9-3271-4228-873e-bdd2890c5a0e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bb066d2a-9cb9-4a3c-a669-f272d0a01f11",
+                            ConcurrencyStamp = "6bb5560f-a21f-4434-8e16-993dade0e462",
                             Email = "tech8@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech8@abv.bg",
                             NormalizedUserName = "tech8@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFkPW9eN5D3Eaxo5LTXzLAQC4su2sOZZmmKg6nMkKVMxCHWjUHDQlzKA1ki2GJXNDw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENM7rLGGx6g/LIRmo5lOrUg4Cqzyk18V/pNxyjSnqxuCs4VomRVpjYcOnx5WUpBkng==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2796,15 +3016,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "e13b9cad-0ae9-48ec-a77a-1d78de038061",
+                            Id = "2003286a-6c6b-4e75-8c52-f039d230591a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "24de9300-af3b-4270-bc64-5b9b34545217",
+                            ConcurrencyStamp = "0a0ff9c0-c19f-4e2d-9517-2c6087940779",
                             Email = "tech9@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech9@abv.bg",
                             NormalizedUserName = "tech9@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAXTw1IHBStblB5TE/SihTW6qj3u6uFrUF+MqzN4UPRePg0RAXRRKPNSHEu7OcfTuw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIr1viK5UTXn7aii3fntNYUaFw5/puw91sGK4UWgA6TwIOCCdTvBCZtDJvpfvxwEPg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2812,15 +3034,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "ab214fe2-bb79-4ece-ad39-d1568d974a8e",
+                            Id = "4b4c9518-ac97-470c-8833-2c9f5b90a7b3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9a941134-9c84-46e4-b16e-c1d59436ff6c",
+                            ConcurrencyStamp = "5bfba7cd-1a93-44ff-9e13-74bde1e11d72",
                             Email = "tech10@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech10@abv.bg",
                             NormalizedUserName = "tech10@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFSOI46pddLongNj/EgK4sXk58CkX9TFnfGeQHRwsB/4P2FJi120d5klhdXsLjUVUQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEExaqd8StnLFGnuvL1X70uhQQqmDsCz7kjmNEUfFtWWpVnnxFa3N0U0MLz60VOfjIg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2828,15 +3052,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "25cb8819-6ba0-4309-946c-2840dd3ded04",
+                            Id = "3b54a9ec-f3ac-4adb-ae0f-d4d12357cbc6",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b17c97cf-ffb9-49bc-b2d4-c5297e672428",
+                            ConcurrencyStamp = "ab0d7f65-8214-4f7b-afe6-14ff742efc0b",
                             Email = "tech11@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech11@abv.bg",
                             NormalizedUserName = "tech11@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEnzuL8NR2FJE2k0FJqa2FbQSRK7nNNW9JIZZLcJu6YpQGp0cX3l2wMkVk4XxGxtMw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENZvSR9GtGcpoTFPL/3Gj76D9tjKEinnJ8qEHIgrwxCTGkeqdlT4ibsjU6fnHLm0YQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2844,15 +3070,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "dbdafd92-720a-40cf-9db5-cc9affdb920a",
+                            Id = "662acc08-845f-40e8-a110-2e2025b014ba",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "edd7a2bc-3581-48da-a4c2-6af660ced9e3",
+                            ConcurrencyStamp = "50fca9ff-ed2a-4f5c-940c-55c111c4064c",
                             Email = "tech12@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech12@abv.bg",
                             NormalizedUserName = "tech12@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHEBwKGpZ9X7AN9XFxiTOnzoT+OnbuPPI7HSmUTc1JWWFzY1sTWY5fJNHBeH7l9oKQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEETDpE8j0qUV2J60MVt/zYdfIbgQAq/V0kTlAxuftBX9Snf0LKNUS4CVnFXTGFTKdA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2860,15 +3088,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "0068da3f-9f6d-4dfb-8c4f-762ccd73d3d2",
+                            Id = "dcc831b4-ceb3-495c-ad12-7dd49d056f95",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ca5d7b7e-db97-4cb1-ba12-14b63ca1b0cd",
+                            ConcurrencyStamp = "b2f4b089-4619-4096-88f4-37dcfe675ca3",
                             Email = "tech13@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech13@abv.bg",
                             NormalizedUserName = "tech13@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAECXhmlcHq4UD11cSbtC93ebGieMjbi9YSJXTFJEXuaF+cTX54eLhSY6JDK6m17IdKA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBfvKFHEyRC+ZyKUo7sNDe+ZvfQglAgyAto+7OHewDESGcYHZbRcpLRoprba9M6dew==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2876,15 +3106,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "2b2c8efa-714d-4573-ae02-aa06631dbc41",
+                            Id = "34669351-9eac-4023-b658-e5973ae6a158",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "596ac8e7-55b3-4b24-be78-2ae9c8a1634b",
+                            ConcurrencyStamp = "5a33ba24-b389-4518-a64b-777afe98f3db",
                             Email = "tech14@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech14@abv.bg",
                             NormalizedUserName = "tech14@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFUPGI/A6rBNGFQg8eq0G6seCTbinqzhQ4KTX7Bs4Es1/fT+t6LNr2iIWvu0e6EF8A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBp5N4cydTrQ+A/SAB8j+rAOcVQAxPwxIZWOaAPYmdBebj8dd2/zG+fCbUhZxP2PYw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2892,15 +3124,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "ffb5b8ca-d86a-454c-93db-31bfa7ccbd2e",
+                            Id = "0adac9c2-e448-4e26-bc8c-7b062b38b14f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bb2a13e8-4c40-4783-b854-5ad43c1968e1",
+                            ConcurrencyStamp = "1b5a361a-7bf6-4598-a7f6-2e6696267d93",
                             Email = "tech15@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech15@abv.bg",
                             NormalizedUserName = "tech15@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGhBUbgQ80WIVV1vgzm9/R1nJzhAxypHfVGi7yadoIAeU/pLLud8POpOMeFBpJMNRg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEB2M+5qofL4W+lmH7swFnFn0Iuxs7wzQqdNLVou1q2kDvlpLXBXBgLwRXPggtQdxIw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2908,15 +3142,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "72592b47-f04c-4102-ad3f-c9fa198e6c8b",
+                            Id = "49a70cc3-4635-4fc5-8ae0-813ee2238214",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bb0e47d2-6a7c-452f-aec3-be9a1160a173",
+                            ConcurrencyStamp = "cd6612ca-d7af-4636-bf0a-2f196c92db34",
                             Email = "tech16@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech16@abv.bg",
                             NormalizedUserName = "tech16@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAUy1eU8P+I5OM20hhuXEQS9imK3aNm1kxLlOJyFoP7UmOSG0eGsBoYT0ECMtwWkJQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJA8YSakxNpokJdBBs9hrnLT0lkauRLaf1sAn7fvnpJwdiXKuS3NKDPn2XxlJxpoXg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2924,15 +3160,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "788e73ad-ae79-4df6-a52b-71fd7941cedc",
+                            Id = "1cd18ee8-6db8-4ed0-a762-0471114a2027",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7da5dd02-35ae-4474-ae14-ea136e36a3d0",
+                            ConcurrencyStamp = "23a0e8ef-9ca4-45fd-87a2-eaf1769af090",
                             Email = "tech17@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech17@abv.bg",
                             NormalizedUserName = "tech17@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIrdvHP9h31WOuBjmdVD6C5wVeOazL7jID+JTwHKkMa/ui0NR2Uv49xHP9BC7Oyxtg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGFYnj9iSSpJbTqndIusPEUILoAzzWg++PtLZboX6AYL9hgAxO7DFtY7c80dK6l56g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2940,15 +3178,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "c2a5594e-da58-40b0-a3f3-7ed960ce8280",
+                            Id = "92b407b6-e617-46df-b757-5d4c4de0c5c3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2edfd549-2122-4415-80ac-3bd0ccecc587",
+                            ConcurrencyStamp = "4e42635f-f06e-4e88-a734-92e671d7607a",
                             Email = "tech18@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech18@abv.bg",
                             NormalizedUserName = "tech18@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAELAtkTjaMnRUQdW/xoqtvSr/GCdCIwKdsrvCfkbk+Mt+V3lM8KSfUJ6u5QA8mnpSPA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEG7Xr4qWb6NgVKqlrO4VMBOYTAd1yN4xh+eZYfbO3eu4ydzv6Gz66d2UubKAyrmy4Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2956,15 +3196,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "b6d48df1-78de-497b-9b1b-c2904e39cf3a",
+                            Id = "c8e3e307-5689-42f7-8139-8e0573013d19",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b82cbbac-8da8-47d4-8718-ea999c2d424e",
+                            ConcurrencyStamp = "681838c5-08b6-4b96-9fae-e240efd3100b",
                             Email = "tech19@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech19@abv.bg",
                             NormalizedUserName = "tech19@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEP7z7bKJ+QnfRfKcevmvmBqJWHZlx2qysEIrH5uPH3NNKYi6lJ6scgwWCR77qjopew==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDVcRHM+xPpbaa57uB29tVtfN9VNLg2AlBSt3gTdLMR5uNnOhbk++8EHvot5gXPM1A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2972,15 +3214,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "01bb6e49-0350-4d67-8f5b-ab0ab04a0e1a",
+                            Id = "b65add3e-6930-4a11-b69e-c72412434a28",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "fc907d05-ad96-4e36-96cb-0487645efd1e",
+                            ConcurrencyStamp = "85b34b44-2bea-4fd4-837a-967e7afc951b",
                             Email = "tech20@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech20@abv.bg",
                             NormalizedUserName = "tech20@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAENqbPdZ1xr2y/wy8ARF2crTcV/ZNhgGtVfqRBH6dIBuvIuWpnnUw7+m8nOdbn8NNrg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKkElUm1stzHt9WivkKBghOZCOFMxtU/lxsA0cCAEcZ0kpdttoan8BvEq7vUlfofZg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2988,15 +3232,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "17126fdb-401e-4bb1-93a3-2091e5a7ef9d",
+                            Id = "5d3bd496-6a31-4323-baa8-802a423faf45",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "311293c5-30a4-414a-9287-0c69362a2e50",
+                            ConcurrencyStamp = "cb1bc067-f32b-4feb-85da-53264300901f",
                             Email = "tech21@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech21@abv.bg",
                             NormalizedUserName = "tech21@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAENCIusI7/p53WW3XQnf2OvOApNyxqzTLLadUtHACMjo7u2eWgiKmLet8PCjLWs3OJw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIkWViGLyP4ZOIbt88VIzyPOpFTwXycOW/8kTJr8RLPwsafwv/OyN3CgHzsjaTqXgQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3004,15 +3250,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "2cd50383-1140-41cf-a2a4-08952e1bde12",
+                            Id = "117714be-4af0-430d-90a1-f43319825d85",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1c38d76e-9c05-43fe-95a4-10f84ce0048d",
+                            ConcurrencyStamp = "72a430e7-8a00-4666-8294-e6524dcde4a9",
                             Email = "tech22@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech22@abv.bg",
                             NormalizedUserName = "tech22@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJ6ArOSqKzFsfZQUxjALPT/XY+jd7t+bnjgUQykFAzConx0dK0ab8qEYbrque9llmQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECMpyALM9EFvFh92VxBPB6eOaXU9JWwzOWT405VixxGoJHwaUY1XppmkYF/Tu65Mww==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3020,15 +3268,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "30146d61-507d-46a0-8d0a-f00ba7bd6f31",
+                            Id = "20fc2d6d-d70a-4b33-a123-bcf1416a4d88",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ab8a4600-2ef0-4042-9f21-346e628ddd9d",
+                            ConcurrencyStamp = "549176fd-0b5f-4590-9184-98f3ec6c55db",
                             Email = "tech23@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech23@abv.bg",
                             NormalizedUserName = "tech23@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAECXY2s35qcO8kU/ntp/5lnt/s12DicmY+QlW9s30DlaDmy6TXQIJHEzaatubGGOESA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELGiCcIiqYebtqh6SyjjZhc1ta+NqFbdzy7AmObDIF0OpXBVh8Edpt56pOLDV5J5+g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3036,15 +3286,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "5e2e044a-5ee3-458b-aff8-bb26caaefce0",
+                            Id = "86449d5c-80c9-41e6-8673-068253347120",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "181c9ba0-60f7-4bb9-89a4-a19fe26f2845",
+                            ConcurrencyStamp = "77dfbd3e-b8db-4ff3-8711-b0ca486cf4ef",
                             Email = "tech24@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech24@abv.bg",
                             NormalizedUserName = "tech24@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAECV/XlyjvhTSb2bZ7JdIKXLXV/5cGTRy06vYI/HGl9Y1LJS3MMqKi8lPJsJgUbpXRQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEat8W4DjlO9SgLMwMWKoJmNyz4sgmz1BOZOsqNn2vpkoLvLxsTAssRsYnSX+jJkoQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3052,15 +3304,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "b3284f96-78a4-43e9-add1-7f85c203f82b",
+                            Id = "323cfc4e-deaa-4478-8922-4f9b1111e3a5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4e104a12-4bee-469f-9120-d67998bb2550",
+                            ConcurrencyStamp = "f40e7fe6-1884-4933-8857-6f06057d73a2",
                             Email = "tech25@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech25@abv.bg",
                             NormalizedUserName = "tech25@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGVKZbJoTq/QipI3iOc9x8nqz9fIuyNZ/mWyb9NozG/0zLEBb41PXufaWpgsJysObw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKcNqXaL8Yg9dtENPP9v2Wu6gZ8a4frnRtXssfO3T2JcCWMO6MBj9bkECVaIO6EwqQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3068,15 +3322,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "e46a291a-e2b6-4eab-851f-bcd4ef726b84",
+                            Id = "d641258a-fd7a-4e8a-8810-fa2a9481f9ac",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "193134a7-8e86-4dc3-a97d-5fdf8e873e5f",
+                            ConcurrencyStamp = "d9df2224-2361-4f52-8dec-1cf377ed3f63",
                             Email = "tech26@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech26@abv.bg",
                             NormalizedUserName = "tech26@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEC0CayC0XJ/MyyrVHq8GZ1VECzeYH+0jD/6Uvr/lTmjbPJar1RhEw2Hhm8BK7LMM2Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPoAdhFzTHVd7yYzxO+UhOsj1iEKRgcadb9viU8EdgdiuS8zzuVVwFAXiznpav0aOw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3084,15 +3340,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "9a58ae09-b98f-40ef-bfdb-3ceec1a58999",
+                            Id = "bdd8ee75-a4ec-4244-ad4a-f48ffe42fdae",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "fe3839cf-1ad4-4f5e-af5b-61cde30fa69f",
+                            ConcurrencyStamp = "96576013-0a0c-4a41-9fae-35584e8a9a68",
                             Email = "tech27@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech27@abv.bg",
                             NormalizedUserName = "tech27@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAcY+6MQaN7lrYbTirSjgOoBb46f2FmiglF6WFdXrDYAv71NfSZQwp9KgLtU8Vtpnw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEMyaXCMfXMdlxUmo6TvDooBklus6aQMe74+1785Bl0aqd2a0C+1ILTSgoNXAX1cjg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3100,15 +3358,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "e737f935-8bfb-4ef6-b7d4-68c648f290da",
+                            Id = "f6453e75-6bc1-421b-8958-3330946eca0a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "cb67cb53-e574-433e-ac14-e3503fff7c30",
+                            ConcurrencyStamp = "f8eec35c-2acb-41d0-99a8-f64056928caf",
                             Email = "tech28@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech28@abv.bg",
                             NormalizedUserName = "tech28@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGCeZFKrqIpWBpMD3oWMcSVNezdXErZtJm/Hbs/nnGaMLufz/otzEyF9mOaJdsf5Dw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPMX/a4upX+/OAOqZGFF+u7SzXGN0SUBJqxHOWNFFQZcotLvxfTemKGRH/MTDfCqLg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3116,15 +3376,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "72e5cb0e-837d-421e-b315-ba43e6ae3cc9",
+                            Id = "ba1b2379-3e57-4eae-a0be-b2c88fbe67aa",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b0b6587f-3b34-4db8-aa25-ed8d9645f71d",
+                            ConcurrencyStamp = "caa4d412-e837-4f11-b3f6-c74749b8cadf",
                             Email = "tech29@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech29@abv.bg",
                             NormalizedUserName = "tech29@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAECs9UtQXG3/Pj8FoCCLJOf5w/kmY+t55BoQO1qNqAI+Ig9n2uWiCLNb3Orcy/LdNLQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELtgi6AXjHGB3pEABJ/D7eCqVMJWldwfMziRCuzq9Nbe1y4FxaAW6qY6lrD2si3qyg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3132,15 +3394,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "f8b4df11-73a0-46e8-b6db-fcf7ccccf9c6",
+                            Id = "7c6e2c93-c6bf-4cd0-ab7c-4da59c8f210f",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2e93c022-35b8-4042-8c1b-6303a214f999",
+                            ConcurrencyStamp = "546aeed3-96f7-4c66-822f-140466418007",
                             Email = "tech30@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech30@abv.bg",
                             NormalizedUserName = "tech30@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPLMFgU9QqdSCE0sP+MTkOYVDL7Im1B45n2PlqT5V9FNSDlxnWNNJAlhPcqZGHTXjw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKIVCxyor8ffKiA2Uyr7Q0S4VRRjSkUnhUnwLFjSRHNOOl1S9Tlssvx55MCKFPU3mA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3148,15 +3412,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "4176b20f-bc55-413d-9708-2df9fc073b90",
+                            Id = "2ecd6e0c-a1ef-4568-af65-319c8d88d4fc",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "653ee27a-5335-4c21-8730-5ce9d729a1ee",
+                            ConcurrencyStamp = "257d56ef-c7c4-43e1-8de1-0fd7ab8e3c1e",
                             Email = "tech31@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech31@abv.bg",
                             NormalizedUserName = "tech31@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBFtf2cGj5FN8qX7/zTi8deZq4ZQAjB9r3IaIaM0WRWlPwf/Ec2k+iwhMc9e7Usypw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEA+E0Y5QBIcv66ckCvHtUOFxPtxbZbQfx21l9UP8pZQAGSJpX5OBkENJYcBs06LObg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3164,15 +3430,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "c16f3d62-b72e-4c70-927e-71ee9154522b",
+                            Id = "38624d16-ad64-426d-9087-59f0a6232068",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8dfc805d-c691-49b0-a8a2-c11cf4342992",
+                            ConcurrencyStamp = "6994583e-24f2-4187-b9f2-92eda2fbe610",
                             Email = "tech32@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech32@abv.bg",
                             NormalizedUserName = "tech32@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAgLmAnYbXKcLeezL5BHytOBQGH/YOEzwfW7982ckoSFb50p0NnJFzhzYzW464M1Fw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECLHS1yY00Qzpqzb4uJSNb2o1F9qQiK315xFPsy+HNvt+YorW4pSPffiPh90GHKCvQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3180,15 +3448,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "d00448be-9d84-44b4-92b5-c037a0a5f8e3",
+                            Id = "dd5c3a58-456f-4b4f-a0b1-123461b861c2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "310c5bed-cb33-4015-8c56-0d137ef480dd",
+                            ConcurrencyStamp = "ab563616-30a5-4bf4-b2ce-da814405b2f9",
                             Email = "tech33@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech33@abv.bg",
                             NormalizedUserName = "tech33@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHLPs7eEou/DMsYvv5w+qiLxD16ZKaJpvkDNCm2/gXlJZJjRAoodRmYtzz9+hLMDGA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENnQJx1rg/QT96Nv2aEyX8dgsF8DJx2ZUGJOAxvuo5+BFay0RoIvgBTzra6vaQjB9A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3196,15 +3466,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "b45c77ee-1907-472f-91e5-55f9f123d449",
+                            Id = "33a9a829-dccb-4af4-9b0a-fde3bc323255",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "13fd6780-8ef2-48fd-b16e-5d1108de2382",
+                            ConcurrencyStamp = "25124632-d52b-4974-bee6-c7f6360c76bd",
                             Email = "tech34@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech34@abv.bg",
                             NormalizedUserName = "tech34@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKfbd9SBemiJu3pOlPCH+etB9Tukw90NcbAVhi/HvrKrddsDws9TEui+JrXGuJKNOQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOw6rSkV/J7IIcRKly6eNp1xY0VpX1gYj895iZceYToGYe0rdyt8Z5UKsQ8df7B88Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3212,15 +3484,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "302428c5-8ebe-4800-ba49-33f3aef046ba",
+                            Id = "66ac7c71-ad4e-4ab7-bab6-9788cc8c38ea",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9179512e-aed7-4f3c-8b31-c5cef58cf3dc",
+                            ConcurrencyStamp = "0c6486e1-6768-46ca-8e36-79b3182c194f",
                             Email = "tech35@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech35@abv.bg",
                             NormalizedUserName = "tech35@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEwvGx3MR1m/kMQbxljeM3FAcPxv4/u20+tGLw4S5xM5UNqBkwXUTp2WzPEI9MM+kw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEX3VFeMxXjpy6g+Df8pz0lJ5nSy9Znf5W/sbuhslt/gZ45nl3Hfd8QT5vn2IKOWrw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3228,15 +3502,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "5d382f8e-93c1-48eb-bd17-d78e37745228",
+                            Id = "eb1eee16-a36c-407f-a87a-be4e64f76ace",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "29c7bf33-0104-4299-b057-f18cf223ab3b",
+                            ConcurrencyStamp = "4ad00d88-680d-4666-9c10-3222a20b4276",
                             Email = "tech36@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech36@abv.bg",
                             NormalizedUserName = "tech36@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDPViPFSr2pfOH/xeuTYqbCfgBMApG8XMbbgWcLrN51/7xID3JrdLFu1oWM6Agg28Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEA+rHT9pTlSjc7Tk6eh9bslDBMMR6c29Ftns1w1h2KTT7OzO49920Aq0xs+xfAY+rg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3244,15 +3520,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "2f0c48c2-637c-431b-94d2-57badf0cb1b2",
+                            Id = "3a82a1ed-6ed1-473e-afd2-876be2c24f70",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "51d12ecf-00eb-43e6-b0b6-d273a7e6c580",
+                            ConcurrencyStamp = "edd829ac-4b24-491e-9aa9-964cd9f5989f",
                             Email = "tech37@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech37@abv.bg",
                             NormalizedUserName = "tech37@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAENcIUtZow1WIXvQXEZJjBPtN4hlHY8MysrYeHuXqn3A7fogTA6agZ5aXGDktqer0HQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKwhsFaYbHKvHD435ucF3mS6TH6Y8jsaeP8oz0WAcB7h0x4tinoGxvel59gA1uHJpw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3260,15 +3538,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "6f2aa5aa-fd7d-4b9a-90ec-3936404c8388",
+                            Id = "eb3175bf-0ce0-42b8-bc91-e961f5ed3185",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "bae760da-b60c-4b95-9c7e-cae5c47371fe",
+                            ConcurrencyStamp = "fde4de28-0b10-4388-9025-9c34324f112d",
                             Email = "tech38@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech38@abv.bg",
                             NormalizedUserName = "tech38@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMHq4MvU54k5PZ2tMZbAdreb1zuNnR3UDbJbGFSwdB1CtVXC5kEKPc/xgwOZqMXFQQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBfHIcnsZOWaF855qpXP51b9/JrDqvdCOyR6UPXcK92K/V3J8LPgbSHacYWGBuPnSw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3276,15 +3556,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "f780341a-aba6-4056-9d07-52a1c67fa9f6",
+                            Id = "75db636b-5d39-49c6-a511-47165049eaca",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "847ad8e9-668e-4eed-82d6-9928d9b6cd22",
+                            ConcurrencyStamp = "57bf1227-1d1e-40f8-97ba-7dd302f425b0",
                             Email = "tech39@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech39@abv.bg",
                             NormalizedUserName = "tech39@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOl/ugyb5UY85EC6BO8wnG3z5HfSYc3+WfF4+51b26CxjEoZ+dlQWbFwFNBylN0I8g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEH/lBGFooTha6CVLkS0Tpf5xgcFjs5bascf5ManzJPfvOrv0sLYtf77Sc4Ry1zVEtw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3292,15 +3574,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "00e0f42d-d973-4eff-8c24-b3df9caeb264",
+                            Id = "1a6ba66b-f96b-432a-964c-d9386ae19b74",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5e6ab72a-70e6-456f-a0b3-7ea1df3c4696",
+                            ConcurrencyStamp = "6fb58f09-8716-4d65-8a46-43cbeb67aaf9",
                             Email = "tech40@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech40@abv.bg",
                             NormalizedUserName = "tech40@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEG5QoVD3YA1P5rKTr9Szl/76LZTNO67SrK23EjLmnIYv/GCxWA576usOPMkSO7Z7bQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBcjQgfrHhFHy+kifcF1iyOZ5Ftde2dl4An1B6vcU2h3+kjdZCiiGbUlvwZqKNrahA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3308,15 +3592,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "8bc2fa76-5737-4648-aab5-b314a012ccc6",
+                            Id = "cdb452b3-8dc4-42f5-aae9-35e34fc12280",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d2d2aebb-63f9-4d98-9b03-cf9e8e6433f2",
+                            ConcurrencyStamp = "a5fda586-b680-4094-b8f9-d5438a8409d7",
                             Email = "tech41@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jack",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech41@abv.bg",
                             NormalizedUserName = "tech41@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEID0doJjNwb7kIqxNBXwHu8YXlI7N4RheCAuOY9MR2G0yoRTsGreJ1kBeTwGRz469g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJsAvcVQfuybroTTEryUAX85M5aMASH2djRBpTwMa2NeHWNcN9LQXfG2ILgHfaVTgg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3324,15 +3610,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "44a91cfc-2fdd-460d-b7aa-4dff57932333",
+                            Id = "ffe4aa6e-0e20-4c3b-8483-b241443e9ac0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3df25deb-1d1b-4a22-9ced-8bacaee4e0a8",
+                            ConcurrencyStamp = "48f21ef6-4ecd-4c1e-a8f5-04c08d3e15cd",
                             Email = "tech42@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech42@abv.bg",
                             NormalizedUserName = "tech42@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHeTyaU2eyKRIBwVNECjlgmniROG9P6v4s7YZm02VTWU+9Bjwtrb5DiDPiNz38qFnA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDCLriKC3WA7tKqdfGue9NUYnKU2wA6RF5MAAQPjsQvRcWqlHvGpd0dZiLx8XNP5gw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3340,15 +3628,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "4e8d24ef-c754-48a8-8ef5-dfdfd177b989",
+                            Id = "16512485-5d03-4755-aacb-eca8bec969c4",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6dd2ca10-f6bd-43ee-b15a-ca05d946dde0",
+                            ConcurrencyStamp = "9118a39d-0df4-4665-aa4f-7f53686551b3",
                             Email = "tech43@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech43@abv.bg",
                             NormalizedUserName = "tech43@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGsY42ZvTkuGLH7b+x6q2Lpvz82NNZ57BRgkip27ehrj0081QfafdT/9khAqX8IIjg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELsQwrhi0xxqvyxz+NYTUEmUzNwjyVLrAIzMNgNMFQuCu94hNmvNhA2aBDobIJYwQA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3356,15 +3646,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "521fab4e-6fd3-466f-bded-0f05b9111ad4",
+                            Id = "4f74c5df-1ba2-43d6-adf0-78268ae19182",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4193e97a-8f83-41d1-a278-eccfbf22d971",
+                            ConcurrencyStamp = "4ed1f908-79ad-421e-9bee-86d506503863",
                             Email = "tech44@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech44@abv.bg",
                             NormalizedUserName = "tech44@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEP4fXGWKLoP9X9mY9JHTreH/cBkFGltVJFeoFuXHypeXfwdtptGmvn3/Hqh2FEqgUw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEB9i9xIp/ugqmmx9MnAI0szfrKaA4KgIss6N1NhGgIoPbCH5vaILzYUBu0xRbLxDBQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3372,15 +3664,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "712ebeab-9bb1-4f4d-b021-fdaa45167d9f",
+                            Id = "4529b86e-5fe0-4081-8bbd-0a7ff6137c6c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d3b8495c-6ce3-4ac6-a37a-7c43ff658208",
+                            ConcurrencyStamp = "dfe51152-d2da-4126-961c-f4706e792120",
                             Email = "tech45@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech45@abv.bg",
                             NormalizedUserName = "tech45@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAENgoyj/EW9cQZ3vgO+w/5wjuskinphVRb8G4Bqwsm9gsr1FKo1i22dQB7dP/rB5B3w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPNVrM8SxVIhbw0T1MkXMe8mkKpRnQPpAT+XqJ/e62qcsvSUbi6+HYzjEqKW6whTrg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3388,15 +3682,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "f8903c4c-8801-4794-b80c-9c448f56dc58",
+                            Id = "0c34bd6b-1cb2-495f-930a-7f89e3ce4cdb",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "555da181-0637-4b55-a513-95c22ba707fa",
+                            ConcurrencyStamp = "fee885c3-ffbd-4eae-8c76-6af0d44acf90",
                             Email = "tech46@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Alex",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech46@abv.bg",
                             NormalizedUserName = "tech46@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGZzwmJ6gTtzYR7KLKcnp+yb/xLaeWUtUqbBTIeBDv2HChogTTgzBSSgcCxFn2+p/A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMSHex3LkXoYuDK/lT8X/7kCoSA25gH23lsyk8Ho4Qo6Wg23C7PXYxht/Rt81t+iHA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3404,15 +3700,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "7c5fcebb-5fc4-4724-8b01-62a70dd2aea1",
+                            Id = "04b95fb2-994f-401b-a376-8e34f021f725",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3dfe7213-5019-4b0f-9a5a-f7a246ae76a3",
+                            ConcurrencyStamp = "1261878c-4e62-4991-9df5-9c44fb0047f3",
                             Email = "tech47@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Johnson",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech47@abv.bg",
                             NormalizedUserName = "tech47@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFzcps1Xf3GaUHNMWf7S4Ik4VrAnlSL7doJdiBnt1zNfa8lBzA4tu1YgB76QsSn4fA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGtZc1tCGl9P1utGWjbTKONe/M9iGwKUJylsPB11PS+jafj4x3u73bNPMcsHYXc/ug==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3420,15 +3718,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "d9042be0-4b13-4bda-9895-d7645990e7e3",
+                            Id = "0eeaeb88-4258-4d5b-88d0-d803eafad74d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "04e14dd6-30b1-48d9-a3c3-bd55512447e7",
+                            ConcurrencyStamp = "dd094f06-f6c8-4125-bc97-353c8e19b74e",
                             Email = "tech48@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "John",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech48@abv.bg",
                             NormalizedUserName = "tech48@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGCFUOL/5L158X5K2zYcErRcpGGgDwVX1VP3fcBZ39kVSV/Ag6LqaGT+4j0ocL9ekw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOauPHrvSefDXNmvvVvd2ilAOh6kj/xForjyCnOlE1XaLH+RQW4Awdm8caqdxGi/Kg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3436,15 +3736,17 @@ namespace FireAndIce.Data.Migrations
                         },
                         new
                         {
-                            Id = "f1a9afc0-5eb6-45c8-8d99-ad19fef0957b",
+                            Id = "d75cc932-c238-45cf-9837-96516ccba18d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f32f9467-b487-4e9a-a7a0-4aca8055d43a",
+                            ConcurrencyStamp = "80bda5ab-1245-4075-b306-c6557141bd37",
                             Email = "tech49@abv.bg",
                             EmailConfirmed = false,
+                            FirstName = "Jane",
+                            LastName = "Alexandrov",
                             LockoutEnabled = false,
                             NormalizedEmail = "tech49@abv.bg",
                             NormalizedUserName = "tech49@abv.bg",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJ2AeNwrmZuukaW0paoollnzWN5LU3Jlynuc/sa0R5jfZqwxBKop1BZNlmPCB8xc9Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAlDJ2FxL/YJmbNY7BSL/xwEqr5AS5wzhWiw/JANrm9mUHz5wde+csUNF7htjRB8Bw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -3481,22 +3783,22 @@ namespace FireAndIce.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "d6d6c823-b770-4ed8-a93b-1ee9fb28f142",
-                            ConcurrencyStamp = "0ee8a846-99cd-43fd-b9a7-a525fd94067c",
+                            Id = "eeaa5590-9443-46d6-870f-8f16417fa61f",
+                            ConcurrencyStamp = "30d2929b-1958-4d31-840f-3ef83b6b915d",
                             Name = "Admin",
                             NormalizedName = "Admin"
                         },
                         new
                         {
-                            Id = "4a4d39cc-65a8-4533-ba05-73316945a16d",
-                            ConcurrencyStamp = "b408ee55-c4de-4bd3-9c0a-47d99dc2eecd",
+                            Id = "3b875e8f-07c9-4bf3-89b6-80e498e99346",
+                            ConcurrencyStamp = "6c02b074-95ca-4c55-bcd8-70657369f8fe",
                             Name = "Tech",
                             NormalizedName = "Tech"
                         },
                         new
                         {
-                            Id = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5",
-                            ConcurrencyStamp = "148d30b8-7a6d-4e7f-a7d8-9a0c3befdbfe",
+                            Id = "323310ee-8c7d-4287-96fe-e7b66edc7836",
+                            ConcurrencyStamp = "93ad9f45-37e5-4913-9d7c-15b51b85c8ef",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         });
@@ -3591,758 +3893,758 @@ namespace FireAndIce.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "cb9a0d10-db30-44d3-9c8e-66f8dd049a03",
-                            RoleId = "d6d6c823-b770-4ed8-a93b-1ee9fb28f142"
+                            UserId = "db8553ae-edf5-4678-9eb2-f5d04fee6a9a",
+                            RoleId = "eeaa5590-9443-46d6-870f-8f16417fa61f"
                         },
                         new
                         {
-                            UserId = "83b64cbc-19e1-4d05-b3ce-07a3ae9f918b",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "b19bf3f9-4627-449b-ac76-641061bdca25",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "36bc6df0-b093-4c81-956e-14a801845cbb",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "ed504eb3-6a0c-491d-9706-bd8ff8b8be43",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "c5f81580-cb48-4681-a296-6de1b1a969ce",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "c704630b-626a-4d9f-ac4e-b43eef7e2983",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "3d0ede8f-12ae-452f-9693-db650ffbb604",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "734f601c-0c15-4f7e-84c3-31bd23a29e60",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "7eb9a636-ba64-4729-9955-68b4cea86451",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "40a56206-3e26-439a-8837-2ee99244e1a1",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "cceb2370-5d86-4ace-83b9-e62f461ea64d",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "b8fda415-72d7-4153-8c71-a59457caa7c6",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "fc31ed89-55ca-454d-859c-24b2e69a6b94",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "2e788cc8-9d8c-4f28-bd18-e51ec4fe011a",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "fce41c41-f3f7-495f-bc6d-2feeb63fd9ba",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "bae7e705-67bf-4d01-ab0a-1dd6e9717388",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "e227db7d-2fd8-4796-8d0f-66a043764421",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "d6bdd860-8277-44b9-8549-314ed4ff7323",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "f041fbd0-119f-4002-ac26-1a2e97e5849e",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "a65de10f-73cc-4408-8390-9e6df5fea499",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "1e0c3e7b-7682-4b45-97be-81acf58dc77c",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "30bbcbf3-42cc-46a3-9a25-939b805f3215",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "5d4cd492-05a6-4207-96bc-b133ce0154f8",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "d5f96247-2228-4b06-9e4e-bccffdf2c98c",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "c72defd7-3b71-4521-9180-ee1004f14495",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "31ebe926-3637-4e4b-90fc-ee872387f141",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "9b74c05d-d736-4d96-bb57-66a4cbcd6858",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "5ac7fc41-d766-4a2e-b72a-93893da9c108",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "5a622559-61ee-4d6a-9803-cb04ef588112",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "f7b386b2-31eb-4f06-8c78-2ab2e53dff4d",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "aedb5efc-17ae-4afb-b0f4-430c856141c1",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "0aa27193-ac76-4c92-bdd9-fd23e39cb9af",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "9101f064-bce4-434f-94c9-d4f7f4c02cd8",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "89e6fc54-522f-414c-94b8-e13ed875dd3e",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "7e4afd22-76c1-4275-8d11-6969322f6cf2",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "5dabd3ad-a587-49d4-aa6a-f401ce398973",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "1090a66d-33ee-4154-ab8b-578e5ee0b400",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "5b025639-4a4b-4b1c-8a22-20fe4ca43f82",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "1d16af57-4358-4b76-bb1e-4559b7e9bf4d",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "6a3aaf87-d38a-4184-a9e2-06f81f5cd1f7",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "223f5c13-2feb-45fa-849b-bcd26c640367",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "d53f8031-c378-462c-92b0-c08d777433f0",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "1e3d9cd7-9f91-4fc4-b045-c393d811bcd3",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "93a91039-12c2-4876-b493-fbad6e9da0cd",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "1e14374b-fbc5-4359-ab4c-778e040da512",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "9a616128-e9fa-4eee-a151-c64375e4e195",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "4cdce805-419f-4338-aa45-4ac586e5aa42",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "850e61dd-47e0-4ae2-bf23-461cea5b3489",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "ef840b88-0f30-47f5-b45b-c12531716f88",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "9b285dc2-1e7c-45f4-9779-a314ff8f7021",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "0b5724c2-81b8-4221-8d6e-078443d4d6f7",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "76ac581e-3156-42c0-a30b-c7deab7ed9d8",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "6c71fcb8-c422-41b9-8d73-d7bcae113665",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "b5ce5e52-082a-4733-8a7f-0f25bf8f9860",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "a0a4a36a-2b6c-4e82-9037-fbef84482a17",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "7d3d79c2-221c-41d6-8689-9b51ea7c2ad2",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "028a23cf-80ea-4951-a173-57784964a8da",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "af8d30e3-8e78-4132-89ab-cbd05291cd66",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "9f0bce34-bb0f-4fd1-8963-4b8a671b9a7e",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "f95950f1-d541-44a7-94a7-5e307cd6712b",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "92d9039d-5ebf-489f-8d6f-074102c8d397",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "8405e16e-9e70-4e35-980d-495216ea4342",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "7f1124cd-b826-4fe6-a55a-0927fa51eb9b",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "34d6c333-afe9-48f3-b1b4-de40aae089c5",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "9ce29c1d-f6f6-4d3a-ab12-9bfd89cfb917",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "7b8872a4-99d3-46ce-bef2-b11151112060",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "27abfd3d-50bc-4a54-b50a-6f50ca2c93c6",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "ebd39e5d-17df-4af2-bcb1-a2d40d5cec43",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "ec2dffa2-0d15-4707-ae31-16602b91c0fe",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "dce64fb2-d8a4-44fd-952e-09bf3c1d1af3",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "0aef5cce-f2d0-48e0-bb8f-75e3f349cd41",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "05c7eede-7046-4cc5-9f28-bdef5a0e9384",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "4fb717c8-d2c8-43d4-b6b1-dc401793f136",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "cdec4ded-ebf1-4ca1-b0dd-524317cdb2b7",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "8c2f4f6b-48a5-46a0-ac96-f90d8214eeb9",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "bfebf995-0034-4b3d-a32a-f036f8ac9d50",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "0e51298e-eb7e-4793-a5ae-a3009d134a57",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "90c0143f-9810-4487-97c4-16c5c568a042",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "e7849b82-081c-440d-a9ff-54bedb29b1a0",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "83e18efd-ecdf-423f-a79c-49e6ba34f709",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "3826c217-8008-4ec3-a915-0bd456b27ee8",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "f2b6c581-c96b-41c5-bdbb-2c9d34306792",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "85ac7cc7-d9f6-4f34-95c6-17aee4bc5950",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "2a20da90-9168-4dcc-9d19-bfce22611cd5",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "eee9fa9f-53a9-443f-9285-85e41a291431",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "43acd9d4-aa73-4926-bb53-318bd6dac944",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "0d0bde24-b658-430c-8c6a-7590c9e2c746",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "499201b2-4a90-487b-9702-c7e28aa67bf0",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "3c7f6fe3-b933-4993-821f-1680394ddcf8",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "902378f6-d8df-4a15-87c4-c8b718c46943",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "c5ae6377-2e4e-4aaa-917b-76ce3708a074",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "b3f7c91f-1f24-47cd-a04e-123498f1ffb4",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "a2bd25dc-d133-4080-ba1c-f84d1831de33",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "3da6e3e5-91f3-4996-b345-003be05d5455",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "a81bd685-4f8d-4ae5-9a56-4eaee4d526f8",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "75bf046b-8540-44ff-ad0b-08a0e3419f41",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "9f593bba-2ab3-4913-8459-9bdadd0d98c3",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "93cb1a37-331c-4b1a-b9d3-5a4a0e05217d",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "98643520-3698-4347-8f45-e4ad5103bfbf",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "aed656a7-42bb-4034-990a-c58fca8e2069",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "27dabaa6-5b82-49bf-8c31-3bc7a151cb09",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "92ecc3ac-ab04-42ed-95b8-a46d5b13a0da",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "ac2c5198-9d88-44ac-b0a9-d8546379ff0b",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "268f42a0-5656-430b-9f41-06d54a60d0da",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "459f38b5-f368-4653-9248-eedcfd35529d",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "84854fc4-3c1c-4ba5-921a-228516fc8b50",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "8f73e65d-e662-454d-9008-1309412fedec",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "b6a90681-cd84-4a44-a2d1-5016613c12bd",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "057bbdb9-8772-44a9-891d-0b0b953a3756",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "f6223436-a8a6-4046-a692-fae46bc97b11",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "22f27049-b716-432d-b240-54be401feb54",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "d6f2c2c8-ffbc-42a5-82dc-1617e925f690",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "37f5bbe3-64d1-41cc-bd77-58d33daa79ad",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "1e4d1251-f721-412c-9d3a-f3554ca0c13e",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "74f93c38-b2cd-4bfc-a49c-7aa49159e9ab",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "663c67ea-43f6-41db-90ab-2bfe0b78391c",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "5b0b4f44-c7f0-4a72-87d9-ae7b4cbc4ca7",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "0f5a6d46-12cc-4e9a-ac21-3635a4be5491",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "4f5bc153-53d1-4de2-a742-b09e664f8dc3",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "0c7c0b35-81f1-4daf-999e-e7025c2799e0",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "29d7126a-8ffc-42b7-b318-c724952d2e5e",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "e3c55ad5-3bbb-47ea-8f8b-fc476fdafc01",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "6c0e5e90-620d-4750-9cd6-97ce877b2be1",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "e2dd9ff5-793d-4a1c-b646-c395e8af10b6",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "b4e666f0-495e-427a-9a12-53cbff05186f",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "c25adfd4-a2f4-4dc9-b355-0d343e46531d",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "c8a9d770-7875-4494-9b53-2d39b43d78b9",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "d83da919-fa32-4274-8ccb-e8f21d830dec",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "10a3bb82-5716-4edd-944c-f4578839eb9a",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "6476ecde-a2c0-4413-a447-5d6da9bfc8ac",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "bf96c536-730a-4618-8a51-b75236f3ab9d",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "3bcec75a-ab0b-4cd2-86f9-cd3c9a1d40fc",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "af0f05d2-cfbe-4c1d-b32f-9691a8b9767a",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "69990512-73d1-4c07-84aa-62394fece7b8",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "ab3e8869-cdc0-4ca0-8dd2-9e86aaa61956",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "9e2233ec-3d19-4fbe-bfe2-98552790d467",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "b93b6e28-4065-467a-b0d0-6bd3557c3622",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "42e06c60-c75d-431e-8420-1de1d13ae00a",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "e6411dcb-5115-4fc4-85cf-1f9033112ed9",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "19f70e5c-072e-4d75-a6f2-2b5a5163aa16",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "2c12c3d4-5de4-4385-9a70-1231c47630b0",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "f30be200-cde2-43d5-947e-64729128b8b0",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "44466744-53c3-41e7-a701-e831743d4855",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "a1100055-9be1-4c36-a560-de163fa0ea90",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "d4148ccf-2446-445a-a382-870efe500389",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "62a4dc1d-ede1-4324-b59b-3fa95a319d44",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "7297afa2-b930-439e-839f-d525628f5ba5",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "13785b1b-81b3-44f6-a5d8-63c20b0863dc",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "282f0422-bafc-479a-b0bd-3ae88ebe648e",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "9bd92fb6-f4e7-4c09-83ad-75b938181bb9",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "a8d0fad3-ae95-4556-995a-1a385b25e4a5",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "8bda9135-9403-4163-b414-df71fda17612",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "d7f90b3a-516a-4374-b094-06054626ef89",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "5c3e9855-4db4-4649-a23f-b4e86e25fd00",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "6f502c9c-3c89-405d-af67-b9f8eaf52599",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "c876b1f5-1cf8-476a-ae45-e6b38ea3b426",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "d9e75766-b00b-4020-8e68-4ed4b2422ad2",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "2230b57d-5172-4bfc-923a-e8488dd8a60a",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "2b7f4460-993e-4607-a561-aa9b0c7fffac",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "82280915-4ba3-417d-8457-38e7e438920b",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "fef55d5b-b9a8-496d-84dd-9392b6bfbb26",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "ff017848-24b2-4075-9f82-c3be92e556ed",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "b273b2f2-0172-4e5e-b643-dcc53a8e6596",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "bd14e399-40ae-4a7d-8cce-081250f1dae8",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "f127cfd6-d199-40eb-b813-3c9a6de4e0a2",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "c3660765-6c34-406a-89f4-cffd346688c2",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "62875e18-ca90-4041-9540-559bc8c0961b",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "f20f33d3-2930-49d0-8ce8-89698fc75267",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "424445a3-e372-479f-b7a1-10fe12053fa9",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "19799b68-744a-43fd-b23f-88d40dc7c303",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "fa7dbd5c-dfb9-42e0-a8bb-a96320c65abf",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "d4c3a173-4a85-46e1-af15-7cac793a802a",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "fe0eec49-354e-43ba-a97a-5c31357c5753",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "0f7cd778-935c-4ecf-9f4d-832b07492a0e",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "13a135bd-e0ee-49b8-a4a8-efb84259454d",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "e374030e-d107-423f-a533-2a569675587a",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "16d681f9-5fd4-47e4-b279-1452a9b5f374",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "57aa6924-5b2a-4fcd-9d58-83cb1dc0d0f8",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "2cb27c90-e77d-4cd3-8f7a-ebfce05f56ed",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "ec070840-565d-4b7b-bbdc-6e808f1410c4",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "34286d7a-6c35-4b42-b579-9138d67140cb",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "86bfd4c1-a904-4cbc-ad7a-293ee3b994c3",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "616b44bf-5786-4469-9d76-3147a32931eb",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "753c690a-5616-443d-93d2-52ac191ba59e",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "94f66f1a-9aa2-41d1-b51a-01f8521d0199",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "fe6ad777-a74d-4302-a246-e34f904531c2",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "38b590fd-efe1-4e2d-82f2-d57b04cd03dd",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "6da87c28-6735-4d8d-897e-ea3415062319",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "badb7886-ba5c-4a34-8571-6a2c3228f9f6",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "92c19c5d-3294-4d48-bb1b-28d7a8513f02",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "4cc2b5f9-ffca-44b7-ad55-bcc1b1b67bf8",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "96dd5af8-0960-4e24-90b9-7f27c34e586e",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "517d8890-fc19-44e9-8277-e2024e17a0c4",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "5207656a-c474-4684-a3e8-294435bde626",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "62fd09ed-5c12-4d42-83d7-82b9e9c8d24b",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "d62182ee-d7c5-4f7b-9c7f-3821df14646c",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "bb8a9607-a293-40fd-bcf1-539829f57377",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "91b819e9-5471-4c25-91c9-17a790be1831",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "812eb3d2-e4db-4fe7-b605-02e4dd9957d3",
-                            RoleId = "aed97cb5-70ad-4d5c-afab-decbb1c13ca5"
+                            UserId = "07e9b088-93d1-4008-9895-dc9eb1fa8511",
+                            RoleId = "323310ee-8c7d-4287-96fe-e7b66edc7836"
                         },
                         new
                         {
-                            UserId = "947e2d2c-30ea-49d0-9793-8b1f72da1dd7",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "8bd20eed-b102-4887-85bb-1d40ced1d0ed",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "8a82d4a6-d219-4c16-81df-0ebb91bc7be9",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "eb81855b-060e-4f06-a714-5feec172402b",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "352dcbda-c54a-43af-9a6a-e34b54c6ece0",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "0345c656-a63b-4816-bd28-d6e72a36d0a0",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "764e4eb6-3966-4edd-9aaf-50c67db101a9",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "c18febfe-f8bc-447b-95be-cd76b0d8229d",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "a374a09b-8b48-4d8e-b10d-42aed3dbab7b",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "969172aa-0d6a-427e-b13d-c39e52c0ae92",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "9285e36c-6a9d-46da-96aa-ff936d581c64",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "ef8a84c9-d2c6-45a8-8dc6-c4db482683db",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "d58660e8-5d40-4b78-9385-041c893d3361",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "5acdee34-7c8e-457c-ae57-824ebfa63067",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "5361559a-0c4d-4707-b692-e68f1d557b18",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "935a8b72-9be4-4f8c-9870-ee73b23b4735",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "fd5e33f6-408a-40c8-8f41-5b51eaf00897",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "b717c2e9-3271-4228-873e-bdd2890c5a0e",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "e13b9cad-0ae9-48ec-a77a-1d78de038061",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "2003286a-6c6b-4e75-8c52-f039d230591a",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "ab214fe2-bb79-4ece-ad39-d1568d974a8e",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "4b4c9518-ac97-470c-8833-2c9f5b90a7b3",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "25cb8819-6ba0-4309-946c-2840dd3ded04",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "3b54a9ec-f3ac-4adb-ae0f-d4d12357cbc6",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "dbdafd92-720a-40cf-9db5-cc9affdb920a",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "662acc08-845f-40e8-a110-2e2025b014ba",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "0068da3f-9f6d-4dfb-8c4f-762ccd73d3d2",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "dcc831b4-ceb3-495c-ad12-7dd49d056f95",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "2b2c8efa-714d-4573-ae02-aa06631dbc41",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "34669351-9eac-4023-b658-e5973ae6a158",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "ffb5b8ca-d86a-454c-93db-31bfa7ccbd2e",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "0adac9c2-e448-4e26-bc8c-7b062b38b14f",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "72592b47-f04c-4102-ad3f-c9fa198e6c8b",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "49a70cc3-4635-4fc5-8ae0-813ee2238214",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "788e73ad-ae79-4df6-a52b-71fd7941cedc",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "1cd18ee8-6db8-4ed0-a762-0471114a2027",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "c2a5594e-da58-40b0-a3f3-7ed960ce8280",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "92b407b6-e617-46df-b757-5d4c4de0c5c3",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "b6d48df1-78de-497b-9b1b-c2904e39cf3a",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "c8e3e307-5689-42f7-8139-8e0573013d19",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "01bb6e49-0350-4d67-8f5b-ab0ab04a0e1a",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "b65add3e-6930-4a11-b69e-c72412434a28",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "17126fdb-401e-4bb1-93a3-2091e5a7ef9d",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "5d3bd496-6a31-4323-baa8-802a423faf45",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "2cd50383-1140-41cf-a2a4-08952e1bde12",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "117714be-4af0-430d-90a1-f43319825d85",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "30146d61-507d-46a0-8d0a-f00ba7bd6f31",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "20fc2d6d-d70a-4b33-a123-bcf1416a4d88",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "5e2e044a-5ee3-458b-aff8-bb26caaefce0",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "86449d5c-80c9-41e6-8673-068253347120",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "b3284f96-78a4-43e9-add1-7f85c203f82b",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "323cfc4e-deaa-4478-8922-4f9b1111e3a5",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "e46a291a-e2b6-4eab-851f-bcd4ef726b84",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "d641258a-fd7a-4e8a-8810-fa2a9481f9ac",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "9a58ae09-b98f-40ef-bfdb-3ceec1a58999",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "bdd8ee75-a4ec-4244-ad4a-f48ffe42fdae",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "e737f935-8bfb-4ef6-b7d4-68c648f290da",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "f6453e75-6bc1-421b-8958-3330946eca0a",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "72e5cb0e-837d-421e-b315-ba43e6ae3cc9",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "ba1b2379-3e57-4eae-a0be-b2c88fbe67aa",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "f8b4df11-73a0-46e8-b6db-fcf7ccccf9c6",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "7c6e2c93-c6bf-4cd0-ab7c-4da59c8f210f",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "4176b20f-bc55-413d-9708-2df9fc073b90",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "2ecd6e0c-a1ef-4568-af65-319c8d88d4fc",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "c16f3d62-b72e-4c70-927e-71ee9154522b",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "38624d16-ad64-426d-9087-59f0a6232068",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "d00448be-9d84-44b4-92b5-c037a0a5f8e3",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "dd5c3a58-456f-4b4f-a0b1-123461b861c2",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "b45c77ee-1907-472f-91e5-55f9f123d449",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "33a9a829-dccb-4af4-9b0a-fde3bc323255",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "302428c5-8ebe-4800-ba49-33f3aef046ba",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "66ac7c71-ad4e-4ab7-bab6-9788cc8c38ea",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "5d382f8e-93c1-48eb-bd17-d78e37745228",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "eb1eee16-a36c-407f-a87a-be4e64f76ace",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "2f0c48c2-637c-431b-94d2-57badf0cb1b2",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "3a82a1ed-6ed1-473e-afd2-876be2c24f70",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "6f2aa5aa-fd7d-4b9a-90ec-3936404c8388",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "eb3175bf-0ce0-42b8-bc91-e961f5ed3185",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "f780341a-aba6-4056-9d07-52a1c67fa9f6",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "75db636b-5d39-49c6-a511-47165049eaca",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "00e0f42d-d973-4eff-8c24-b3df9caeb264",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "1a6ba66b-f96b-432a-964c-d9386ae19b74",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "8bc2fa76-5737-4648-aab5-b314a012ccc6",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "cdb452b3-8dc4-42f5-aae9-35e34fc12280",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "44a91cfc-2fdd-460d-b7aa-4dff57932333",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "ffe4aa6e-0e20-4c3b-8483-b241443e9ac0",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "4e8d24ef-c754-48a8-8ef5-dfdfd177b989",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "16512485-5d03-4755-aacb-eca8bec969c4",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "521fab4e-6fd3-466f-bded-0f05b9111ad4",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "4f74c5df-1ba2-43d6-adf0-78268ae19182",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "712ebeab-9bb1-4f4d-b021-fdaa45167d9f",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "4529b86e-5fe0-4081-8bbd-0a7ff6137c6c",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "f8903c4c-8801-4794-b80c-9c448f56dc58",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "0c34bd6b-1cb2-495f-930a-7f89e3ce4cdb",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "7c5fcebb-5fc4-4724-8b01-62a70dd2aea1",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "04b95fb2-994f-401b-a376-8e34f021f725",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "d9042be0-4b13-4bda-9895-d7645990e7e3",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "0eeaeb88-4258-4d5b-88d0-d803eafad74d",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         },
                         new
                         {
-                            UserId = "f1a9afc0-5eb6-45c8-8d99-ad19fef0957b",
-                            RoleId = "4a4d39cc-65a8-4533-ba05-73316945a16d"
+                            UserId = "d75cc932-c238-45cf-9837-96516ccba18d",
+                            RoleId = "3b875e8f-07c9-4bf3-89b6-80e498e99346"
                         });
                 });
 
@@ -4371,14 +4673,16 @@ namespace FireAndIce.Data.Migrations
                 {
                     b.HasOne("FireAndIce.Data.Models.User", "User")
                         .WithOne("Customer")
-                        .HasForeignKey("FireAndIce.Data.Models.Customer", "UserId");
+                        .HasForeignKey("FireAndIce.Data.Models.Customer", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("FireAndIce.Data.Models.Tech", b =>
                 {
                     b.HasOne("FireAndIce.Data.Models.User", "User")
                         .WithOne("Tech")
-                        .HasForeignKey("FireAndIce.Data.Models.Tech", "UserId");
+                        .HasForeignKey("FireAndIce.Data.Models.Tech", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

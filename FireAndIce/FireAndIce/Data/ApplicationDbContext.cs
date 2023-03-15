@@ -17,9 +17,14 @@ namespace FireAndIce.Data
         {
         }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseLazyLoadingProxies();
+        }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
-
             base.OnModelCreating(builder);
 
 
@@ -29,7 +34,8 @@ namespace FireAndIce.Data
             {
                 entity.HasOne(x => x.User)
                   .WithOne(x => x.Tech)
-                 .HasForeignKey<Tech>(x => x.UserId); ;
+                 .HasForeignKey<Tech>(x => x.UserId)
+                 .OnDelete(DeleteBehavior.Cascade);
             });
 
             // User-Customer One-To-One
@@ -38,10 +44,11 @@ namespace FireAndIce.Data
              {
                  entity.HasOne(x => x.User)
                  .WithOne(x => x.Customer)
-                 .HasForeignKey<Customer>(x => x.UserId);
+                 .HasForeignKey<Customer>(x => x.UserId)
+                 .OnDelete(DeleteBehavior.Cascade);
              });
 
-            // Create user
+            // Create user - administrator
             User admin = CreateUser("admin@abv.bg");
 
             builder.Entity<User>().HasData(admin);
@@ -80,10 +87,10 @@ namespace FireAndIce.Data
                 Customer customer = new Customer()
                 {
                     UserId = user.Id,
-                    Address = $"Street {random.Next(1,450)}"
+                    Address = $"Street {random.Next(1, 450)}"
                 };
 
-               builder.Entity<User>().HasData(user);
+                builder.Entity<User>().HasData(user);
                 builder.Entity<Customer>().HasData(customer);
 
                 builder.Entity<IdentityUserRole<string>>().HasData(new IdentityUserRole<string>
@@ -99,8 +106,8 @@ namespace FireAndIce.Data
                 User user = CreateUser($"tech{i}@abv.bg");
                 Tech tech = new Tech()
                 {
-                    Salary = (decimal)(2000 * random.NextDouble()),
-                    UserId= user.Id,
+                    Salary = (decimal)(3000 * random.NextDouble()),
+                    UserId = user.Id,
                 };
 
                 builder.Entity<User>().HasData(user);
@@ -121,6 +128,9 @@ namespace FireAndIce.Data
 
         private User CreateUser(string email, string password = "123456")
         {
+            List<string> firstName = new List<string>() { "John", "Alex", "Jane", "Jack" };
+            List<string> lastName = new List<string>() { "Johnson", "Alexandrov" };
+            Random random = new Random();
             var hasher = new PasswordHasher<IdentityUser>();
             //Create user
             User user = new User()
@@ -132,9 +142,10 @@ namespace FireAndIce.Data
                 NormalizedEmail = email,
                 EmailConfirmed = false,
                 PasswordHash = hasher.HashPassword(null, password),
-                SecurityStamp = string.Empty
+                SecurityStamp = string.Empty,
+                FirstName = firstName[random.Next(0, firstName.Count)],
+                LastName = lastName[random.Next(0, lastName.Count)]
             };
-
             return user;
         }
     }
