@@ -58,8 +58,14 @@ namespace FireAndIce.Services
         public async Task UpdateUserAsync(EditUserViewModel model)
         {
             User user = await context.Users.FindAsync(model.Id);
-            string role = user.Tech != null ? "Tech" : "Customer";
-            string relation = user.Tech != null ? user.Tech.Id : user.Customer.Id;
+
+            string role = userManager.GetRolesAsync(user).GetAwaiter().GetResult().FirstOrDefault();
+            string relation = role == "Tech" ? user.Tech.Id : user.Customer.Id;
+
+            user.FirstName = model.FirstName;
+            user.LastName = model.LastName;
+
+            // Change role
             if (role != model.Role)
             {
                 user.Tech = null;
@@ -93,7 +99,7 @@ namespace FireAndIce.Services
                     Id = user.Id,
                     FirstName = user.FirstName,
                     LastName = user.LastName,
-                    Role = user.Tech != null ? "Tech" : "Customer"
+                    Role = userManager.GetRolesAsync(user).GetAwaiter().GetResult().FirstOrDefault()
                 };
             }
             return model;
@@ -102,6 +108,7 @@ namespace FireAndIce.Services
         public async Task<UserViewModel> GetUserByIdAsync(string id)
         {
             User user = await context.Users.FindAsync(id);
+
             UserViewModel model = null;
 
             if (user != null)
@@ -112,7 +119,7 @@ namespace FireAndIce.Services
                     FirstName = user.FirstName,
                     LastName = user.LastName,
                     Email = user.Email,
-                    Role = user.Tech != null ? "Tech" : "Customer"
+                    Role = userManager.GetRolesAsync(user).GetAwaiter().GetResult().FirstOrDefault()
                 };
             }
 
@@ -136,7 +143,7 @@ namespace FireAndIce.Services
                       FirstName = x.FirstName,
                       LastName = x.LastName,
                       Email = x.Email,
-                      Role = x.Tech != null ? "Tech" : "Customer"
+                      Role = userManager.GetRolesAsync(x).GetAwaiter().GetResult().FirstOrDefault()
                   }
               ).ToListAsync();
 

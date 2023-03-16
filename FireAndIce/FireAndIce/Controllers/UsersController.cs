@@ -1,25 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using FireAndIce.Data;
-using FireAndIce.Data.Models;
-using FireAndIce.Services;
-using FireAndIce.ViewModels.Users;
-
+﻿
 namespace FireAndIce.Controllers
 {
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Mvc;
+    using Services;
+    using ViewModels.Users;
+
     public class UsersController : Controller
     {
-        private readonly ApplicationDbContext _context;
         private readonly IUsersService usersService;
 
-        public UsersController(ApplicationDbContext context, IUsersService usersService)
+        public UsersController(IUsersService usersService)
         {
-            _context = context;
             this.usersService = usersService;
         }
 
@@ -130,11 +122,6 @@ namespace FireAndIce.Controllers
         {
             await usersService.DeleteUserByIdAsync(id);
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool UserExists(string id)
-        {
-            return _context.Users.Any(e => e.Id == id);
         }
     }
 }
