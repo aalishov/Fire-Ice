@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FireAndIce.Data.Models
 {
@@ -6,7 +7,7 @@ namespace FireAndIce.Data.Models
     {
         public Customer()
         {
-            this.Id=Guid.NewGuid().ToString();
+            this.Id = Guid.NewGuid().ToString();
         }
 
         public string Id { get; set; }
@@ -16,5 +17,7 @@ namespace FireAndIce.Data.Models
         public string UserId { get; set; }
 
         public virtual User User { get; set; }
+
+        public virtual ICollection<Request> Requests { get; set; } = new List<Request>();
     }
 }

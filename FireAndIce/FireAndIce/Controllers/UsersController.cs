@@ -1,11 +1,14 @@
 ﻿
 namespace FireAndIce.Controllers
 {
+    using System.Data;
     using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     using Services;
     using ViewModels.Users;
 
+    [Authorize(Roles = "Admin")]
     public class UsersController : Controller
     {
         private readonly IUsersService usersService;

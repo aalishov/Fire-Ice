@@ -11,7 +11,11 @@ namespace FireAndIce.Data
     public class ApplicationDbContext : IdentityDbContext<User, IdentityRole, string>
     {
         public virtual DbSet<Tech> Teches { get; set; }
+
         public virtual DbSet<Customer> Customers { get; set; }
+
+        public virtual DbSet<Request> Requests { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {

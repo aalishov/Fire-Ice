@@ -60,7 +60,6 @@ namespace FireAndIce.Services
             User user = await context.Users.FindAsync(model.Id);
 
             string role = userManager.GetRolesAsync(user).GetAwaiter().GetResult().FirstOrDefault();
-            string relation = role == "Tech" ? user.Tech.Id : user.Customer.Id;
 
             user.FirstName = model.FirstName;
             user.LastName = model.LastName;
@@ -70,22 +69,22 @@ namespace FireAndIce.Services
             {
                 user.Tech = null;
                 user.Customer = null;
-
+                if (model.Role == "Tech")
+                {
+                    Tech tech = new Tech() { Salary = 1500 };
+                    user.Tech = tech;
+                    await userManager.RemoveFromRoleAsync(user, nameof(Customer));
+                    await userManager.AddToRoleAsync(user, nameof(Tech));
+                }
+                else
+                {
+                    Customer customer = new Customer();
+                    user.Customer = customer;
+                    await userManager.RemoveFromRoleAsync(user, nameof(Tech));
+                    await userManager.AddToRoleAsync(user, nameof(Customer));
+                }
             }
-            if (model.Role == "Tech")
-            {
-                Tech tech = new Tech() { Salary = 1500 };
-                user.Tech = tech;
-                await userManager.RemoveFromRoleAsync(user, nameof(Customer));
-                await userManager.AddToRoleAsync(user, nameof(Tech));
-            }
-            else
-            {
-                Customer customer = new Customer();
-                user.Customer = customer;
-                await userManager.RemoveFromRoleAsync(user, nameof(Tech));
-                await userManager.AddToRoleAsync(user, nameof(Customer));
-            }
+            
             await context.SaveChangesAsync();
         }
         public async Task<EditUserViewModel> GetUserToEditByIdAsync(string id)
