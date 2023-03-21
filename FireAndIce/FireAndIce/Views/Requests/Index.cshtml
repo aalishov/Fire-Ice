@@ -14,6 +14,20 @@
         <input type="submit" />
     </form>
 }
+else if (User.IsInRole("Customer"))
+{
+    <form asp-controller="Requests" asp-action="Index" method="get">
+
+        <div class="form-group">
+            <span>Select status</span>
+            <select class="form-select" asp-for="Filter.Status"
+                asp-items="Html.GetEnumSelectList<FireAndIce.Data.Models.Enums.Status>()">
+                <option selected></option>
+            </select>
+            <input type="submit" />
+        </div>
+    </form>
+}
 <table class="table table-hover">
     <thead>
         <tr>
@@ -31,6 +45,9 @@
             </th>
             <th>
                 Visit date
+            </th>
+            <th>
+                Image
             </th>
             <th></th>
         </tr>
@@ -55,9 +72,24 @@
                     @Html.DisplayFor(modelItem => item.VisitDate)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    @if (item.Url != null)
+                    {
+                        <img src="data:image/png;base64,@Html.DisplayFor(modelItem => item.Url)" height="100" width="250">
+                    }
+                    else
+                    {
+                        <span><img src="https://th.bing.com/th/id/OIP.hV6MoBaE8NYeMCugmhd7_QHaEo?w=302&h=188&c=7&r=0&o=5&dpr=1.4&pid=1.7" height="100" width="250"></span>
+                    }
+                </td>
+                <td>
+
+                    <a asp-action="EditByCustomer" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    @if (item.Status == FireAndIce.Data.Models.Enums.Status.Pending)
+                    {
+                        <span>|</span>  <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+
                 </td>
             </tr>
         }

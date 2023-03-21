@@ -1,20 +1,26 @@
-﻿@model FireAndIce.ViewModels.Requests.CreateRequestViewModel
+﻿@model FireAndIce.ViewModels.Requests.EditCustomerRequestViewModel
 
 @{
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Edit</h1>
 
 <h4>Request</h4>
 <div class="row d-flex justify-content-center align-items-center h-100">
     <div class="col-lg-8 col-xl-6">
         <div class="card rounded-3" style="background-color:#F0F2F5">
             <div class="card-body p-4 p-md-5">
-                <form asp-controller="Requests" asp-action="Create" enctype="multipart/form-data" method="post">
-                    <h4>Create a new request.</h4>
+                <form asp-controller="Requests" asp-action="EditByCustomer" enctype="multipart/form-data" method="post">
+                    <h4>Edit request.</h4>
+                    <hr />
+                    @if (Model.Url != null)
+                    {
+                                <img src="data:image/png; base64,@Html.DisplayFor(modelItem => Model.Url)" height="350" width="100%" >
+                    }
                     <hr />
                     <div asp-validation-summary="All" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id"/>
                     <div class="form-group">
                         <label asp-for="Name"></label>
                         <input asp-for="Name" class="form-control" />
@@ -26,16 +32,17 @@
                         <span asp-validation-for=" Address" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for=" Description"></label>
-                        <input asp-for=" Description" class="form-control" />
-                        <span asp-validation-for=" Description" class="text-danger"></span>
+                        <label asp-for="Description"></label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="Picture" class="form-label"></label>
-                        <input asp-for="Picture" type="file"  class="form-control" />
+                        <input asp-for="Picture" type="file" class="form-control" />
                         <span asp-validation-for="Picture" class="text-danger"></span>
                     </div>
-                    <button type="submit" class="btn btn-primary">Create</button>
+
+                    <button type="submit" class="btn btn-primary">Edit</button>
                 </form>
             </div>
         </div>

@@ -8,5 +8,11 @@ namespace FireAndIce.Services
         Task<RequestsViewModel> GetRequestsAsync(RequestsViewModel model);
 
         Task CreateRequestAsync(CreateRequestViewModel model);
+
+        Task DeleteRequest(string id);
+
+        Task<EditCustomerRequestViewModel> GetRequestToEditByCustomerAsync(string customerId);
+
+        Task EditRequestByCustomerAsync(EditCustomerRequestViewModel model);
     }
 }

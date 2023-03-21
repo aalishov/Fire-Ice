@@ -4,8 +4,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FireAndIce.ViewModels.Requests
 {
-    public class CreateRequestViewModel
+    public class EditCustomerRequestViewModel
     {
+        public string Id { get; set; }
+
         [Required]
         [MaxLength(25)]
         public string Name { get; set; }
@@ -19,7 +21,5 @@ namespace FireAndIce.ViewModels.Requests
 
         [BindProperty]
         public IFormFile Picture { get; set; }
-
-        public string UserId { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using FireAndIce.Data.Models.Enums;
+using Microsoft.AspNetCore.Http;
 using System;
 
 namespace FireAndIce.ViewModels.Requests
@@ -16,6 +17,10 @@ namespace FireAndIce.ViewModels.Requests
         public string TechFullName { get; set; }
 
         public string CustomerFullName { get; set; }
+
+        public string Url { get; set; }
+
+        public IFormFile Picture { get; set; }
 
     }
 }

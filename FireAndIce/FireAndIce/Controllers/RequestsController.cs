@@ -6,6 +6,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using System.IO;
+using System;
+using System.Linq;
 
 namespace FireAndIce.Controllers
 {
@@ -20,7 +25,7 @@ namespace FireAndIce.Controllers
             this.userManager = userManager;
         }
         public async Task<IActionResult> Index(RequestsViewModel model)
-        {            
+        {
             if (this.User != null && this.User.IsInRole("Customer"))
             {
                 model.Filter.ClientId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -48,12 +53,41 @@ namespace FireAndIce.Controllers
         public async Task<IActionResult> Create(CreateRequestViewModel model)
         {
             model.UserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+
             if (ModelState.IsValid)
             {
                 await requestsService.CreateRequestAsync(model);
                 return RedirectToAction(nameof(Index));
             }
             return View(model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> EditByCustomer(string id)
+        {
+            EditCustomerRequestViewModel model = await requestsService.GetRequestToEditByCustomerAsync(id);
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditByCustomer(EditCustomerRequestViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                await requestsService.EditRequestByCustomerAsync(model);
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(string id)
+        {
+            await requestsService.DeleteRequest(id);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
