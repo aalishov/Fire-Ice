@@ -1,4 +1,7 @@
-﻿using FireAndIce.ViewModels.Requests;
+﻿using FireAndIce.Data.Models;
+using FireAndIce.ViewModels.Requests;
+using FireAndIce.ViewModels.Tech;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace FireAndIce.Services
@@ -14,5 +17,10 @@ namespace FireAndIce.Services
         Task<EditCustomerRequestViewModel> GetRequestToEditByCustomerAsync(string customerId);
 
         Task EditRequestByCustomerAsync(EditCustomerRequestViewModel model);
+
+        Task<EditAdminRequestViewModel> GetRequestToEditByAdminAsync(string requestId);
+        Task EditRequestByAdminAsync(EditAdminRequestViewModel model);
+
+        Task<List<TechSelectListViewModel>> GetTechesAsync();
     }
 }

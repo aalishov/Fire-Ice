@@ -11,9 +11,14 @@ using System.Collections.Generic;
 using System.IO;
 using System;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using FireAndIce.ViewModels.Tech;
 
 namespace FireAndIce.Controllers
 {
+
+    [Authorize]
     public class RequestsController : Controller
     {
         private readonly IRequestsService requestsService;
@@ -83,6 +88,37 @@ namespace FireAndIce.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> EditByAdmin(string id)
+        {
+
+            EditAdminRequestViewModel model =await requestsService.GetRequestToEditByAdminAsync(id);
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditByAdmin(EditAdminRequestViewModel model)
+        {
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    await requestsService.EditRequestByAdminAsync(model);
+                }
+                catch (Exception) 
+                {
+                    model.Techs = new SelectList(await requestsService.GetTechesAsync(),"Id","FullName");
+                    return View(model);
+                }
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(model);
+        }
+
+        [Authorize(Roles = "Admin,Customer")]
         [HttpGet]
         public async Task<IActionResult> Delete(string id)
         {

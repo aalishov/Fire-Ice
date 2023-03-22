@@ -3,7 +3,10 @@ using FireAndIce.Data;
 using FireAndIce.Data.Models;
 using FireAndIce.Data.Models.Enums;
 using FireAndIce.ViewModels.Requests;
+using FireAndIce.ViewModels.Tech;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic;
 using System;
@@ -42,6 +45,23 @@ namespace FireAndIce.Services
             await context.SaveChangesAsync();
         }
 
+
+        public async Task EditRequestByAdminAsync(EditAdminRequestViewModel model)
+        {
+            Request request = await context.Requests.FindAsync(model.Id);
+
+            if (model.VisitDate < DateTime.UtcNow)
+            {
+                throw new ArgumentException("Invalid date!");
+            }
+            request.VisitDate = model.VisitDate;
+            request.TechId = model.TechId;
+            request.Status = Status.PendingVisit;
+
+            context.Requests.Update(request);
+            await context.SaveChangesAsync();
+        }
+
         public async Task EditRequestByCustomerAsync(EditCustomerRequestViewModel model)
         {
             Request request = await context.Requests.FindAsync(model.Id);
@@ -57,20 +77,19 @@ namespace FireAndIce.Services
             context.Requests.Update(request);
             await context.SaveChangesAsync();
         }
+
+
         public async Task DeleteRequest(string id)
         {
             Request request = await context.Requests.FindAsync(id);
 
-            if (request != null && request.Status == Status.Pending)
-            {
-                context.Remove(request);
-                await context.SaveChangesAsync();
-            }
+            context.Remove(request);
+            await context.SaveChangesAsync();
         }
 
-        public async Task<EditCustomerRequestViewModel> GetRequestToEditByCustomerAsync(string customerId)
+        public async Task<EditCustomerRequestViewModel> GetRequestToEditByCustomerAsync(string requestId)
         {
-            Request request = await context.Requests.FindAsync(customerId);
+            Request request = await context.Requests.FindAsync(requestId);
             if (request != null)
             {
                 EditCustomerRequestViewModel model = new EditCustomerRequestViewModel()
@@ -85,6 +104,26 @@ namespace FireAndIce.Services
             }
             return null;
         }
+        public async Task<EditAdminRequestViewModel> GetRequestToEditByAdminAsync(string requestId)
+        {
+            Request request = await context.Requests.FindAsync(requestId);
+            if (request != null)
+            {
+                EditAdminRequestViewModel model = new EditAdminRequestViewModel()
+                {
+                    Id = request.Id,
+                    Name = request.Name,
+                    Address = request.Address,
+                    Description = request.Description,
+                    Url = request.Url,
+                    VisitDate = DateTime.UtcNow.AddDays(1)
+                };
+                model.Techs = new SelectList(await GetTechesAsync(), "Id", "FullName");
+                return model;
+            }
+            return null;
+        }
+
 
         public async Task<RequestsViewModel> GetRequestsAsync(RequestsViewModel model)
         {
@@ -93,7 +132,7 @@ namespace FireAndIce.Services
                 .Where(x => model.Filter.TechId != null ? x.Tech.UserId == model.Filter.TechId : x.Id != null)
                 .Where(x => model.Filter.CustomerName != null ? (x.Customer.User.FirstName.StartsWith(model.Filter.CustomerName) || x.Customer.User.LastName.StartsWith(model.Filter.CustomerName)) : x.Id != null)
               .Where(x => model.Filter.Status != null ? x.Status == Enum.Parse<Status>(model.Filter.Status) : x.Id != null)
-                .Skip((model.PageNumber - 1) * model.ItemsPerPage)
+                .Skip((model.Page - 1) * model.ItemsPerPage)
                 .Take(model.ItemsPerPage)
                 .Select(x => new RequestViewModel
                 {
@@ -107,7 +146,12 @@ namespace FireAndIce.Services
                 })
                 .ToListAsync();
 
-            model.ElementsCount = model.Requests.Count();
+            model.ElementsCount = context.Requests
+                .Where(x => model.Filter.ClientId != null ? x.Customer.UserId == model.Filter.ClientId : x.Id != null)
+                .Where(x => model.Filter.TechId != null ? x.Tech.UserId == model.Filter.TechId : x.Id != null)
+                .Where(x => model.Filter.CustomerName != null ? (x.Customer.User.FirstName.StartsWith(model.Filter.CustomerName) || x.Customer.User.LastName.StartsWith(model.Filter.CustomerName)) : x.Id != null)
+              .Where(x => model.Filter.Status != null ? x.Status == Enum.Parse<Status>(model.Filter.Status) : x.Id != null)
+              .Count();
 
             return model;
         }
@@ -132,5 +176,15 @@ namespace FireAndIce.Services
             }
             return null;
         }
+
+        public async Task<List<TechSelectListViewModel>> GetTechesAsync()
+        {
+            List<TechSelectListViewModel> techs = await this.context.Teches
+               .Select(x => new TechSelectListViewModel() { Id = x.Id, FullName = $"{x.User.FirstName} {x.User.LastName}" }).ToListAsync();
+            techs.Insert(0, new TechSelectListViewModel() { Id = null, FullName = "Select later!" });
+            return techs;
+        }
+
+
     }
 }

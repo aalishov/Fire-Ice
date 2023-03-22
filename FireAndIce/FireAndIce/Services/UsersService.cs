@@ -130,7 +130,7 @@ namespace FireAndIce.Services
             UsersViewModel model = new UsersViewModel();
 
             model.ItemsPerPage = count;
-            model.PageNumber = page;
+            model.Page = page;
             model.ElementsCount = await this.context.Users.CountAsync();
 
             model.Users = await this.context.Users

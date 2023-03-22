@@ -7,18 +7,18 @@
         {
             this.ItemsPerPage = itemsPerPage;
             this.Action = action;
-            this.PageNumber = 1;
+            this.Page = 1;
         }
 
-        public int PageNumber { get; set; }
+        public int Page { get; set; }
 
-        public bool HasPreviousPage => this.PageNumber > 1;
+        public bool HasPreviousPage => this.Page > 1;
 
-        public int PreviousPageNumber => this.PageNumber - 1;
+        public int PreviousPageNumber => this.Page - 1;
 
-        public bool HasNextPage => this.PageNumber < this.PagesCount;
+        public bool HasNextPage => this.Page < this.PagesCount;
 
-        public int NextPageNumber => this.PageNumber + 1;
+        public int NextPageNumber => this.Page + 1;
 
         public int PagesCount => (int)Math.Ceiling((double)this.ElementsCount / this.ItemsPerPage);
 
