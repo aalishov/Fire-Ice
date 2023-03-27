@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace FireAndIce.Data.Models
+﻿namespace FireAndIce.Data.Models
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Customer
     {
         public Customer()

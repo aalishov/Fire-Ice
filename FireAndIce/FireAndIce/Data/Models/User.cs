@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity;
-using System;
-
-namespace FireAndIce.Data.Models
+﻿namespace FireAndIce.Data.Models
 {
+    using System;
+    using Microsoft.AspNetCore.Identity;
+
     public class User : IdentityUser<string>
     {
         public User()

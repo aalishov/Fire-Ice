@@ -1,13 +1,13 @@
-﻿using FireAndIce.Data.Models;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FireAndIce.Data
+﻿namespace FireAndIce.Data
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+    using FireAndIce.Data.Models;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore;
+
     public class ApplicationDbContext : IdentityDbContext<User, IdentityRole, string>
     {
         public virtual DbSet<Tech> Teches { get; set; }

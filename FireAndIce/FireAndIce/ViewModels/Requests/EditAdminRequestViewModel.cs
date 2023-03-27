@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
-using System;
-
-namespace FireAndIce.ViewModels.Requests
+﻿namespace FireAndIce.ViewModels.Requests
 {
+    using System;
+    using Microsoft.AspNetCore.Mvc.Rendering;
+
     public class EditAdminRequestViewModel: EditCustomerRequestViewModel
     {
         public DateTime VisitDate { get; set; }

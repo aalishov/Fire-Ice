@@ -1,11 +1,11 @@
-﻿using FireAndIce.Data.Models;
-using FireAndIce.ViewModels.Requests;
-using FireAndIce.ViewModels.Tech;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-
-namespace FireAndIce.Services
+﻿namespace FireAndIce.Services
 {
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+    using FireAndIce.Data.Models;
+    using FireAndIce.ViewModels.Requests;
+    using FireAndIce.ViewModels.Tech;
+
     public interface IRequestsService
     {
         Task<RequestsViewModel> GetRequestsAsync(RequestsViewModel model);

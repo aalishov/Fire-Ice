@@ -1,9 +1,9 @@
-﻿using FireAndIce.Data.Models.Enums;
-using Microsoft.AspNetCore.Http;
-using System;
-
-namespace FireAndIce.ViewModels.Requests
+﻿namespace FireAndIce.ViewModels.Requests
 {
+    using System;
+    using FireAndIce.Data.Models.Enums;
+    using Microsoft.AspNetCore.Http;
+
     public class RequestViewModel
     {
         public string Id { get; set; }

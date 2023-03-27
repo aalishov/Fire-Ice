@@ -1,0 +1,2 @@
+Add-Migration InitialMigration1 -OutputDir Migrations  -Project FireAndIce.Data -StartupProject FireAndIce.Data
+Update-Database -Project FireAndIce.Data -StartupProject FireAndIce.Data

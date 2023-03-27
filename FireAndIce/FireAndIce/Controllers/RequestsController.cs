@@ -1,22 +1,21 @@
-﻿using FireAndIce.Data.Models;
-using FireAndIce.Services;
-using FireAndIce.ViewModels.Requests;
-using FireAndIce.ViewModels.Users;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Http;
-using System.Collections.Generic;
-using System.IO;
-using System;
-using System.Linq;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using FireAndIce.ViewModels.Tech;
-
-namespace FireAndIce.Controllers
+﻿namespace FireAndIce.Controllers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Security.Claims;
+    using System.Threading.Tasks;
+    using FireAndIce.Data.Models;
+    using FireAndIce.Services;
+    using FireAndIce.ViewModels.Requests;
+    using FireAndIce.ViewModels.Tech;
+    using FireAndIce.ViewModels.Users;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.Rendering;
 
     [Authorize]
     public class RequestsController : Controller

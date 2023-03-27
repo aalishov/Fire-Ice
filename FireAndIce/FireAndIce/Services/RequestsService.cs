@@ -1,22 +1,22 @@
-﻿using Castle.Core.Resource;
-using FireAndIce.Data;
-using FireAndIce.Data.Models;
-using FireAndIce.Data.Models.Enums;
-using FireAndIce.ViewModels.Requests;
-using FireAndIce.ViewModels.Tech;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FireAndIce.Services
+﻿namespace FireAndIce.Services
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using Castle.Core.Resource;
+    using FireAndIce.Data;
+    using FireAndIce.Data.Models;
+    using FireAndIce.Data.Models.Enums;
+    using FireAndIce.ViewModels.Requests;
+    using FireAndIce.ViewModels.Tech;
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Mvc.Rendering;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.VisualBasic;
+
     public class RequestsService : IRequestsService
     {
         private readonly ApplicationDbContext context;

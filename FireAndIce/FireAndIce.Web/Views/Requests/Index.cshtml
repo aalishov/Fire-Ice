@@ -1,0 +1,107 @@
+﻿@model RequestsViewModel
+
+@if (User.IsInRole("Customer"))
+{
+    <p id="my-p">
+        <a asp-action="Create" class="btn" style="background-color:darkorange">Create New</a>
+    </p>
+}
+@if (User.IsInRole("Admin"))
+{
+    <form asp-controller="Requests" asp-action="Index" method="get">
+        <label asp-for="Filter.CustomerName"></label>
+        <input type="text" asp-for="Filter.CustomerName" />
+        <input type="submit" />
+    </form>
+}
+else if (User.IsInRole("Customer"))
+{
+    <form asp-controller="Requests" asp-action="Index" method="get">
+
+        <div class="form-group">
+            <span>Select status</span>
+            <select class="form-select" asp-for="Filter.Status"
+                asp-items="Html.GetEnumSelectList<FireAndIce.Models.Enums.Status>()">
+                <option selected></option>
+            </select>
+            <input type="submit" />
+        </div>
+    </form>
+}
+<table class="table table-hover table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Tech
+            </th>
+            <th>
+                Customer
+            </th>
+            <th>
+                Visit date
+            </th>
+            <th>
+                Image
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Requests)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TechFullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerFullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VisitDate)
+                </td>
+                <td>
+                    @if (item.Url != null)
+                    {
+                        <img src="data:image/png;base64,@Html.DisplayFor(modelItem => item.Url)" height="100" width="250">
+                    }
+                    else
+                    {
+                        <span><img src="https://th.bing.com/th/id/OIP.hV6MoBaE8NYeMCugmhd7_QHaEo?w=302&h=188&c=7&r=0&o=5&dpr=1.4&pid=1.7" height="100" width="250"></span>
+                    }
+                </td>
+                <td>
+                    @if (User.IsInRole("Customer"))
+                    {
+                        <a asp-action="EditByCustomer" asp-route-id="@item.Id" class="btn btn-sm btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
+                    }
+                    else if(User.IsInRole("Admin"))
+                    {
+                        <a asp-action="EditByAdmin" asp-route-id="@item.Id" class="btn btn-sm btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
+                    }
+                    else if (User.IsInRole("Tech"))
+                    {
+                        <a asp-action="EditByTech" asp-route-id="@item.Id" class="btn btn-sm btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
+                    }
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info"><i class="fa-solid fa-circle-info"></i></a>
+                    @if ((item.Status == FireAndIce.Models.Enums.Status.Pending && User.IsInRole("Customer")) || User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger"><i class="fa-sharp fa-solid fa-trash"></i></a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<partial name="_PagingPartial" />

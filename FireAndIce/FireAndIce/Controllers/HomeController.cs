@@ -1,15 +1,15 @@
-﻿using FireAndIce.Services;
-using FireAndIce.ViewModels;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FireAndIce.Controllers
+﻿namespace FireAndIce.Controllers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Diagnostics;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using FireAndIce.Services;
+    using FireAndIce.ViewModels;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+
     public class HomeController : Controller
     {
 

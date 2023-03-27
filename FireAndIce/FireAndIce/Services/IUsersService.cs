@@ -1,8 +1,8 @@
-﻿using FireAndIce.ViewModels.Users;
-using System.Threading.Tasks;
-
-namespace FireAndIce.Services
+﻿namespace FireAndIce.Services
 {
+    using System.Threading.Tasks;
+    using FireAndIce.ViewModels.Users;
+
     public interface IUsersService
     {
         Task CreateTechAsync(CreateTechViewModel model);

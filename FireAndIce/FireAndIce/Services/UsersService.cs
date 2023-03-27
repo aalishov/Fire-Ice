@@ -1,16 +1,16 @@
-﻿using FireAndIce.Data;
-using FireAndIce.Data.Models;
-using FireAndIce.ViewModels.Users;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FireAndIce.Services
+﻿namespace FireAndIce.Services
 {
+    using System;
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using FireAndIce.Data;
+    using FireAndIce.Data.Models;
+    using FireAndIce.ViewModels.Users;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.EntityFrameworkCore;
+
     public class UsersService : IUsersService
     {
         private ApplicationDbContext context;
@@ -148,5 +148,7 @@ namespace FireAndIce.Services
 
             return model;
         }
+
+
     }
 }
