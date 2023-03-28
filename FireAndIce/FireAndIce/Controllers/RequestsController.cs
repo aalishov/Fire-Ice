@@ -44,6 +44,21 @@
             return View(model);
         }
 
+        public async Task<IActionResult> Daily(RequestsViewModel model)
+        {
+            
+            if (this.User != null && this.User.IsInRole("Tech"))
+            {
+                model.Filter.TechId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                model.Filter.IsToday= true;
+            }
+
+            model = await requestsService.GetRequestsAsync(model);
+
+            return View(model);
+        }
+
+        [Authorize(Roles = "Customer")]
         public IActionResult Create()
         {
             return View();
@@ -52,6 +67,7 @@
         // POST: Requests/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Customer")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CreateRequestViewModel model)
@@ -67,6 +83,7 @@
             return View(model);
         }
 
+        [Authorize(Roles = "Customer")]
         [HttpGet]
         public async Task<IActionResult> EditByCustomer(string id)
         {
@@ -74,6 +91,9 @@
             return View(model);
         }
 
+
+
+        [Authorize(Roles = "Customer")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditByCustomer(EditCustomerRequestViewModel model)
@@ -87,6 +107,7 @@
             return View(model);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<IActionResult> EditByAdmin(string id)
         {
@@ -95,6 +116,7 @@
             return View(model);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditByAdmin(EditAdminRequestViewModel model)
@@ -116,6 +138,33 @@
 
             return View(model);
         }
+
+        [Authorize(Roles = "Tech")]
+        [HttpGet]
+        public async Task<IActionResult> EditByTech(string id)
+        {
+
+            EditTechRequestViewModel model = await requestsService.GetRequestToEditByTechAsync(id);
+            return View(model);
+        }
+
+        [Authorize(Roles = "Tech")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditByTech(EditTechRequestViewModel model)
+        {
+
+            if (ModelState.IsValid)
+            {
+                
+                    await requestsService.EditRequestByTechAsync(model);
+               
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(model);
+        }
+
 
         [Authorize(Roles = "Admin,Customer")]
         [HttpGet]

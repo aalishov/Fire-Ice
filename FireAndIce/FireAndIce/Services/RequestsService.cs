@@ -45,6 +45,13 @@
             await context.SaveChangesAsync();
         }
 
+        public async Task DeleteRequest(string id)
+        {
+            Request request = await context.Requests.FindAsync(id);
+
+            context.Remove(request);
+            await context.SaveChangesAsync();
+        }
 
         public async Task EditRequestByAdminAsync(EditAdminRequestViewModel model)
         {
@@ -57,6 +64,15 @@
             request.VisitDate = model.VisitDate;
             request.TechId = model.TechId;
             request.Status = Status.PendingVisit;
+
+            context.Requests.Update(request);
+            await context.SaveChangesAsync();
+        }
+
+        public async Task EditRequestByTechAsync(EditTechRequestViewModel model)
+        {
+            Request request = await context.Requests.FindAsync(model.Id);
+            request.Status = model.Status;
 
             context.Requests.Update(request);
             await context.SaveChangesAsync();
@@ -78,15 +94,6 @@
             await context.SaveChangesAsync();
         }
 
-
-        public async Task DeleteRequest(string id)
-        {
-            Request request = await context.Requests.FindAsync(id);
-
-            context.Remove(request);
-            await context.SaveChangesAsync();
-        }
-
         public async Task<EditCustomerRequestViewModel> GetRequestToEditByCustomerAsync(string requestId)
         {
             Request request = await context.Requests.FindAsync(requestId);
@@ -104,32 +111,17 @@
             }
             return null;
         }
-        public async Task<EditAdminRequestViewModel> GetRequestToEditByAdminAsync(string requestId)
-        {
-            Request request = await context.Requests.FindAsync(requestId);
-            if (request != null)
-            {
-                EditAdminRequestViewModel model = new EditAdminRequestViewModel()
-                {
-                    Id = request.Id,
-                    Name = request.Name,
-                    Address = request.Address,
-                    Description = request.Description,
-                    Url = request.Url,
-                    VisitDate = DateTime.UtcNow.AddDays(1)
-                };
-                model.Techs = new SelectList(await GetTechesAsync(), "Id", "FullName");
-                return model;
-            }
-            return null;
-        }
-
 
         public async Task<RequestsViewModel> GetRequestsAsync(RequestsViewModel model)
         {
+            DateTime? today = DateTime.Now;
+            string todayString=today.GetValueOrDefault().ToShortDateString();
+
             model.Requests = await context.Requests
                 .Where(x => model.Filter.ClientId != null ? x.Customer.UserId == model.Filter.ClientId : x.Id != null)
                 .Where(x => model.Filter.TechId != null ? x.Tech.UserId == model.Filter.TechId : x.Id != null)
+                .Where(x => model.Filter.IsToday == true && x.VisitDate != null ? 
+                                            x.VisitDate.Value.Date == today.Value.Date : x.Id != null)
                 .Where(x => model.Filter.CustomerName != null ? (x.Customer.User.FirstName.StartsWith(model.Filter.CustomerName) || x.Customer.User.LastName.StartsWith(model.Filter.CustomerName)) : x.Id != null)
               .Where(x => model.Filter.Status != null ? x.Status == Enum.Parse<Status>(model.Filter.Status) : x.Id != null)
                 .Skip((model.Page - 1) * model.ItemsPerPage)
@@ -156,7 +148,45 @@
             return model;
         }
 
+        public async Task<EditAdminRequestViewModel> GetRequestToEditByAdminAsync(string requestId)
+        {
+            Request request = await context.Requests.FindAsync(requestId);
+            if (request != null)
+            {
+                EditAdminRequestViewModel model = new EditAdminRequestViewModel()
+                {
+                    Id = request.Id,
+                    Name = request.Name,
+                    Address = request.Address,
+                    Description = request.Description,
+                    Url = request.Url,
+                    VisitDate = DateTime.UtcNow.AddDays(1)
+                };
+                model.Techs = new SelectList(await GetTechesAsync(), "Id", "FullName");
+                return model;
+            }
+            return null;
+        }
+        public async Task<EditTechRequestViewModel> GetRequestToEditByTechAsync(string id)
+        {
+            Request request = await context.Requests.FindAsync(id);
+            if (request != null)
+            {
+                EditTechRequestViewModel model = new EditTechRequestViewModel()
+                {
+                    Id = request.Id,
+                    Name = request.Name,
+                    Address = request.Address,
+                    Description = request.Description,
+                    Url = request.Url,
+                    VisitDate = request.VisitDate.ToString(),
+                    Status = request.Status
+                };
 
+                return model;
+            }
+            return null;
+        }
         private async Task<string> ImageToStringAsync(IFormFile file)
         {
             List<string> imageExtensions = new List<string>() { ".JPG", ".BMP", ".PNG" };

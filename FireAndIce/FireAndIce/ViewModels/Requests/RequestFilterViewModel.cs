@@ -12,5 +12,7 @@
         public string CustomerName { get; set; }
 
         public string Status { get; set; }
+
+        public bool IsToday { get; set; }
     }
 }

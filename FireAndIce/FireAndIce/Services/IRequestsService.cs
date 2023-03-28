@@ -1,26 +1,24 @@
 ﻿namespace FireAndIce.Services
 {
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
-    using FireAndIce.Data.Models;
-    using FireAndIce.ViewModels.Requests;
-    using FireAndIce.ViewModels.Tech;
-
-    public interface IRequestsService
+   public interface IRequestsService
     {
-        Task<RequestsViewModel> GetRequestsAsync(RequestsViewModel model);
 
         Task CreateRequestAsync(CreateRequestViewModel model);
 
         Task DeleteRequest(string id);
 
-        Task<EditCustomerRequestViewModel> GetRequestToEditByCustomerAsync(string customerId);
+        Task EditRequestByAdminAsync(EditAdminRequestViewModel model);
 
         Task EditRequestByCustomerAsync(EditCustomerRequestViewModel model);
 
+        Task<RequestsViewModel> GetRequestsAsync(RequestsViewModel model);
+
+        Task<EditCustomerRequestViewModel> GetRequestToEditByCustomerAsync(string customerId);
+
         Task<EditAdminRequestViewModel> GetRequestToEditByAdminAsync(string requestId);
-        Task EditRequestByAdminAsync(EditAdminRequestViewModel model);
 
         Task<List<TechSelectListViewModel>> GetTechesAsync();
+        Task<EditTechRequestViewModel> GetRequestToEditByTechAsync(string id);
+        Task EditRequestByTechAsync(EditTechRequestViewModel model);
     }
 }

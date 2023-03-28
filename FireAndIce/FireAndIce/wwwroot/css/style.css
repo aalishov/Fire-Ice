@@ -1,6 +1,15 @@
-﻿namespace FireAndIce.wwwroot.css
-{
-    public class style
-    {
-    }
+﻿@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+h1 {
+    font-family: 'Hanalei', cursive;
+    font-weight:bolder;
+    letter-spacing: 1rem;
+}
+
+#demo{
+    background-color:red;
+    border:3px solid black;
+    border-radius:10px;
+    padding:15px;
+    color:white;
+    font-weight:bolder;
 }
