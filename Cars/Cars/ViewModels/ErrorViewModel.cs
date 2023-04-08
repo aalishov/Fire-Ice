@@ -1,6 +1,6 @@
 using System;
 
-namespace FireAndIce.Web.Models
+namespace Cars.ViewModels
 {
     public class ErrorViewModel
     {

@@ -1,0 +1,62 @@
+﻿@model IndexCarsViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="Cars" asp-action="Index" method="get">
+    <label>Brand</label>
+    <input type="text" asp-for="Filters[0]" />
+    <label>Model</label>
+    <input type="text" asp-for="Filters[1]" />
+    <input type="hidden" asp-for="Filters[2]" />
+    <input type="hidden" asp-for="Filters[3]" />
+    <input type="hidden" asp-for="ItemsPerPage"/>
+    <input type="hidden" asp-for="ElementsCount" />
+    <input type="hidden" asp-for="PagesCount" />
+    <input type="submit" />
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars.FirstOrDefault().Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars.FirstOrDefault().Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars.FirstOrDefault().Color)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Cars) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<partial name="_PagingPartial"  />

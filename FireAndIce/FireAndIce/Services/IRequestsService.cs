@@ -1,6 +1,11 @@
 ﻿namespace FireAndIce.Services
 {
-   public interface IRequestsService
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+    using ViewModels.Requests;
+    using ViewModels.Tech;
+
+    public interface IRequestsService
     {
 
         Task CreateRequestAsync(CreateRequestViewModel model);
@@ -18,7 +23,9 @@
         Task<EditAdminRequestViewModel> GetRequestToEditByAdminAsync(string requestId);
 
         Task<List<TechSelectListViewModel>> GetTechesAsync();
+
         Task<EditTechRequestViewModel> GetRequestToEditByTechAsync(string id);
+
         Task EditRequestByTechAsync(EditTechRequestViewModel model);
     }
 }

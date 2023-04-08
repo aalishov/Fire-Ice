@@ -75,7 +75,7 @@
                 });
 
 
-            //Add user to role
+            //Add admin to role
             builder.Entity<IdentityUserRole<string>>().HasData(new IdentityUserRole<string>
             {
                 RoleId = adminRole.Id,

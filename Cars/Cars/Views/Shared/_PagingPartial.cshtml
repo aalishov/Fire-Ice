@@ -1,0 +1,74 @@
+﻿@model PagingViewModel
+
+@{
+    var parms = new Dictionary<string, string>
+            {
+                { "action", Model.Action },
+                { "itemsPerPage", Model.ItemsPerPage.ToString() },
+                { "filters[0]", Model.Filters[0] },
+                { "filters[1]", Model.Filters[1] },
+                { "filters[2]", Model.Filters[2] },
+                { "filters[3]",  Model.Filters[3]  }
+            };
+}
+
+<nav aria-label="..." class="">
+    <ul class="pagination  justify-content-center ">
+        <li style="margin-right:5px">
+            <form asp-controller="@this.Context.Request.RouteValues["controller"].ToString()" asp-action="Index" method="post">
+                <select asp-for="ItemsPerPage" class="form-control border-dark" onchange="changeItemsPerPage();">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="50">50</option>
+                </select>
+                <input type="submit" id="loginSubmit" style="visibility:hidden" />
+            </form>
+
+        </li>
+        <li></li>
+        <li class="page-item @if (!Model.HasPreviousPage) {
+        <text>disabled</text>
+}">
+            <a class="page-link" asp-all-route-data="@parms" asp-route-page="@Model.PreviousPageNumber"   >
+                <i class="fas fa-step-backward">Previous</i>
+
+            </a>
+        </li>
+        @for (int i = Model.Page - 2; i < Model.Page; i++)
+        {
+            if (i > 0)
+            {
+                <li class="page-item"><a class="page-link" asp-all-route-data="@parms" asp-route-page="@i">@i</a></li>
+            }
+        }
+        <li class="page-item active" aria-current="page">
+            <span class="page-link">
+                @Model.Page
+                <span class="sr-only">(current)</span>
+            </span>
+        </li>
+        @for (int i = Model.Page + 1; i <= Model.Page + 2; i++)
+        {
+            if (i <= Model.PagesCount)
+            {
+                <li class="page-item"><a class="page-link" asp-all-route-data="@parms" asp-route-page="@i">@i</a></li>
+            }
+        }
+        <li class="page-item @if(!Model.HasNextPage){
+        <text>disabled</text>
+}">
+            <a class="page-link"  asp-all-route-data="@parms"  asp-route-page="@Model.NextPageNumber"  ><i class="fas fa-step-forward">Next</i></a>
+        </li>
+    </ul>
+</nav>
+
+<script type="text/javascript">
+    function changeItemsPerPage() {
+
+        console.log('Items per page changed!')
+
+        document.getElementById('loginSubmit').click();
+    }
+</script>

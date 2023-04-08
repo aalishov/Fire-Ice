@@ -1,11 +1,11 @@
-using FireAndIce.Data;
-using FireAndIce.Models;
-using FireAndIce.Services;
-using FireAndIce.Services.Contracts;
+using Cars.Data;
+using Cars.Services;
+using Cars.Services.Contracts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FireAndIce.Web
+namespace Cars
 {
     public class Startup
     {
@@ -32,23 +32,12 @@ namespace FireAndIce.Web
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services
-                .AddDefaultIdentity<User>(options =>
-                {
-                    options.SignIn.RequireConfirmedAccount = false;
-                    options.Password.RequireNonAlphanumeric = false;
-                    options.Password.RequireDigit = false;
-                    options.Password.RequireLowercase = false;
-                    options.Password.RequireUppercase = false;
-                    options.Password.RequiredUniqueChars = 0;
-                    options.Password.RequiredLength = 4;
-                }).AddRoles<IdentityRole>()
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
 
-            services.AddTransient<IUsersService, UsersService>();
-            services.AddTransient<IRequestsService, RequestsService>();
+            services.AddTransient<ICarsService, CarsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
